@@ -112,11 +112,11 @@ conference:
 
   # Information boxes
   info_bars:
-    - title: Applications for Talks and Posters now closed!
+    - title: Applications for Talks now closed!
       color: primary
       main_only: true
       text: |
-        Thank you to all speakers for submitting their work-in-progress talks and posters!
+        Thank you to all speakers for submitting their talks!
 
   # Live indications
   live:
