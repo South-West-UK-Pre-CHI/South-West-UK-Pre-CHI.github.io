@@ -1,5 +1,5 @@
 title: Pre-CHI 2025
-preposition: at
+preposition: ''
 description: >-
   South West UK Pre-CHI Event is to provide an opportunity for researchers from the South West England and De Cymru Human-Computer Interaction Community (SWEDC-HCI) to come together to practice running their accepted CHI papers and work-in-progress research talks
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -155,7 +155,7 @@ conference:
     # display it.
     map:
       # Initial map center point
-      home_coord: 47.37808, 8.53935
+      home_coord: 51.456384761892366, -2.6047370079301566
       # Alternative map providers can be found on https://leaflet-extras.github.io/leaflet-providers/preview/
       # The following do match the Bootstrap design not too badly:
       #   - Thunderforest.Neighbourhood
