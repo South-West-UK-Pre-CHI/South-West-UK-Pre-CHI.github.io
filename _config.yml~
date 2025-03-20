@@ -78,9 +78,9 @@ conference:
         relative_url: /location/
       - name: Funders
         relative_url: /funders/
-      - name: Organisers
+      - name: Organising committee
         relative_url: /organisers/
-      - name: Opportunities
+      - name: Job opportunities
         relative_url: /opportunities/
       - name: Previous Editions
         menu:
