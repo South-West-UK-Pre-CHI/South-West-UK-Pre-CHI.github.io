@@ -76,6 +76,12 @@ conference:
         relative_url: /speakers/
       - name: Location
         relative_url: /location/
+      - name: Funders
+        relative_url: /funders/
+      - name: Organising committee
+        relative_url: /organisers/
+      - name: Job opportunities
+        relative_url: /opportunities/
       - name: Previous Editions
         menu:
           - name: 2025 (current)
@@ -100,9 +106,9 @@ conference:
         relative_url: /program/
       - name: How to get there
         relative_url: /location/
-      - name: Tickets
-        disabled: true
-        absolute_url: ''
+      - name: Registration
+        disabled: false
+        absolute_url: 'https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG071U7kgyVNHkjE1q_ZcfuxUOVdOQVdFT1ExWDVROFYwWUVRMVhTUFNDVS4u'
 
   # Information boxes
   info_bars:
