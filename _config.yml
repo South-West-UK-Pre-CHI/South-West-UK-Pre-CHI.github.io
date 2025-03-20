@@ -63,9 +63,9 @@ conference:
   # Navigation bar
   navigation:
     logo:
-      name: Digital Society Switzerland
+      name: South West England and De Cymru Human-Computer Interaction Community (SWEDC-HCI)
       # img: ''
-      url: 'https://digitale-gesellschaft.ch/'
+      # url: 'https://digitale-gesellschaft.ch/'
     breakpoint: md
     links:
       - name: Program
