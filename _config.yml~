@@ -155,7 +155,7 @@ conference:
     # display it.
     map:
       # Initial map center point
-      home_coord: 51.456384761892366, -2.6047370079301566
+      home_coord: 47.37808, 8.53935
       # Alternative map providers can be found on https://leaflet-extras.github.io/leaflet-providers/preview/
       # The following do match the Bootstrap design not too badly:
       #   - Thunderforest.Neighbourhood

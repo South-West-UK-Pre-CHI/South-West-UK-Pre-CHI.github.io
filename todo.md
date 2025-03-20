@@ -1,0 +1,1 @@
+LOGO for organsiation, see https://github.com/DigitaleGesellschaft/jekyll-theme-conference/tree/main?tab=readme-ov-file#navigation-bar
