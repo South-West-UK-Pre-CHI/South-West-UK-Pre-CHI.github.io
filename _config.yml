@@ -136,11 +136,18 @@ conference:
   talks:
     # Talk categories
     main_categories:
-      - name: Cat A
+      - name: Talk Category 1
         color: info
-      - name: Cat B
+      - name: Talk Category 2
         color: success
-
+      - name: Talk Category 3
+        color: success
+      - name: Talk Category 4
+        color: success
+      - name: Doctoral Consortium
+        color: success
+      - name: Workshops/Demos
+        color: success
     # Hide icons on talk overview page
     hide_icons: false
 
