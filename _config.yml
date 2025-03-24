@@ -139,19 +139,19 @@ conference:
     # Talk categories
     main_categories:
       - name: Talk Category 1
-        color: info
+        color: secondary
       - name: Talk Category 2
-        color: success
+        color: sucess
       - name: Talk Category 3
-        color: success
+        color: info
       - name: Talk Category 4
-        color: success
+        color: warning
       - name: Doctoral Consortium
-        color: success
+        color: primary
       - name: Workshops/Demos
-        color: success
+        color: primary
       - name: Other (coffee etc.)
-        color: success
+        color: primary
     # Hide icons on talk overview page
     hide_icons: false
 
