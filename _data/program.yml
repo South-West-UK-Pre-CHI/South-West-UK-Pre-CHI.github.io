@@ -13,7 +13,7 @@ days:
         time_end: '13:30'
 - name: Tuesday
   abbr: Tue
-  date: 2020-01-11
+  date: 2020-02-01
   rooms:
     - name: Room A
       talks:
