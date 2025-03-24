@@ -147,7 +147,7 @@ conference:
       - name: Talk Category 4
         color: warning
       - name: Doctoral Consortium
-        color: primary
+        color: danger
       - name: Workshops/Demos
         color: primary
       - name: Other (coffee etc.)
