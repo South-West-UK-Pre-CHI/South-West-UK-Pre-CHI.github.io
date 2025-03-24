@@ -1,0 +1,35 @@
+<div class="container mt-5">
+    <h1 class="text-center mb-4">{{ page.title }}</h1>
+
+    {% for opportunity in site.data.opportunities %}
+    <div class="row align-items-center mb-4">
+
+        <!-- Left Side: Image -->
+        <div class="col-md-4 text-center">
+            <img src="{{ opportunity.image | relative_url }}" class="img-fluid rounded" alt="{{ opportunity.role }}">
+        </div>
+
+        <!-- Right Side: Details -->
+        <div class="col-md-8">
+            <h3 class="mb-2">{{ opportunity.role }}</h3>
+            <p class="text-muted"><strong>Summary:</strong> {{ opportunity.summary }}</p>
+
+            <h5 class="mt-3">What You Will Do</h5>
+            <ul>
+                {% for task in opportunity.responsibilities %}
+                <li>{{ task }}</li>
+                {% endfor %}
+            </ul>
+
+            <!-- Contact Information -->
+            {% if opportunity.website %}
+            <a href="{{ opportunity.website }}" class="btn btn-primary mt-2" target="_blank">Apply Now</a>
+            {% elsif opportunity.email %}
+            <p class="mt-2"><strong>Contact:</strong> <a href="mailto:{{ opportunity.email }}">{{ opportunity.email }}</a></p>
+            {% endif %}
+        </div>
+
+    </div>
+    <hr> <!-- Adds a separator between opportunities -->
+    {% endfor %}
+</div>

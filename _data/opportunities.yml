@@ -1,0 +1,26 @@
+- role: Research Assistant
+  image: /assets/images/research_assistant.jpg
+  summary: Assist in cutting-edge AI research and data analysis.
+  responsibilities:
+    - Collect and analyze research data
+    - Assist with writing reports and papers
+    - Support lab experiments
+  website: https://university.edu/research-assistant
+
+- role: Community Manager
+  image: /assets/images/community_manager.jpg
+  summary: Engage with our online community and organize events.
+  responsibilities:
+    - Manage social media channels
+    - Plan and execute online events
+    - Respond to community inquiries
+  email: jobs@techstartup.com
+
+- role: UX Designer
+  image: /assets/images/ux_designer.jpg
+  summary: Improve user experience for our digital products.
+  responsibilities:
+    - Conduct user research
+    - Design wireframes and prototypes
+    - Collaborate with developers
+  website: https://company.com/ux-designer
