@@ -1,10 +1,15 @@
-- name: Bristol Interaction Group
-  logo: /assets/images/funders/BIG.png
-  website: https://biglab.co.uk/
-  affiliation: A research group within University of Bristol
-  thank_you_message: "Thank you for your support."
+- name: University of Bristol
+  logo: /assets/images/funders/UoB.png
+  website: https://www.bristol.ac.uk/
+  thank_you_message: "Thank you to the University of Bristol for funding the conference."
 
 - name: pro² network+
   logo: /assets/images/funders/pro2.png
   website: https://prosquared.org/
-  thank_you_message: "Thank you for your support."
+  thank_you_message: "Thank you to pro² network+ for providing the conference's travel fund."
+
+- name: Bristol Interaction Group
+  logo: /assets/images/funders/BIG.png
+  website: https://biglab.co.uk/
+  affiliation: A research group within University of Bristol
+  thank_you_message: "Thank you to Bristol Interaction Group for funding the conference's dinner."
