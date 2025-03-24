@@ -1,53 +1,59 @@
 - name: Grace Stangroome
   photo: /assets/images/organisers/john_doe.jpg
   affiliation: University of Bristol
-  role: Accessibility Chair
+  role: General Chair, Accessibility Chair
   website: https://johndoe.com
 
 - name: Brooke Morris
   photo: /assets/images/organisers/jane_smith.jpg
   affiliation: University of Bristol
-  role: Accessibility Chair
+  role: Vice-General Chair, Secretary
   website: https://janesmith.com
 
 - name: Tegan Roberts-Morgan
   photo: /assets/images/organisers/michael_brown.jpg
-  role: Accessibility Chair
+  role: Vice-General Chair, Finance Chair
   affiliation: University of Bristol
   # No website field here
 
 - name: Nathalie Alexandra Tcherdakoff
   photo: /assets/images/organisers/sarah_lee.jpg
-  role: Accessibility Chair
+  role: Publicity Chair
   affiliation: University of Bristol
   # No website field here
 
 - name: Paul Goddard
   photo: /assets/images/organisers/sarah_lee.jpg
-  role: Accessibility Chair
+  role: Programme Chair, Publicity Chair
   affiliation: Cardiff University
   # No website field here
 
-- name: Nathalie Alexandra Tcherdakoff
+- name: Cameron Steer
+  photo: /assets/images/organisers/sarah_lee.jpg
+  role: Programme Chair, Exhibit Chair
+  affiliation: University of the West of England
+  # No website field here
+
+- name: Adwait Sharma
+  photo: /assets/images/organisers/sarah_lee.jpg
+  role: Doctoral Consortium Chair, Exhibit Chair
+  affiliation: University of Bath
+  # No website field here
+
+- name: Fernando Maestre Avila
+  photo: /assets/images/organisers/sarah_lee.jpg
+  role: Doctoral Consortium Chair
+  affiliation: Swansea University
+  # No website field here
+
+- name: Maisie Palmer
   photo: /assets/images/organisers/sarah_lee.jpg
   role: Accessibility Chair
   affiliation: University of Bristol
   # No website field here
 
-- name: Nathalie Alexandra Tcherdakoff
+- name: Jack Burnett
   photo: /assets/images/organisers/sarah_lee.jpg
-  role: Accessibility Chair
-  affiliation: University of Bristol
-  # No website field here
-
-- name: Nathalie Alexandra Tcherdakoff
-  photo: /assets/images/organisers/sarah_lee.jpg
-  role: Accessibility Chair
-  affiliation: University of Bristol
-  # No website field here
-
-- name: Nathalie Alexandra Tcherdakoff
-  photo: /assets/images/organisers/sarah_lee.jpg
-  role: Accessibility Chair
+  role: Volunteer Chair
   affiliation: University of Bristol
   # No website field here
