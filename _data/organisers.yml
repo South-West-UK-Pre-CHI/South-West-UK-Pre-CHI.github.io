@@ -11,4 +11,9 @@
 - name: Michael Brown
   photo: /assets/images/michael_brown.jpg
   affiliation: Software Engineer at Tech Inc.
-  website: https://michaelbrown.com
+  # No website field here
+
+- name: Sarah Lee
+  photo: /assets/images/sarah_lee.jpg
+  affiliation: Researcher at Global Institute
+  # No website field here
