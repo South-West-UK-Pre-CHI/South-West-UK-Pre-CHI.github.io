@@ -6,6 +6,7 @@ layout: location
 Queens Rd, Bristol. BS8 1RJ
 
 what3words (main entrance): [cheeks.gallons.trunk](https://what3words.com/cheeks.gallons.trunk)
+
 what3words (accessible entrance): [fallen.still.mild](https://what3words.com/fallen.still.mild)
 
 Access information from AccessAble: [Wills Memorial Building](https://www.accessable.co.uk/university-of-bristol/access-guides/wills-memorial-building)
@@ -32,7 +33,7 @@ to the bad traffic, and we recommend taking the earlier bus if possible for you.
 🚶‍♀️ Walking: Bristol is a hilly location. The journey from Temple Meads is mostly flat, aside from Park Street which is a 
 steep hill and overall elevation of +149ft. The walk from Clifton Down Train station is a steady decline at -39ft.
 
-Here is a document with more general travel tips such as hotels and things to do in Bristol: [Travel](https://cfpr.uwe.ac.uk/impactconference12/wp-content/uploads/sites/3/2022/10/Travel-Acommodation-and-Dining-in-Bristol.pdf)
+For more travel tips, please read the following document: [Travel and Things to Do](https://cfpr.uwe.ac.uk/impactconference12/wp-content/uploads/sites/3/2022/10/Travel-Acommodation-and-Dining-in-Bristol.pdf)
 
 ## On-Site Navigation
 Directional signs will be posted inside and outside of the building for each room, bathroom and lift. The Conference 
