@@ -20,8 +20,6 @@ days:
         - name: VPlacerat Cotidieque Ad
           time_start: '12:00'
           time_end: '13:45'
-    - name: Room C
-      talks:
         - name: Condimentum Vitae Sapien Pellentesque
           time_start: '12:45'
           time_end: '13:30'
