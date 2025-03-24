@@ -333,7 +333,7 @@ window.conference.live = (() => {
             }
         }
 
-        // Cancel timer after program is over
+        // Cancel timer after programme is over
         if (tNow > confEnd && !demo) {
             stopUpdateLive();
         }
@@ -481,7 +481,7 @@ window.conference.live = (() => {
             roomEnd = talksHere[talksHere.length-1].end;
         }
         else {
-            // If no program for given room, take overall first and last talk
+            // If no programme for given room, take overall first and last talk
             roomStart = 0;
             roomEnd = 0;
             for (let roomNameTalk in getAllTalks()) {

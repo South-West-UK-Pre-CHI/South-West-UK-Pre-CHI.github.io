@@ -68,8 +68,8 @@ conference:
       # url: 'https://digitale-gesellschaft.ch/'
     breakpoint: md
     links:
-      - name: Program
-        relative_url: /program/
+      - name: Programme
+        relative_url: /programme/
       - name: Talks
         relative_url: /talks/
       - name: Speakers
@@ -80,7 +80,7 @@ conference:
         relative_url: /funders/
       - name: Organisers
         relative_url: /organisers/
-      - name: Opportunities
+      - name: O+pportunities
         relative_url: /opportunities/
       - name: Previous Editions
         menu:
@@ -102,13 +102,14 @@ conference:
     logo:
       img: 'logo.png'  # inside /assets/images/
     links:
-      - name: Program
-        relative_url: /program/
-      - name: How to get there
-        relative_url: /location/
       - name: Registration
         disabled: false
         absolute_url: 'https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG071U7kgyVNHkjE1q_ZcfuxUOVdOQVdFT1ExWDVROFYwWUVRMVhTUFNDVS4u'
+      - name: Programme
+        relative_url: /programme/
+      - name: How to get there
+        relative_url: /location/
+
 
   # Information boxes
   info_bars:
@@ -176,10 +177,10 @@ conference:
 
 
   program:
-    # URL of program page
-    url: '/program'
+    # URL of programme page
+    url: '/programme'
 
-    # Time steps in program table
+    # Time steps in programme table
     time_steps: 15 # in minutes
 
     # Show intermediary time steps (next to full hours)

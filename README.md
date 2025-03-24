@@ -274,7 +274,7 @@ conference:
   navigation:
     links:
       - name: Program
-        relative_url: /program/
+        relative_url: /programme/
       - live: true
       - name: Previous Editions
         menu:
@@ -353,7 +353,7 @@ conference:
     ...
     links:
       - name: Program
-        relative_url: /program/
+        relative_url: /programme/
       - name: Tickets
         disabled: true
         absolute_url: ''
