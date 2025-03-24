@@ -1,0 +1,74 @@
+<div id="access">
+  <h2>Access and Inclusion Plan Summary</h2>
+
+  <!-- Collapsible Parent Section (Access and Inclusion Plan) -->
+  <button class="accordion-button" onclick="toggleAccordion('access-plan')">
+    Access and Inclusion Plan (Click to expand/collapse)
+  </button>
+
+  <div id="content-access-plan" class="accordion-content">
+    <!-- Loop to create individual sections inside the parent section -->
+    {% assign sections = site.data.access_inclusion_plan %}
+
+    {% for section in sections %}
+      <div class="accordion-item">
+        <button class="accordion-button" onclick="toggleAccordion('{{ section.section_id }}')">
+          {{ section.section_title }}
+        </button>
+        <div id="content-{{ section.section_id }}" class="accordion-content">
+          <p>{{ section.section_content | markdownify }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Add Custom CSS and JavaScript -->
+<style>
+  /* Accordion Button Style */
+  .accordion-button {
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px 0;
+    transition: background-color 0.3s;
+  }
+
+  .accordion-button:hover {
+    background-color: #ddd;
+  }
+
+  /* Accordion Content Style (Hidden by Default) */
+  .accordion-content {
+    display: none;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    background-color: #f9f9f9;
+    margin-top: 5px;
+  }
+
+  /* Transition effect for smooth opening and closing */
+  .accordion-content p {
+    margin: 0;
+  }
+</style>
+
+<script>
+  // Function to toggle the visibility of accordion content
+  function toggleAccordion(sectionId) {
+    var content = document.getElementById('content-' + sectionId);
+
+    // Toggle display of the content
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  }
+</script>
+-

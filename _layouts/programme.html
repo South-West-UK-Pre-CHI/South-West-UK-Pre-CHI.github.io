@@ -11,75 +11,7 @@
 
   {{ content }}
 
----
-layout: default
----
-
-<div id="access">
-  <h2>Access and Inclusion Plan</h2>
-
-  {% assign sections = site.data.access_inclusion_plan %}
-
-  {% for section in sections %}
-  <div class="accordion-item">
-    <button class="accordion-button" onclick="toggleAccordion('{{ section.section_id }}')">
-      {{ section.section_title }}
-    </button>
-    <div id="content-{{ section.section_id }}" class="accordion-content">
-      <p>{{ section.section_content | markdownify }}</p>
-    </div>
-  </div>
-  {% endfor %}
-</div>
-
-<!-- Add custom CSS and JavaScript -->
-<style>
-  /* Accordion Button Style */
-  .accordion-button {
-    background-color: #f1f1f1;
-    color: #333;
-    padding: 10px;
-    text-align: left;
-    width: 100%;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    margin: 5px 0;
-    transition: background-color 0.3s;
-  }
-
-  .accordion-button:hover {
-    background-color: #ddd;
-  }
-
-  /* Accordion Content Style (Hidden by Default) */
-  .accordion-content {
-    display: none;
-    padding: 10px;
-    border-top: 1px solid #ccc;
-    background-color: #f9f9f9;
-    margin-top: 5px;
-  }
-
-  /* Transition effect for smooth opening and closing */
-  .accordion-content p {
-    margin: 0;
-  }
-</style>
-
-<script>
-  function toggleAccordion(sectionId) {
-    var content = document.getElementById('content-' + sectionId);
-
-    // Toggle display of the content
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  }
-</script>
-
+  {% include partials/access_plan_dropdown.html %}
 
 {%- if nbr_days > 1 %}
     <ul class="nav justify-content-center mb-3 btn-group" id="day-list" role="tablist">
