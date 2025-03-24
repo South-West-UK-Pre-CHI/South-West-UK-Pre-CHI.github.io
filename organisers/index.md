@@ -2,4 +2,4 @@
 layout: organisers
 ---
 
-# Local Chairs
+# Organisers
