@@ -11,8 +11,6 @@
 
   {{ content }}
 
-  {% include partials/access_plan_dropdown.html %}
-
 {%- if nbr_days > 1 %}
     <ul class="nav justify-content-center mb-3 btn-group" id="day-list" role="tablist">
       {%- for d in site.data.program.days -%}
