@@ -1,5 +1,5 @@
 ---
-layout: location
+layout: default
 ---
 
 # Wills Memorial Building
