@@ -9,7 +9,7 @@
     <div class="row">
         {% for person in site.data.organisers %}
         <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-            <div class="card shadow-sm text-center">
+            <div class="card shadow-sm text-center h-100"> <!-- h-100 ensures equal height -->
                 {% if person.website %}
                 <a href="{{ person.website }}" target="_blank" rel="noopener noreferrer">
                     <img src="{{ person.photo | relative_url }}" class="card-img-top img-fluid" alt="{{ person.name }}">
@@ -18,14 +18,12 @@
                 <img src="{{ person.photo | relative_url }}" class="card-img-top img-fluid" alt="{{ person.name }}">
                 {% endif %}
 
-                <div class="card-body">
+                <div class="card-body d-flex flex-column">
                     <h5 class="card-title">{{ person.name }}</h5>
-                    <p class="card-text text-muted">{{ person.affiliation }}</p>
+                    <p class="card-text text-muted flex-grow-1">{{ person.affiliation }}</p> <!-- Allows flexible spacing -->
 
                     {% if person.website %}
-                    <a href="{{ person.website }}" class="btn btn-primary" target="_blank">Visit Profile</a>
-                    {% else %}
-                    <p class="text-muted">No personal website</p>
+                    <a href="{{ person.website }}" class="btn btn-primary mt-auto" target="_blank">Visit Website</a>
                     {% endif %}
                 </div>
             </div>

@@ -1,19 +1,19 @@
 - name: John Doe
-  photo: /assets/images/john_doe.jpg
+  photo: /assets/images/organisers/john_doe.jpg
   affiliation: Professor at XYZ University
   website: https://johndoe.com
 
 - name: Jane Smith
-  photo: /assets/images/jane_smith.jpg
+  photo: /assets/images/organisers/jane_smith.jpg
   affiliation: Data Scientist at ABC Corp
   website: https://janesmith.com
 
 - name: Michael Brown
-  photo: /assets/images/michael_brown.jpg
+  photo: /assets/images/organisers/michael_brown.jpg
   affiliation: Software Engineer at Tech Inc.
   # No website field here
 
 - name: Sarah Lee
-  photo: /assets/images/sarah_lee.jpg
+  photo: /assets/images/organisers/sarah_lee.jpg
   affiliation: Researcher at Global Institute
   # No website field here
