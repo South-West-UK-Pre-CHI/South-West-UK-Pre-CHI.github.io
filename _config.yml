@@ -141,7 +141,7 @@ conference:
       - name: Talk Category 1
         color: secondary
       - name: Talk Category 2
-        color: sucess
+        color: success
       - name: Talk Category 3
         color: info
       - name: Talk Category 4
