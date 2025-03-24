@@ -1,4 +1,3 @@
 ---
 layout: organisers
 ---
-# Local Chairs
