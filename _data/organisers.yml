@@ -1,0 +1,14 @@
+- name: John Doe
+  photo: /assets/images/john_doe.jpg
+  affiliation: Professor at XYZ University
+  website: https://johndoe.com
+
+- name: Jane Smith
+  photo: /assets/images/jane_smith.jpg
+  affiliation: Data Scientist at ABC Corp
+  website: https://janesmith.com
+
+- name: Michael Brown
+  photo: /assets/images/michael_brown.jpg
+  affiliation: Software Engineer at Tech Inc.
+  website: https://michaelbrown.com
