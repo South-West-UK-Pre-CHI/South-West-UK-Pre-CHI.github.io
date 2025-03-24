@@ -1,0 +1,19 @@
+- name: Open Science Initiative
+  logo: /assets/logos/open_science.png
+  website: https://openscience.org
+  affiliation: Partnered with XYZ University
+  thank_you_message: "Thank you for supporting open access research."
+
+- name: Tech for Good
+  logo: /assets/logos/tech_for_good.png
+  website: https://techforgood.org
+  thank_you_message: "We appreciate your commitment to ethical technology."
+
+- name: Green Earth Fund
+  logo: /assets/logos/green_earth.png
+  affiliation: A global climate action network
+  website: https://greenearthfund.com
+
+- name: Future Innovators
+  logo: /assets/logos/future_innovators.png
+  thank_you_message: "Your contributions are shaping the future of AI research."

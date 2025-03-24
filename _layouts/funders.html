@@ -1,5 +1,42 @@
 {% include partials/header.html %}
 
-{{ content }}
+<div class="container mt-5">
+    <h1 class="text-center mb-4">{{ page.title }}</h1>
+
+    <div class="row">
+        {% for funder in site.data.funders %}
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card shadow-sm text-center h-100"> <!-- h-100 ensures equal height -->
+
+                {% if funder.website %}
+                <a href="{{ funder.website }}" target="_blank" rel="noopener noreferrer">
+                    <img src="{{ funder.logo | relative_url }}" class="card-img-top img-fluid p-3" alt="{{ funder.name }}">
+                </a>
+                {% else %}
+                <img src="{{ funder.logo | relative_url }}" class="card-img-top img-fluid p-3" alt="{{ funder.name }}">
+                {% endif %}
+
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">{{ funder.name }}</h5>
+
+                    {% if funder.affiliation %}
+                    <p class="card-text text-muted flex-grow-1">{{ funder.affiliation }}</p>
+                    {% endif %}
+
+                    {% if funder.thank_you_message %}
+                    <blockquote class="blockquote small text-muted flex-grow-1">
+                        "{{ funder.thank_you_message }}"
+                    </blockquote>
+                    {% endif %}
+
+                    {% if funder.website %}
+                    <a href="{{ funder.website }}" class="btn btn-primary mt-auto" target="_blank">Visit Website</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
 
 {% include partials/footer.html %}
