@@ -1,59 +1,59 @@
 - name: Grace Stangroome
-  photo: /assets/images/organisers/john_doe.jpg
+  photo: /assets/images/organisers/stangroome.jpg
   affiliation: University of Bristol
   role: General Chair, Accessibility Chair
   website: https://johndoe.com
 
 - name: Brooke Morris
-  photo: /assets/images/organisers/jane_smith.jpg
+  photo: /assets/images/organisers/morris.jpg
   affiliation: University of Bristol
   role: Vice-General Chair, Secretary
   website: https://janesmith.com
 
 - name: Tegan Roberts-Morgan
-  photo: /assets/images/organisers/michael_brown.jpg
+  photo: /assets/images/organisers/roberts-morgan.jpg
   role: Vice-General Chair, Finance Chair
   affiliation: University of Bristol
   # No website field here
 
 - name: Nathalie Alexandra Tcherdakoff
-  photo: /assets/images/organisers/sarah_lee.jpg
+  photo: /assets/images/organisers/tcherdakoff.jpg
   role: Publicity Chair
   affiliation: University of Bristol
   # No website field here
 
 - name: Paul Goddard
-  photo: /assets/images/organisers/sarah_lee.jpg
+  photo: /assets/images/organisers/goddard.jpg
   role: Programme Chair, Publicity Chair
   affiliation: Cardiff University
   # No website field here
 
 - name: Cameron Steer
-  photo: /assets/images/organisers/sarah_lee.jpg
+  photo: /assets/images/organisers/steer.jpg
   role: Programme Chair, Exhibit Chair
   affiliation: University of the West of England
   # No website field here
 
 - name: Adwait Sharma
-  photo: /assets/images/organisers/sarah_lee.jpg
+  photo: /assets/images/organisers/sharma.jpg
   role: Doctoral Consortium Chair, Exhibit Chair
   affiliation: University of Bath
   # No website field here
 
 - name: Fernando Maestre Avila
-  photo: /assets/images/organisers/sarah_lee.jpg
+  photo: /assets/images/organisers/avila.jpg
   role: Doctoral Consortium Chair
   affiliation: Swansea University
   # No website field here
 
 - name: Maisie Palmer
-  photo: /assets/images/organisers/sarah_lee.jpg
+  photo: /assets/images/organisers/palmer.jpg
   role: Accessibility Chair
   affiliation: University of Bristol
   # No website field here
 
 - name: Jack Burnett
-  photo: /assets/images/organisers/sarah_lee.jpg
+  photo: /assets/images/organisers/burnett.jpg
   role: Volunteer Chair
   affiliation: University of Bristol
-  # No website field here
+  website: https://jackjburnett.github.io/
