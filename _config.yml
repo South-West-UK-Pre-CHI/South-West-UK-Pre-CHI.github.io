@@ -151,7 +151,7 @@ conference:
       - name: Workshops/Demos
         color: primary
       - name: Other (coffee etc.)
-        color: primary
+        color: dark
     # Hide icons on talk overview page
     hide_icons: false
 
