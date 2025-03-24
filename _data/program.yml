@@ -3,7 +3,7 @@ days:
   abbr: Mon
   date: 2020-01-31
   rooms:
-  - name: Room A
+  - name: Room 3.30
     talks:
       - name: Vim Impetus Placerat Cotidieque Ad
         time_start: '12:00'
@@ -15,12 +15,12 @@ days:
   abbr: Tue
   date: 2020-02-01
   rooms:
-    - name: Room B
+    - name: Room 3.23
       talks:
         - name: Vim Impetus Placerat Cotidieque Ad
           time_start: '12:00'
           time_end: '13:45'
-    - name: Room C
+    - name: The Great Hall
       talks:
         - name: Condimentum Vitae Sapien Pellentesque
           time_start: '12:45'

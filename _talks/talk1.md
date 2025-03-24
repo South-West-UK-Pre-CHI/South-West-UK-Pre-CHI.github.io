@@ -3,8 +3,7 @@ name: Vim Impetus Placerat Cotidieque Ad
 speakers:
   - Tolga Philip
 categories:
-  - Cat B
-  - Talk
+  - Talk Category 1
 ---
 
 Lorem ipsum dolor sit amet, mel tritani quaestio ne. Sed cu quot erat. Stet mutat moderatius ad vel. Ne eum quod expetendis, odio eros nominavi sed et, eu suscipit atomorum sit. Facete maluisset urbanitas in eos, idque expetendis et vis, et quo everti quaestio maiestatis.
