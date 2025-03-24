@@ -1,0 +1,20 @@
+<div class="dropdown-section">
+    <button class="dropdown-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#{{ section_id }}" aria-expanded="false" aria-controls="{{ section_id }}">
+        {{ section_title }}
+    </button>
+    <div id="{{ section_id }}" class="collapse">
+        <div class="dropdown-content">
+            {{ section_content }}
+            {% if section_subsections %}
+            <div class="subsections">
+                {% for subsection in section_subsections %}
+                {% include partials/dropdown_section.html
+                section_id=subsection.section_id
+                section_title=subsection.section_title
+                section_content=subsection.section_content %}
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
