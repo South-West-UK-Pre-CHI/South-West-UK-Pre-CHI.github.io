@@ -11,39 +11,26 @@
 
   {{ content }}
 
-  <!-- Parent Collapsible Section: Access -->
-  <div class="accordion" id="accessAccordion">
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingAccess">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAccess" aria-expanded="true" aria-controls="collapseAccess">
-          Access
-        </button>
-      </h2>
-      <div id="collapseAccess" class="accordion-collapse collapse show" aria-labelledby="headingAccess" data-bs-parent="#accessAccordion">
-        <div class="accordion-body">
-          <!-- Loop through each section in the YAML -->
-          <div class="accordion" id="innerAccordion">
-            {% for section in site.data.access_inclusion_plan %}
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="heading{{ section.section_id }}">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ section.section_id }}" aria-expanded="false" aria-controls="collapse{{ section.section_id }}">
-                  {{ section.section_title }}
-                </button>
-              </h2>
-              <div id="collapse{{ section.section_id }}" class="accordion-collapse collapse" aria-labelledby="heading{{ section.section_id }}" data-bs-parent="#innerAccordion">
-                <div class="accordion-body">
-                  {{ section.section_content | markdownify }}
-                </div>
-              </div>
-            </div>
-            {% endfor %}
-          </div>
-        </div>
+<div id="access">
+  <h2>Access and Inclusion Plan</h2>
+
+  {% assign sections = site.data.access_inclusion_plan %}
+
+  {% for section in sections %}
+  <div class="accordion-item">
+    <h3 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ section.section_id }}" aria-expanded="false" aria-controls="collapse{{ section.section_id }}">
+        {{ section.section_title }}
+      </button>
+    </h3>
+    <div id="collapse{{ section.section_id }}" class="accordion-collapse collapse" aria-labelledby="heading{{ section.section_id }}" data-bs-parent="#access">
+      <div class="accordion-body">
+        {{ section.section_content | markdownify }}
       </div>
     </div>
   </div>
-
-
+  {% endfor %}
+</div>
 
 {%- if nbr_days > 1 %}
     <ul class="nav justify-content-center mb-3 btn-group" id="day-list" role="tablist">
