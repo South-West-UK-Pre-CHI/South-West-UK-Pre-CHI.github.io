@@ -23,17 +23,3 @@ window.conference.awaitReady().then(() => {
         }).addTo(map);
     }
 });
-
-function toggleCollapse(button) {
-    // Get the dropdown content associated with the button
-    var dropdownContent = button.nextElementSibling;
-
-    // Toggle the display of the content
-    if (dropdownContent.style.display === "none" || dropdownContent.style.display === "") {
-        dropdownContent.style.display = "block";  // Show the content
-        button.setAttribute("aria-expanded", "true");
-    } else {
-        dropdownContent.style.display = "none";  // Hide the content
-        button.setAttribute("aria-expanded", "false");
-    }
-}

@@ -1,5 +1,5 @@
 {% include partials/header.html %}
-  {% assign nbr_days = site.data.program.days | size -%}
+{% assign nbr_days = site.data.program.days | size -%}
 
   <h1 class="display-5 {% if nbr_days > 1 -%} mb-2 {%- else -%} mb-4 {%- endif %} text-break">
     {%- if page.title -%}
@@ -10,6 +10,28 @@
   </h1>
 
   {{ content }}
+
+  <!-- Parent Dropdown "Access" -->
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="accessDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+      Access and Inclusion Plan Summary
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="accessDropdown">
+      {% for section in <site class="data access_inclusion_plan"></site> %}
+      <li class="dropdown-submenu">
+        <a class="dropdown-item" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+          {{ section.section_title }}
+        </a>
+        <ul class="dropdown-menu">
+          <li>
+            <p>{{ section.section_content }}</p>
+          </li>
+        </ul>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
 
   {%- if nbr_days > 1 %}
     <ul class="nav justify-content-center mb-3 btn-group" id="day-list" role="tablist">
