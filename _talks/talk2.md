@@ -4,7 +4,6 @@ speakers:
   - Tolga Philip
   - Alex Rosales
 categories:
-  - Cat A
-  - Talk
+  - Talk Category 2
 hide: true
 ---
