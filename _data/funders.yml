@@ -1,10 +1,10 @@
 - name: Bristol Interaction Group
-  logo: /assets/funders/BIG.png
+  logo: /assets/images/funders/BIG.png
   website: https://biglab.co.uk/
   affiliation: A research group within University of Bristol
   thank_you_message: "Thank you for your support."
 
 - name: pro² network+
-  logo: /assets/funders/pro2.png
+  logo: /assets/images/funders/pro2.png
   website: https://prosquared.org/
   thank_you_message: "Thank you for your support."
