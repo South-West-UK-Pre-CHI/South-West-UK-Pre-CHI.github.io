@@ -11,18 +11,6 @@ days:
       - name: Condimentum Vitae Sapien Pellentesque
         time_start: '12:45'
         time_end: '13:30'
-
-  - name: Room B
-    talks:
-      - name: Arcu Non Odio
-        time_start: '12:00'
-        time_end: '13:00'
-
-  - name: Room C
-    talks:
-      - name: Eu Nisl Nunc Mi Ipsum Faucibus
-        time_start: '13:30'
-        time_end: '14:30'
 - name: Tuesday
   abbr: Tue
   date: 2020-01-11
@@ -35,15 +23,3 @@ days:
         - name: Condimentum Vitae Sapien Pellentesque
           time_start: '12:45'
           time_end: '13:30'
-
-    - name: Room B
-      talks:
-        - name: Arcu Non Odio
-          time_start: '12:00'
-          time_end: '13:00'
-
-    - name: Room C
-      talks:
-        - name: Eu Nisl Nunc Mi Ipsum Faucibus
-          time_start: '13:30'
-          time_end: '14:30'
