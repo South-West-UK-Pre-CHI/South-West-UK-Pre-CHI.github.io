@@ -3,7 +3,10 @@
 <div class="container mt-5">
     <h1 class="text-center mb-4">{{ page.title }}</h1>
 
-    <div class="row">
+    <div class="row d-flex justify-content-center">
+        {% assign total_funders = site.data.funders.size %}
+        {% assign funders_in_last_row = total_funders % 2 %} <!-- Two per row on large screens -->
+
         {% for funder in site.data.funders %}
         <div class="col-lg-6 col-sm-12 mb-4"> <!-- Two per row on large screens, one on small -->
             <div class="card shadow-sm text-center h-100"> <!-- Ensures equal height -->
