@@ -5,9 +5,9 @@ layout: location
 # Wills Memorial Building
 Queens Rd, Bristol. BS8 1RJ
 
-what3words (main entrance): [cheeks.gallons.trunk](https://what3words.com/cheeks.gallons.trunk)
-
-what3words (accessible entrance): [fallen.still.mild](https://what3words.com/fallen.still.mild)
+what3words:
+- main entrance: [cheeks.gallons.trunk](https://what3words.com/cheeks.gallons.trunk)
+- accessible entrance: [fallen.still.mild](https://what3words.com/fallen.still.mild)
 
 Access information from AccessAble: [Wills Memorial Building](https://www.accessable.co.uk/university-of-bristol/access-guides/wills-memorial-building)
 
