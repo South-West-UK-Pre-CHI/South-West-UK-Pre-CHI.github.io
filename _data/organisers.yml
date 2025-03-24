@@ -2,13 +2,13 @@
   photo: /assets/images/organisers/stangroome.png
   affiliation: University of Bristol
   role: General Chair, Accessibility Chair
-  website: https://johndoe.com
+  website: https://biglab.co.uk/member/46
 
 - name: Brooke Morris
   photo: /assets/images/organisers/morris.png
   affiliation: University of Bristol
   role: Vice-General Chair, Secretary
-  website: https://janesmith.com
+  # No website field here
 
 - name: Tegan Roberts-Morgan
   photo: /assets/images/organisers/roberts-morgan.png
