@@ -2,7 +2,7 @@
 name: Room 3.23
 ---
 <div class="dropdown">
-  <button class="dropdown-button" onclick="toggleDropdown()">Click to View Room Images</button>
+  <button class="dropdown-button" onclick="toggleDropdown()">Click to View Images</button>
   <div class="dropdown-content">
     <img src="{{ site.baseurl }}/assets/images/image1.jpg" alt="Image 1" class="dropdown-image" />
     <img src="{{ site.baseurl }}/assets/images/image2.jpg" alt="Image 2" class="dropdown-image" />
