@@ -150,6 +150,8 @@ conference:
         color: success
       - name: Workshops/Demos
         color: success
+      - name: Other (coffee etc.)
+        color: success
     # Hide icons on talk overview page
     hide_icons: false
 
