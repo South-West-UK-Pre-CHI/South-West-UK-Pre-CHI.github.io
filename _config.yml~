@@ -80,7 +80,7 @@ conference:
         relative_url: /funders/
       - name: Organisers
         relative_url: /organisers/
-      - name: Opportunities
+      - name: O+pportunities
         relative_url: /opportunities/
       - name: Previous Editions
         menu:
