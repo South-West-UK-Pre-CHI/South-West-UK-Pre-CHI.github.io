@@ -17,7 +17,7 @@ days:
   rooms:
     - name: Room B
       talks:
-        - name: VPlacerat Cotidieque Ad
+        - name: Vim Impetus Placerat Cotidieque Ad
           time_start: '12:00'
           time_end: '13:45'
     - name: Room C
