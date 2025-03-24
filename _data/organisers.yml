@@ -1,19 +1,53 @@
-- name: John Doe
+- name: Grace Stangroome
   photo: /assets/images/organisers/john_doe.jpg
-  affiliation: Professor at XYZ University
+  affiliation: University of Bristol
+  role: Accessibility Chair
   website: https://johndoe.com
 
-- name: Jane Smith
+- name: Brooke Morris
   photo: /assets/images/organisers/jane_smith.jpg
-  affiliation: Data Scientist at ABC Corp
+  affiliation: University of Bristol
+  role: Accessibility Chair
   website: https://janesmith.com
 
-- name: Michael Brown
+- name: Tegan Roberts-Morgan
   photo: /assets/images/organisers/michael_brown.jpg
-  affiliation: Software Engineer at Tech Inc.
+  role: Accessibility Chair
+  affiliation: University of Bristol
   # No website field here
 
-- name: Sarah Lee
+- name: Nathalie Alexandra Tcherdakoff
   photo: /assets/images/organisers/sarah_lee.jpg
-  affiliation: Researcher at Global Institute
+  role: Accessibility Chair
+  affiliation: University of Bristol
+  # No website field here
+
+- name: Paul Goddard
+  photo: /assets/images/organisers/sarah_lee.jpg
+  role: Accessibility Chair
+  affiliation: Cardiff University
+  # No website field here
+
+- name: Nathalie Alexandra Tcherdakoff
+  photo: /assets/images/organisers/sarah_lee.jpg
+  role: Accessibility Chair
+  affiliation: University of Bristol
+  # No website field here
+
+- name: Nathalie Alexandra Tcherdakoff
+  photo: /assets/images/organisers/sarah_lee.jpg
+  role: Accessibility Chair
+  affiliation: University of Bristol
+  # No website field here
+
+- name: Nathalie Alexandra Tcherdakoff
+  photo: /assets/images/organisers/sarah_lee.jpg
+  role: Accessibility Chair
+  affiliation: University of Bristol
+  # No website field here
+
+- name: Nathalie Alexandra Tcherdakoff
+  photo: /assets/images/organisers/sarah_lee.jpg
+  role: Accessibility Chair
+  affiliation: University of Bristol
   # No website field here
