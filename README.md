@@ -212,6 +212,19 @@ The funder information is stored in the `_data/funders.yml` file. The structure 
   thank_you_message: a thank you message for the funder.
 ```
 
+## Opportunities
+
+The opportunity information is stored in the `_data/opportunities.yml` file; do not provide both a website an an email. The structure of an opportunity is
+
+```yaml
+- role: Role of the opportunity
+  image: Link to the image, preferably from the asset's folder
+  summary: Summary of the opportunity
+  responsibilities: Responsibilities of the opportunity
+  website: Website of the opportunity (optional)
+  email: Email of the opportunity's contact (optional)
+```
+
 ## Organisers
 
 Organisers information is stored in the `_data/organisers.yml` file. The structure of an organiser is: 
