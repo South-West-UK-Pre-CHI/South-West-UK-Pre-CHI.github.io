@@ -20,6 +20,7 @@ GEM
     google-protobuf (3.25.3)
     google-protobuf (3.25.3-aarch64-linux)
     google-protobuf (3.25.3-arm64-darwin)
+    google-protobuf (3.25.3-x64-mingw-ucrt)
     google-protobuf (3.25.3-x86-linux)
     google-protobuf (3.25.3-x86_64-darwin)
     google-protobuf (3.25.3-x86_64-linux)
@@ -44,6 +45,8 @@ GEM
       webrick (~> 1.7)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.4.0)
@@ -79,6 +82,8 @@ GEM
       google-protobuf (~> 3.25)
     sass-embedded (1.71.1-arm64-darwin)
       google-protobuf (~> 3.25)
+    sass-embedded (1.71.1-x64-mingw-ucrt)
+      google-protobuf (~> 3.25)
     sass-embedded (1.71.1-x86-linux-android)
       google-protobuf (~> 3.25)
     sass-embedded (1.71.1-x86-linux-gnu)
@@ -107,6 +112,7 @@ PLATFORMS
   arm-linux-gnueabihf
   arm-linux-musleabihf
   arm64-darwin
+  x64-mingw-ucrt
   x86-linux
   x86-linux-android
   x86-linux-gnu
@@ -119,6 +125,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 2.1)
+  jekyll-sitemap
   jekyll-theme-conference!
   rake (~> 12.0)
 
