@@ -8,37 +8,37 @@
   photo: /assets/images/organisers/morris.png
   affiliation: University of Bristol
   role: Vice-General Chair, Secretary
-  # No website field here
+  website: https://biglab.co.uk/member/45
 
 - name: Tegan Roberts-Morgan
   photo: /assets/images/organisers/roberts-morgan.png
   role: Vice-General Chair, Finance Chair
   affiliation: University of Bristol
-  # No website field here
+  website: https://biglab.co.uk/member/64
 
 - name: Nathalie Alexandra Tcherdakoff
   photo: /assets/images/organisers/tcherdakoff.png
   role: Publicity Chair
   affiliation: University of Bristol
-  # No website field here
+  website: https://biglab.co.uk/member/47
 
 - name: Paul Goddard
   photo: /assets/images/organisers/goddard.png
   role: Programme Chair, Publicity Chair
   affiliation: Cardiff University
-  # No website field here
+  website: https://pgoddard10.github.io/
 
 - name: Cameron Steer
   photo: /assets/images/organisers/steer.png
   role: Programme Chair, Exhibit Chair
   affiliation: University of the West of England
-  # No website field here
+  website: https://cdsteer.github.io/
 
 - name: Adwait Sharma
   photo: /assets/images/organisers/sharma.png
   role: Doctoral Consortium Chair, Exhibit Chair
   affiliation: University of Bath
-  # No website field here
+  website: https://www.adwaitsharma.com/
 
 - name: Fernando Maestre Avila
   photo: /assets/images/organisers/avila.png
@@ -49,8 +49,8 @@
 - name: Maisie Palmer
   photo: /assets/images/organisers/palmer.png
   role: Publicity Chair, Volunteer Chair
-  affiliation: University of Bristol
-  # No website field here
+  affiliation: University of the West of England
+  website: https://www.linkedin.com/in/maisie-palmer/
 
 - name: Jack Burnett
   photo: /assets/images/organisers/burnett.png
