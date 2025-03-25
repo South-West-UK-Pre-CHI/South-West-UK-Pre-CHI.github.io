@@ -1,0 +1,33 @@
+{% if site.data.transport and site.data.transport.tabs %}
+<div class="tabs">
+    {% for tab in site.data.transport.tabs %}
+    <button class="tab-button" onclick="showTab('{{ forloop.index0 }}')">{{ tab.title }}</button>
+    {% endfor %}
+</div>
+
+<div class="tab-content">
+    {% for tab in site.data.transport.tabs %}
+    <div class="tab-pane" id="tab-{{ forloop.index0 }}" {% if forloop.first %}style="display: block;"{% else %}style="display: none;"{% endif %}>
+        <p>{{ tab.content }}</p>
+    </div>
+    {% endfor %}
+</div>
+{% else %}
+<p><strong>Error:</strong> Transport data not found.</p>
+{% endif %}
+
+<style>
+    .tabs { display: flex; gap: 10px; margin-bottom: 10px; }
+    .tab-button { padding: 10px; border: none; background: #ddd; cursor: pointer; }
+    .tab-button:hover { background: #ccc; }
+    .tab-content { border: 1px solid #ddd; padding: 10px; }
+    .tab-pane { display: none; }
+</style>
+
+<script>
+    function showTab(index) {
+        document.querySelectorAll('.tab-pane').forEach((pane, i) => {
+            pane.style.display = i == index ? 'block' : 'none';
+        });
+    }
+</script>
