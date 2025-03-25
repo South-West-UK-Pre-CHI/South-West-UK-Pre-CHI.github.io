@@ -3,25 +3,7 @@
 
 For full guidance, please go to [the jekyll-theme-conference GitHub repository](https://github.com/DigitaleGesellschaft/jekyll-theme-conference).
 
-  * [Live Indications & Streaming](#live-indications--streaming)
-  * [Map](#map)
-  * [Talk Settings](#talk-settings)
-  * [Speaker Settings](#speaker-settings)
-  * [Location Settings](#location-settings)
-  * [Program Settings](#program-settings)
-- [Content](#content)
-  * [Schedule / Program](#schedule--program)
-  * [Talks](#talks)
-  * [Speakers](#speakers)
-  * [Rooms](#rooms)
-  * [Links](#links)
-- [Overview Pages](#overview-pages)
-  * [Location / Room Overview](#location--room-overview)
-  * [Live Stream Overview](#live-stream-overview)
-  * [Additional Pages](#additional-pages)
-- [Design](#design)
-- [Development](#development)
-- [License](#license)
+
 
 
 ## Configuration
@@ -220,7 +202,8 @@ Organisers information is stored in the `_data/organisers.yml` file. The structu
 
 ## Access Inclusion Plan
 
-The access and inclusion plan is stored in the `_data/access_inclusion_plan.yml` file; modifying this 
+The access and inclusion plan is stored in the `_data/access_inclusion_plan.yml` file; 
+modifying this file will automatically update the access and inclusion plan summary on the Programme page.
 The structure of a section is:
 
 ```yaml
@@ -230,6 +213,15 @@ The structure of a section is:
 ```
 
 ## Transport
+
+The transport information is stored in the `_data/transport.yml` file;
+modifying this section will automatically update the tabs on the location page.
+The structure of a transport option is:
+
+```yaml
+- title: "Title of the transport option"
+  content: "Description of the transport option"
+```
 
 ### Schedule / Program
 

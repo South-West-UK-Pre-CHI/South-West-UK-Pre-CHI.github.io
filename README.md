@@ -3,25 +3,31 @@
 
 For full guidance, please go to [the jekyll-theme-conference GitHub repository](https://github.com/DigitaleGesellschaft/jekyll-theme-conference).
 
+<!-- TOC -->
+* [Configuration](#configuration)
   * [Live Indications & Streaming](#live-indications--streaming)
   * [Map](#map)
   * [Talk Settings](#talk-settings)
   * [Speaker Settings](#speaker-settings)
   * [Location Settings](#location-settings)
   * [Program Settings](#program-settings)
-- [Content](#content)
+* [Content](#content)
+* [Funders](#funders)
+* [Organisers](#organisers)
+* [Access Inclusion Plan](#access-inclusion-plan)
+* [Transport](#transport)
   * [Schedule / Program](#schedule--program)
   * [Talks](#talks)
   * [Speakers](#speakers)
   * [Rooms](#rooms)
   * [Links](#links)
-- [Overview Pages](#overview-pages)
+* [Overview Pages](#overview-pages)
   * [Location / Room Overview](#location--room-overview)
   * [Live Stream Overview](#live-stream-overview)
   * [Additional Pages](#additional-pages)
-- [Design](#design)
-- [Development](#development)
-- [License](#license)
+* [Design](#design)
+* [License](#license)
+<!-- TOC -->
 
 
 ## Configuration
