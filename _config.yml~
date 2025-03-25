@@ -88,7 +88,7 @@ conference:
           - name: 2025 (current)
             disabled: true
           - name: 2024
-            relative_url: /2024/
+            absolute_url: /2024/
 
   # Link Preview for Sharing
   link_preview:
@@ -188,3 +188,6 @@ conference:
 
     # Show intermediary time steps (next to full hours)
     show_alltimes: true
+
+plugins:
+  - jekyll-sitemap

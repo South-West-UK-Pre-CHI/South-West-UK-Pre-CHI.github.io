@@ -88,7 +88,7 @@ conference:
           - name: 2025 (current)
             disabled: true
           - name: 2024
-            relative_url: /2024/
+            absolute_url: https://sites.google.com/view/southwestprechi/2024/paper-presentation-abstracts
 
   # Link Preview for Sharing
   link_preview:
