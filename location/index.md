@@ -22,11 +22,12 @@ is held across multiple floors in the building. A map of the building is on [Maz
 
 A document containing the layout of the building, and pictures of the rooms, can be found [here]({{site.baseurl}}/assets/pdfs/WMB.pdf).
 
-You enter the building onto the Ground floor (G). The Great Hall is on the 1st floor. The Lewis Wing where L103, L102, 
-L110 are located, is on floor GA which is between the G and the 1st floor. 3.33, 3.23 and 3.30 are all on the 3rd floor. 
-We are not permitted to use any other rooms. There are gendered toilets on floors G, GA and 3. Gender Neutral Toilets can 
-be found on the 1st Floor. The floors which are accessible by the main lift are G, 1 and 3. There is a separate platform 
-lift located on the Ground floor, in the corridor to the rear right of the building to access the Lewis Wing.
+<details>
+  <summary><strong>Navigation Walkthrough</strong></summary>
+  {% include navigation_walkthrough.md %}
+</details>
+
+
 
 Each door will have a label in large font, and the prayer and quiet rooms will be separately and clearly marked.
 
