@@ -110,6 +110,8 @@ conference:
         relative_url: /programme/
       - name: How to get there
         relative_url: /location/
+      - name: Opportunities
+        relative_url: /opportunities/
 
 
   # Information boxes
