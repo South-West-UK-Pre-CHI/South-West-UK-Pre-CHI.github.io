@@ -20,7 +20,7 @@ For more travel tips, please read the following document: [Travel and Things to 
 Directional signs will be posted inside and outside of the building for each room, bathroom and lift. The Conference 
 is held across multiple floors in the building. A map of the building is on [MazeMap](https://link.mazemap.com/TwCods4x).
 
-A document containing the layout of the building, and pictures of the rooms, can be found [here]({{site.baseurl}}/assets/docs/WMB.pdf).
+A document containing the layout of the building, and pictures of the rooms, can be found [here]({{site.baseurl}}/assets/pdfs/WMB.pdf).
 
 You enter the building onto the Ground floor (G). The Great Hall is on the 1st floor. The Lewis Wing where L103, L102, 
 L110 are located, is on floor GA which is between the G and the 1st floor. 3.33, 3.23 and 3.30 are all on the 3rd floor. 
