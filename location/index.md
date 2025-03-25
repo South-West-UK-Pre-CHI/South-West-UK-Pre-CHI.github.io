@@ -17,18 +17,14 @@ Access information from AccessAble: [Wills Memorial Building](https://www.access
 For more travel tips, please read the following document: [Travel and Things to Do](https://cfpr.uwe.ac.uk/impactconference12/wp-content/uploads/sites/3/2022/10/Travel-Acommodation-and-Dining-in-Bristol.pdf)
 
 ## On-Site Navigation
-Directional signs will be posted inside and outside of the building for each room, bathroom and lift. The Conference 
-is held across multiple floors in the building. A map of the building is on [MazeMap](https://link.mazemap.com/TwCods4x).
+Directional signs will be posted inside and outside the building for each room, bathroom, and lift, with doors clearly marked;
+the prayer and quiet rooms will also be separately and clearly marked.
+The Conference  is held across multiple floors in the building. A map of the building is on [MazeMap](https://link.mazemap.com/TwCods4x).
 
 A document containing the layout of the building, and pictures of the rooms, can be found [here]({{site.baseurl}}/assets/pdfs/WMB.pdf).
 
 <details>
-  <summary><strong>Navigation Walkthrough</strong></summary>
+  <summary><strong>Navigation Text-based Walkthrough</strong></summary>
   {% include navigation_walkthrough.md %}
 </details>
-
-
-
-Each door will have a label in large font, and the prayer and quiet rooms will be separately and clearly marked.
-
 ---
