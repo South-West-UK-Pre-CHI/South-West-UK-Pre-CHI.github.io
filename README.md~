@@ -220,8 +220,7 @@ Organisers information is stored in the `_data/organisers.yml` file. The structu
 
 ## Access Inclusion Plan
 
-The access and inclusion plan is stored in the `_data/access_inclusion_plan.yml` file; 
-modifying this file will automatically update the access and inclusion plan summary on the Programme page.
+The access and inclusion plan is stored in the `_data/access_inclusion_plan.yml` file; modifying this 
 The structure of a section is:
 
 ```yaml
@@ -231,15 +230,6 @@ The structure of a section is:
 ```
 
 ## Transport
-
-The transport information is stored in the `_data/transport.yml` file;
-modifying this section will automatically update the tabs on the location page.
-The structure of a transport option is:
-
-```yaml
-- title: "Title of the transport option"
-  content: "Description of the transport option"
-```
 
 ### Schedule / Program
 
