@@ -1,11 +1,11 @@
-- role: Research Assistant
-  image: /assets/images/research_assistant.jpg
-  summary: Assist in cutting-edge AI research and data analysis.
+- role: PhD in Cross-sensory Shape-changing Interfaces
+  image: /assets/images/opportunities/inclusiveXplay.png
+  summary: "We are looking for candidates with strong background in fabrication, design and hardware development to work in the area of cross-sensory shape-changing interfaces and child-computer interaction; in this PhD project you will work as part of the interdisciplinary ERC project inclusiveXplay with a team of PhDs and PDRAs to design and engineer shape-changing interfaces and study their impact on early development of disabled and non-disabled children. You will employ iterative hardware design and development to construct and evaluate a range of prototypes. This will contribute new knowledge to the growing body of literature on cross-sensory interaction, multisensory experience, shape-change and particularly how these are applied in the areas of disability, inclusion, accessibility and child-computer interaction.
   responsibilities:
-    - Collect and analyze research data
-    - Assist with writing reports and papers
-    - Support lab experiments
-  website: https://university.edu/research-assistant
+    - Work as part of an interdisciplinary team
+    - Design and engineer shape-changing interfaces
+    - Study the impact on child development
+  email: o.metatla@bristol.ac.uk
 
 - role: Community Manager
   image: /assets/images/community_manager.jpg
@@ -14,13 +14,4 @@
     - Manage social media channels
     - Plan and execute online events
     - Respond to community inquiries
-  email: jobs@techstartup.com
-
-- role: UX Designer
-  image: /assets/images/ux_designer.jpg
-  summary: Improve user experience for our digital products.
-  responsibilities:
-    - Conduct user research
-    - Design wireframes and prototypes
-    - Collaborate with developers
-  website: https://company.com/ux-designer
+  website: jobs@techstartup.com
