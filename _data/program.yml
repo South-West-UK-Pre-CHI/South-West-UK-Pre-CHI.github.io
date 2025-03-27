@@ -27,6 +27,6 @@ days:
           time_end: '13:45'
     - name: The Great Hall
       talks:
-        - name: Condimentum Vitae Sapien Pellentesque
-          time_start: '12:45'
-          time_end: '13:30'
+        - name: Arrivals and Registration
+          time_start: '09:30'
+          time_end: '10:00'

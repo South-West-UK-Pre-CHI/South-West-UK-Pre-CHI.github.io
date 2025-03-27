@@ -13,9 +13,9 @@ days:
         time_end: '13:30'
   - name: The Great Hall
     talks:
-    - name: Arrivals and Registration
-      time_start: '09:30'
-      time_end: '10:00'
+      - name: Arrivals and Registration
+        time_start: '09:30'
+        time_end: '10:00'
 - name: Tuesday
   abbr: Tue
   date: 2020-02-01
