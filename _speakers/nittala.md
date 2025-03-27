@@ -1,0 +1,10 @@
+---
+name: Aditya Shekhar Nittala
+first_name: Aditya Shekhar
+last_name: Nittala
+links:
+  - name: Website
+    absolute_url: https://sites.google.com/site/adityanittala/
+  - name: Google Scholar
+    absolute_url: https://scholar.google.ca/citations?user=pDSbjBsAAAAJ&hl=en
+---
