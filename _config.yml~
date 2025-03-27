@@ -146,7 +146,7 @@ conference:
         color: success
       - name: Smarter Together
         color: info
-      - name: Rethinking Inclusion in Design
+      - name: Talk Category 4
         color: warning
       - name: Doctoral Consortium
         color: danger
