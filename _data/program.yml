@@ -63,6 +63,31 @@ days:
           time_end: '17:00'
     - name: Room 3.23
       talks:
-        - name: Vim Impetus Placerat Cotidieque Ad
-          time_start: '12:00'
-          time_end: '13:45'
+        - name: Physicalisation, Learning, and Visualisation Doctoral Consortium
+          time_start: '10:00'
+          time_end: '12:00'
+    - name: Room 3.30
+      talks:
+        - name: Games, Music, and Arts Doctoral Consortium
+          time_start: '10:00'
+          time_end: '12:00'
+    - name: Room 3.33
+      talks:
+        - name: Robots and VR Doctoral Consortium
+          time_start: '10:00'
+          time_end: '12:00'
+    - name: Room L102
+      talks:
+        - name: Health Doctoral Consortium
+          time_start: '10:00'
+          time_end: '12:00'
+    - name: Room L103
+      talks:
+        - name: Human-AI Doctoral Consortium
+          time_start: '10:00'
+          time_end: '12:00'
+    - name: Room L110
+      talks:
+        - name: Sensory and Tangible Doctoral Consortium
+          time_start: '10:00'
+          time_end: '12:00'
