@@ -44,6 +44,26 @@ days:
       - name: "How should we design technology with diverse stakeholders who wish not to attend design activities together?"
         time_start: '16:15'
         time_end: '16:30'
+  - name: Room 3.23
+    talks:
+      - name: "Designing for Neurodiversity in Academia: Addressing Challenges and Opportunities in Human-Computer Interaction"
+        time_start: '10:00'
+        time_end: '12:00'
+  - name: Room 3.23
+    talks:
+      - name: "Deformables Workshop"
+        time_start: '10:00'
+        time_end: '12:00'
+  - name: Room 3.23
+    talks:
+      - name: "Untitled Workshop"
+        time_start: '10:00'
+        time_end: '12:00'
+  - name: Room 3.23
+    talks:
+      - name: "Pro2 Workshop"
+        time_start: '10:00'
+        time_end: '12:00'
 - name: Tuesday
   abbr: Tue
   date: 2020-02-01
@@ -68,7 +88,9 @@ days:
         - name: "Beyond Intrinsic Motivation: The Role of Autonomous Motivation in User Experience"
           time_start: '14:10'
           time_end: '14:25'
-        - name: 
+        - name: "Beyond Vacuuming: How Can We Exploit Domestic Robots’ Idle Time?"
+          time_start: '14:30'
+          time_end: '14:45'
         - name: Break
           time_start: '14:45'
           time_end: '15:15'

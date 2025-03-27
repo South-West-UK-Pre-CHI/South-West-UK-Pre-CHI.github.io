@@ -1,5 +1,5 @@
 ---
-name: "Unititled"
+name: "Untitled Workshop"
 speakers:
   - Elaine Czech
   - Vanessa Hanschke
