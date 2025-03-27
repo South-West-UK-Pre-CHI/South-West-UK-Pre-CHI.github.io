@@ -8,10 +8,7 @@ days:
       - name: Arrivals and Registration
         time_start: '09:30'
         time_end: '10:00'
-      - name: Lunch
-        time_start: '12:00'
-        time_end: '13:30'
-      - name: Posters and Demos
+      - name: Lunch w/ Posters and Demos
         time_start: '12:00'
         time_end: '13:30'
       - name: Welcome
@@ -26,10 +23,7 @@ days:
       - name: "Lost in Translation: A Cross-Cultural Examination of Linguistic Inaccessibility in HCI"
         time_start: '14:30'
         time_end: '14:45'
-      - name: Break
-        time_start: '14:45'
-        time_end: '15:15'
-      - name: Posters and Demos
+      - name: Break w/ Posters and Demos
         time_start: '14:45'
         time_end: '15:15'
       - name: "Integrating Technology into Self-Management Ecosystems: Young Adults with Type 1 Diabetes in the UK using Smartwatches"

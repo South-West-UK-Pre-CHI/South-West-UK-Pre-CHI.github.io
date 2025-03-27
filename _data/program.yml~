@@ -49,17 +49,17 @@ days:
       - name: "Designing for Neurodiversity in Academia: Addressing Challenges and Opportunities in Human-Computer Interaction"
         time_start: '10:00'
         time_end: '12:00'
-  - name: Room 3.23
+  - name: Room 3.30
     talks:
       - name: "Deformables Workshop"
         time_start: '10:00'
         time_end: '12:00'
-  - name: Room 3.23
+  - name: Room 3.33
     talks:
       - name: "Untitled Workshop"
         time_start: '10:00'
         time_end: '12:00'
-  - name: Room 3.23
+  - name: Room L102
     talks:
       - name: "Pro2 Workshop"
         time_start: '10:00'
