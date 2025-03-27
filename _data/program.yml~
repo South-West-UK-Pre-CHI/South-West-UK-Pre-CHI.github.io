@@ -46,6 +46,9 @@ days:
         - name: Break
           time_start: '14:45'
           time_end: '15:15'
+        - name: Posters and Demos
+          time_start: '14:45'
+          time_end: '15:15'
     - name: Room 3.23
       talks:
         - name: Vim Impetus Placerat Cotidieque Ad
