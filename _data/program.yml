@@ -14,6 +14,12 @@ days:
       - name: Unmasking the Power of Play Through TUI Designs
         time_start: '10:15'
         time_end: '10:30'
+      - name: "RetroSketch: A Retrospective Method for Measuring Emotions and Presence in Virtual Reality"
+        time_start: '10:30'
+        time_end: '10:45'
+      - name: "Lost in Translation: A Cross-Cultural Examination of Linguistic Inaccessibility in HCI"
+        time_start: '10:45'
+        time_end: '11:00'
       - name: Lunch
         time_start: '12:00'
         time_end: '13:30'
