@@ -148,10 +148,10 @@ conference:
         color: info
       - name: Rethinking Inclusion in Design
         color: warning
-      - name: Doctoral Consortium
-        color: danger
       - name: Workshops/Demos
         color: primary
+      - name: Doctoral Consortium
+        color: danger
       - name: Other (coffee etc.)
         color: dark
     # Hide icons on talk overview page
