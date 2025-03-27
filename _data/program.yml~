@@ -68,9 +68,7 @@ days:
         - name: "Beyond Intrinsic Motivation: The Role of Autonomous Motivation in User Experience"
           time_start: '14:10'
           time_end: '14:25'
-        - name: "Beyond Vacuuming: How Can We Exploit Domestic Robots’ Idle Time?"
-          time_start: '14:30'
-          time_end: '14:45'
+        - name: 
         - name: Break
           time_start: '14:45'
           time_end: '15:15'

@@ -186,7 +186,7 @@ conference:
     url: '/programme'
 
     # Time steps in programme table
-    time_steps: 15 # in minutes
+    time_steps: 5 # in minutes
 
     # Show intermediary time steps (next to full hours)
     show_alltimes: true
