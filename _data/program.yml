@@ -46,6 +46,9 @@ days:
         - name: Break
           time_start: '14:45'
           time_end: '15:15'
+        - name: Closing Ceremony
+          time_start: '16:30'
+          time_end: '17:00'
     - name: Room 3.23
       talks:
         - name: Vim Impetus Placerat Cotidieque Ad
