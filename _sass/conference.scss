@@ -147,8 +147,8 @@ main.container img {
     // Total available container width is 1110px
 
     // Width of columns with content (default)
-    width: 100px;
-    min-width: 100px;
+    width: 200px;
+    min-width: 200px;
 
     // Spacing between columns
     &.col-space {
@@ -160,10 +160,6 @@ main.container img {
       width: 70px;
       min-width: 70px;
     }
-  }
-  th:nth-child(3), td:nth-child(3) {
-    width: 200px;
-    min-width: 200px;
   }
 }
 
