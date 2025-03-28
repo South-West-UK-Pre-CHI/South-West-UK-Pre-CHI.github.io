@@ -1,7 +1,7 @@
 ---
 name: "Pro2 Workshop"
 speakers:
-  - Unknown
+  - Rory Clark
 categories:
   - Workshops/Demos
 ---

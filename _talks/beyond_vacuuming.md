@@ -7,5 +7,5 @@ speakers:
   - Jason Alexander
   - Adwait Sharma
 categories:
-  - Smarter Together
+  - Emotions and Play in Interaction Design
 ---
