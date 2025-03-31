@@ -14,7 +14,7 @@ Access information from AccessAble: [Wills Memorial Building](https://www.access
 ## Getting to Wills Memorial Building (WMB)
 {% include partials/transport_tabs.html %}
 
-For more travel tips, please read the following document: [Travel and Things to Do](https://cfpr.uwe.ac.uk/impactconference12/wp-content/uploads/sites/3/2022/10/Travel-Acommodation-and-Dining-in-Bristol.pdf)
+For more travel tips, please read the following document: [Travel and Things to Do]({{site.baseurl}}/assets/pdfs/Travel.pdf)
 
 ## On-Site Navigation
 Directional signs will be posted inside and outside the building for each room, bathroom, and lift, with doors clearly marked;
