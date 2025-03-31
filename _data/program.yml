@@ -53,12 +53,12 @@ days:
         time_end: '12:00'
   - name: Room 3.33
     talks:
-      - name: "Untitled Workshop"
+      - name: "Pro2 Workshop"
         time_start: '10:00'
         time_end: '12:00'
   - name: Room L102
     talks:
-      - name: "Pro2 Workshop"
+      - name: "Untitled Workshop"
         time_start: '10:00'
         time_end: '12:00'
 - name: Tuesday
