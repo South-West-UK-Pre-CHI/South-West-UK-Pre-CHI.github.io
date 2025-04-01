@@ -1,7 +1,7 @@
 ---
 name: "Deformables Workshop"
 speakers:
-  - Unknown
+  - James Nash
 categories:
   - Workshops/Demos
 ---

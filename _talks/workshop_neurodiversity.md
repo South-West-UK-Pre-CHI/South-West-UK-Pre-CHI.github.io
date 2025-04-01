@@ -7,6 +7,8 @@ speakers:
 categories:
   - Workshops/Demos
 links:
+  - name: Registration
+    absolute_url: https://forms.office.com/e/G7vrywfn21
   - name: SIG
     absolute_url: https://sites.google.com/view/sigchi25neurodiversityacademia/home?authuser=0
 ---
@@ -20,3 +22,5 @@ addressing these challenges may unlock greater research output and contributions
 of neurodivergent individuals. We will focus on challenges faced across career stages and roles (from students to senior academics, 
 research to teaching staff), and explore the role of technology in academia — assessing how it alleviates and exacerbates barriers. 
 Additionally, we aim to critically examine how policies and governance within the HCI community impact neurodiversity inclusion.
+
+Link to registration: [https://forms.office.com/e/G7vrywfn21](https://forms.office.com/e/G7vrywfn21)
