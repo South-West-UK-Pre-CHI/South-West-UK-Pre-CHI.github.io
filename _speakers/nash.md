@@ -3,8 +3,6 @@ name: James Nash
 first_name: James
 last_name: Nash
 links:
-  - name: Website
-    absolute_url: https://www.ousmet.com/
   - name: Google Scholar
-    absolute_url: https://scholar.google.co.uk/citations?user=g7p3SB4AAAAJ&hl=en
+    absolute_url: https://scholar.google.com/citations?user=W3hFZncAAAAJ&hl=en
 ---
