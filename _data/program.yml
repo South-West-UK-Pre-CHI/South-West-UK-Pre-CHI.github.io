@@ -53,12 +53,12 @@ days:
         time_end: '12:00'
   - name: Room 3.33
     talks:
-      - name: "Pro2 Workshop"
+      - name: "Prototype 2 Production: Device Isotyping Challenges & Solutions"
         time_start: '10:00'
         time_end: '12:00'
-  - name: Room L102
+  - name: Room L103
     talks:
-      - name: "Untitled Workshop"
+      - name: "Urban Foraging for Metaphors of Interdependence"
         time_start: '10:00'
         time_end: '12:00'
 - name: Tuesday
