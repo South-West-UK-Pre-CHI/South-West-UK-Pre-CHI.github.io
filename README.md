@@ -1,36 +1,38 @@
 # South-West UK Pre-CHI Website
+
 **Built using jekyll-theme-conference**
 
 For full guidance, please go to [the jekyll-theme-conference GitHub repository](https://github.com/DigitaleGesellschaft/jekyll-theme-conference).
 
 <!-- TOC -->
-* [Configuration](#configuration)
-  * [Live Indications & Streaming](#live-indications--streaming)
-  * [Map](#map)
-  * [Talk Settings](#talk-settings)
-  * [Speaker Settings](#speaker-settings)
-  * [Location Settings](#location-settings)
-  * [Program Settings](#program-settings)
-* [Content](#content)
-* [Funders](#funders)
-* [Organisers](#organisers)
-* [Access Inclusion Plan](#access-inclusion-plan)
-* [Transport](#transport)
-  * [Schedule / Program](#schedule--program)
-  * [Talks](#talks)
-  * [Speakers](#speakers)
-  * [Rooms](#rooms)
-  * [Links](#links)
-* [Overview Pages](#overview-pages)
-  * [Location / Room Overview](#location--room-overview)
-  * [Live Stream Overview](#live-stream-overview)
-  * [Additional Pages](#additional-pages)
-* [Design](#design)
-* [License](#license)
+
+- [Configuration](#configuration)
+  - [Live Indications & Streaming](#live-indications--streaming)
+  - [Map](#map)
+  - [Talk Settings](#talk-settings)
+  - [Speaker Settings](#speaker-settings)
+  - [Location Settings](#location-settings)
+  - [Program Settings](#program-settings)
+- [Content](#content)
+- [Funders](#funders)
+- [Organisers](#organisers)
+- [Access Inclusion Plan](#access-inclusion-plan)
+- [Transport](#transport)
+  - [Schedule / Program](#schedule--program)
+  - [Talks](#talks)
+  - [Speakers](#speakers)
+  - [Rooms](#rooms)
+  - [Links](#links)
+- [Overview Pages](#overview-pages)
+  - [Location / Room Overview](#location--room-overview)
+  - [Live Stream Overview](#live-stream-overview)
+  - [Additional Pages](#additional-pages)
+- [Design](#design)
+- [License](#license)
 <!-- TOC -->
 
-
 ## Configuration
+
 ### Live Indications & Streaming
 
 In order to help users navigating the program during the congress, a _Live_ indication can be shown next to talks which are currently taking place. A small JavaScript functions keeps the site automatically up-to-date (without the need to refresh) showing the indication as soon as the talk has started and hiding it once it is over (according to the timetable indicated in the `_data/program.yml` file).
@@ -41,29 +43,29 @@ In order to activate these functionalities, each day in the `program.yml` file m
 
 - how long a pause between two consecutive talks has to be for the live indication to pause (`stop`),
 - optionally under the `streaming` property:
-  + if streaming should be enabled (`enable`), and if enabled
-  + how many minutes the stream goes active before a talk (`prepend`),
-  + how many minutes the stream stays active after a talk (`extend`),
-  + how long a pause between two consecutive talks has to be for the stream to pause (`pause`), and
-  + optionally an external (absolute) link to which the user will be redirected instead of opening the modal (`external`),
+  - if streaming should be enabled (`enable`), and if enabled
+  - how many minutes the stream goes active before a talk (`prepend`),
+  - how many minutes the stream stays active after a talk (`extend`),
+  - how long a pause between two consecutive talks has to be for the stream to pause (`pause`), and
+  - optionally an external (absolute) link to which the user will be redirected instead of opening the modal (`external`),
 - optionally under the `demo` property:
-  + if a demonstration mode should be enabled (`enable`), whereby the JavaScript function cycles continuously through the entire program in a few minutes, and if enabled
-  + how long the demonstration should take (`duration`), and
-  + how long the pause between two demonstration cycle should be (`pause`).
+  - if a demonstration mode should be enabled (`enable`), whereby the JavaScript function cycles continuously through the entire program in a few minutes, and if enabled
+  - how long the demonstration should take (`duration`), and
+  - how long the pause between two demonstration cycle should be (`pause`).
 
 ```yaml
 conference:
   live:
-    stop: 240      # in minutes
+    stop: 240 # in minutes
     streaming:
       enable: true
-      pause:   60  # in minutes
-      prepend:  5  # in minutes
-      extend:   5  # in minutes
+      pause: 60 # in minutes
+      prepend: 5 # in minutes
+      extend: 5 # in minutes
     demo:
       enable: false
-      duration: 300  # in seconds
-      pause:     10  # in seconds
+      duration: 300 # in seconds
+      pause: 10 # in seconds
 ```
 
 ### Map
@@ -143,8 +145,8 @@ Example:
 conference:
   location:
     hide: false
-    url: '/location'
-    navbar_title: 'Location'
+    url: "/location"
+    navbar_title: "Location"
     map: true
 ```
 
@@ -227,7 +229,7 @@ The opportunity information is stored in the `_data/opportunities.yml` file; do 
 
 ## Organisers
 
-Organisers information is stored in the `_data/organisers.yml` file. The structure of an organiser is: 
+Organisers information is stored in the `_data/organisers.yml` file. The structure of an organiser is:
 
 ```yaml
 - name: Name of the organiser
@@ -239,7 +241,7 @@ Organisers information is stored in the `_data/organisers.yml` file. The structu
 
 ## Access Inclusion Plan
 
-The access and inclusion plan is stored in the `_data/access_inclusion_plan.yml` file; 
+The access and inclusion plan is stored in the `_data/access_inclusion_plan.yml` file;
 modifying this file will automatically update the access and inclusion plan summary on the Programme page.
 The structure of a section is:
 
@@ -290,24 +292,24 @@ Example:
 
 ```yaml
 days:
-- name: Monday
-  abbr: Mo
-  date: 2020-01-31
-  rooms:
-  - name: Room A
-    talks:
-      - name: Vim Impetus Placerat Cotidieque Ad
-        time_start: '12:00'
-        time_end: '12:45'
-      - name: Condimentum Vitae Sapien Pellentesque
-        time_start: '12:45'
-        time_end: '13:30'
+  - name: Monday
+    abbr: Mo
+    date: 2020-01-31
+    rooms:
+      - name: Room A
+        talks:
+          - name: Vim Impetus Placerat Cotidieque Ad
+            time_start: "12:00"
+            time_end: "12:45"
+          - name: Condimentum Vitae Sapien Pellentesque
+            time_start: "12:45"
+            time_end: "13:30"
 
-  - name: Room B
-    talks:
-      - name: Arcu Non Odio
-        time_start: '12:00'
-        time_end: '13:00'
+      - name: Room B
+        talks:
+          - name: Arcu Non Odio
+            time_start: "12:00"
+            time_end: "13:00"
 ```
 
 ### Talks
@@ -340,8 +342,8 @@ Each room is represented by a file in the `_rooms/` directory. It must begin wit
 - the room's `name`
 - optionally `hide: true` if the room's page should not be linked to, and
 - optionally under the `live` property a URL pointing to a live stream for the given room during the conference (see the section _Live Indications & Streaming_ above), either:
-  * as an `absolute_url`, or
-  * a `relative_url`.
+  - as an `absolute_url`, or
+  - a `relative_url`.
 
 Example:
 
@@ -352,8 +354,6 @@ hide: false
 live:
   absolute_url: https://github.com
 ---
-
-...
 ```
 
 ### Links
@@ -365,10 +365,10 @@ Links are used at different location throughout the theme: They can either be us
 - optionally if it should open in a iframe embedded in a popup-like modal in the site it self (`iframe: true`, e.g. for embedding videos thus having a default iframe ratio of 24:11)
 - optionally an icon to show (indicating the name of a [FontAwesome](https://fontawesome.com/icons?d=gallery&s=solid&m=free) icon to be shown if supported at the given location)
 - the actual link address:
-  + given relatively to the site's base address: `relative_url:`,
-  + given absolute: `absolute_url:`,
-  + pointing to a file uploaded to the `/documents` folder (for talks `/documents/slides`, for speakers `/documents/bio`): `file:`
-  + pointing to an external video: `video:`
+  - given relatively to the site's base address: `relative_url:`,
+  - given absolute: `absolute_url:`,
+  - pointing to a file uploaded to the `/documents` folder (for talks `/documents/slides`, for speakers `/documents/bio`): `file:`
+  - pointing to an external video: `video:`
 
 Additionally, a navigation bar or main landing page link can also have the following properties:
 
@@ -380,11 +380,11 @@ Using the `file:` indicator, the relative address is automatically set as well a
 Example:
 
 ```yaml
-  links:
-    - name: Slides
-      file: slides.pdf
-    - name: Recording
-      video: https://media.ccc.de/
+links:
+  - name: Slides
+    file: slides.pdf
+  - name: Recording
+    video: https://media.ccc.de/
 ```
 
 There exists a Python file in this repository, `_tools/import_resources.py`, which can be used to import resources such as slides and other documents from [pretalx.com](https://pretalx.com/p/about/)) via its API. It automatically downloads all files, stores them and updates the links of the talks concerned.
@@ -409,7 +409,6 @@ There exists a Python file in this repository, `_tools/import_resources.py`, whi
    ```bash
    python _tools/import_resources.py --help
    ```
-
 
 ## Overview Pages
 
@@ -452,9 +451,9 @@ Custom Bootstrap themes or simple color schemes such as designed with [Bootstrap
    ---
    ---
 
-   $fa-font-path: '{{ site.baseurl }}/assets/webfonts';
+   $fa-font-path: "{{ site.baseurl }}/assets/webfonts";
 
-   @import 'conference';
+   @import "conference";
    ```
 
    Do not skip the `$fa-font-path` variable or modify it as otherwise, the FontAwesome icons will not be able to load.

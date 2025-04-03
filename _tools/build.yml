@@ -2,7 +2,7 @@
 on:
   push:
     tags:
-    - 'v*' # Matches tags with the name "v*", i.e. v1.0, v20.15.10
+      - "v*" # Matches tags with the name "v*", i.e. v1.0, v20.15.10
 
 name: Generate Website and add as Release
 # Performs the following steps:
@@ -17,7 +17,6 @@ jobs:
     name: Generate Website and add as Release
     runs-on: ubuntu-latest
     steps:
-
       - name: Checkout code
         uses: actions/checkout@v2
         with:
@@ -26,7 +25,7 @@ jobs:
       - name: Setup Ruby, Bundler and Jekyll
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2.1'
+          ruby-version: "3.2.1"
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
       - name: Build website
@@ -45,7 +44,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: '12'
+          node-version: "12"
 
       - name: Install PurgeCSS and Terser
         run: |

@@ -1,0 +1,23 @@
+# Ignore node_modules and other dependencies
+node_modules/
+venv/
+
+# Ignore generated files
+_site/
+assets/css/
+assets/js/
+
+# Ignore template directories
+_layouts/
+_includes/
+
+# Ignore data directory
+_data/
+
+# Ignore third-party CSS libraries
+_sass/bootstrap/
+_sass/font-awesome/
+
+# Ignore other files and directories
+_tools/purgecss.config.js
+_tools/requirements.txt

@@ -9,7 +9,6 @@ jobs:
     name: Test Website Generation
     runs-on: ubuntu-latest
     steps:
-
       - name: Checkout code
         uses: actions/checkout@v2
         with:
@@ -18,7 +17,7 @@ jobs:
       - name: Setup Ruby, Bundler and Jekyll
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2.1'
+          ruby-version: "3.2.1"
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
       - name: Build website

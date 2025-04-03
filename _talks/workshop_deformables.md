@@ -8,11 +8,12 @@ links:
   - name: Registration
     absolute_url: https://forms.office.com/Pages/ResponsePage.aspx?id=Ij1-N6FOLUKwrY_MiUBrnskB6TH_HlNJnS4lhBV2Jy5UQ1BJWlhTU0YxQUFIS1pGWEMyQUFYVTdVMy4u
 ---
-Soft Interfaces—which are composed wholly or partially of malleable materials and typically utilise material centric 
-approaches—support interactions that are difficult or impossible to achieve with rigid, articulated systems. Their deformability 
-enables users’ greater freedom in how they engage with them, opening novel interaction possibilities across a wide range 
-of application domains. This workshop invites participants to explore the field of soft interfaces—considering their 
-unique properties, potential applications, and inherent limitations. We aim to identify key technical challenges and 
+
+Soft Interfaces—which are composed wholly or partially of malleable materials and typically utilise material centric
+approaches—support interactions that are difficult or impossible to achieve with rigid, articulated systems. Their deformability
+enables users’ greater freedom in how they engage with them, opening novel interaction possibilities across a wide range
+of application domains. This workshop invites participants to explore the field of soft interfaces—considering their
+unique properties, potential applications, and inherent limitations. We aim to identify key technical challenges and
 discuss future directions for research and development, drawing on insights from a range of disciplines.
 
 Link to registration: [https://forms.office.com/Pages/ResponsePage.aspx?id=Ij1-N6FOLUKwrY_MiUBrnskB6TH_HlNJnS4lhBV2Jy5UQ1BJWlhTU0YxQUFIS1pGWEMyQUFYVTdVMy4u](https://forms.office.com/Pages/ResponsePage.aspx?id=Ij1-N6FOLUKwrY_MiUBrnskB6TH_HlNJnS4lhBV2Jy5UQ1BJWlhTU0YxQUFIS1pGWEMyQUFYVTdVMy4u)
