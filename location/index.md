@@ -25,7 +25,7 @@ The Conference  is held across multiple floors in the building. A map of the bui
 
 [L110]({{site.baseurl}}/rooms/l110) will be a Quiet Room
 
-During the DC you can use The Great Hall as a prayer and quiet room as all other delegates will be in the smaller rooms.
+**During the DC you can use The Great Hall as a prayer and quiet room as all other delegates will be in the smaller rooms.**
 
 
 A document containing the layout of the building, and pictures of the rooms, can be found [here]({{site.baseurl}}/assets/pdfs/WMB.pdf).
