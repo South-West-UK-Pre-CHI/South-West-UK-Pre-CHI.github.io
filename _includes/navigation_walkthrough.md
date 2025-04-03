@@ -1,3 +1,4 @@
+*Adapted from the [Access and Inclusion Plan](https://docs.google.com/document/d/1EFZFd0djQXFNtJB2qIjqMsXmU95Qylhe/)
 You enter the building onto the Ground floor (G). The Great Hall is on the 1st floor.
 The Lewis Wing, where L103, L102, and L110 are located, is on floor GA, which is between the G and the 1st floor. Rooms 3.33, 3.23, and 3.30 are all on the 3rd floor.
 We are not permitted to use any other rooms.
