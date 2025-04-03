@@ -48,7 +48,7 @@ days:
         time_end: '12:00'
   - name: Room 3.30
     talks:
-      - name: "Deformables Workshop"
+      - name: "Soft Interfaces: Exploring the Future of Malleable, Material-Centric Devices"
         time_start: '10:00'
         time_end: '12:00'
   - name: Room 3.33
