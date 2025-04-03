@@ -21,9 +21,9 @@ Directional signs will be posted inside and outside the building for each room, 
 the prayer and quiet rooms will also be separately and clearly marked.
 The Conference  is held across multiple floors in the building. A map of the building is on [MazeMap](https://link.mazemap.com/TwCods4x).
 
-L102 will be a Prayer Room.
+[L102]({{site.baseurl}}/rooms/l102) will be a Prayer Room.
 
-L110 will be a Quiet Room
+[L110]({{site.baseurl}}/rooms/l110) will be a Quiet Room
 
 During the DC you can use The Great Hall as a prayer and quiet room as all other delegates will be in the smaller rooms.
 
