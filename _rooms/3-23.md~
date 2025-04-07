@@ -1,20 +1,17 @@
 ---
 name: Room 3.23
 ---
-
-<div>
-  <select name="room-images" id="room-images" style="padding: 10px; border: none; border-radius: 5px; width: 200px;">
-    <option value="">Select Room Image</option>
-    <option value="3_23_a.png">3_23_a</option>
-    <option value="3_23_b.png">3_23_b</option>
-  </select>
-  <label for="room-images" style="display: block; margin-bottom: 10px;">Room Images</label>
+<div style="margin-bottom: 20px;">
+  <button style="background-color: #eee; border: none; padding: 10px; width: 200px; cursor: pointer;" onclick="this.nextElementSibling.classList.toggle('hidden')">Room Images</button>
+  <div style="padding: 10px; border: 1px solid #ddd; display: none;" class="hidden">
+    <img src="assets/images/rooms/3_23_a.png" alt="3_23_a">
+    <img src="assets/images/rooms/3_23_b.png" alt="3_23_b">
+  </div>
 </div>
 
-<div>
-  <select name="floor-map" id="floor-map" style="padding: 10px; border: none; border-radius: 5px; width: 200px;">
-    <option value="">Select Floor Map</option>
-    <option value="floor_3.png">Floor 3</option>
-  </select>
-  <label for="floor-map" style="display: block; margin-bottom: 10px;">Floor Map</label>
+<div style="margin-bottom: 20px;">
+  <button style="background-color: #eee; border: none; padding: 10px; width: 200px; cursor: pointer;" onclick="this.nextElementSibling.classList.toggle('hidden')">Floor Map</button>
+  <div style="padding: 10px; border: 1px solid #ddd; display: none;" class="hidden">
+    <img src="assets/images/rooms/floor_3.png" alt="Floor 3">
+  </div>
 </div>
