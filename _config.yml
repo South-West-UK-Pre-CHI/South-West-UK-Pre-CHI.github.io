@@ -118,7 +118,7 @@ conference:
       color: secondary
       main_only: false
       text: |
-        Please vote via: https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVGz6uZPySWjdAtfXVefDZRGZUNkxCQ0JaVVlPSVA5RlFLR0lBQzFFVUU3RS4u
+        Please vote via the Voting tab above.
 
   # Live indications
   live:
