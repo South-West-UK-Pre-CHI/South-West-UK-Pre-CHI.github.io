@@ -75,6 +75,8 @@ conference:
         relative_url: /speakers/
       - name: Location
         relative_url: /location/
+      - name: Voting
+        relative_url: /voting/
       - name: Funders
         relative_url: /funders/
       - name: Organisers
@@ -101,9 +103,8 @@ conference:
     logo:
       img: "logo.png" # inside /assets/images/
     links:
-      - name: Registration
-        disabled: false
-        absolute_url: "https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG071U7kgyVNHkjE1q_ZcfuxUOVdOQVdFT1ExWDVROFYwWUVRMVhTUFNDVS4u"
+      - name: Voting
+        absolute_url: "https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVGz6uZPySWjdAtfXVefDZRGZUNkxCQ0JaVVlPSVA5RlFLR0lBQzFFVUU3RS4u"
       - name: Programme
         relative_url: /programme/
       - name: How to get there
