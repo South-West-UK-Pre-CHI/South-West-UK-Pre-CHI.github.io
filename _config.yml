@@ -113,11 +113,11 @@ conference:
 
   # Information boxes
   info_bars:
-    - title: Applications for Talks now closed!
-      color: primary
-      main_only: true
+    - title: Voting now open!
+      color: secondary
+      main_only: false
       text: |
-        Thank you to all speakers for submitting their talks!
+        Please vote via https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVGz6uZPySWjdAtfXVefDZRGZUNkxCQ0JaVVlPSVA5RlFLR0lBQzFFVUU3RS4u!
 
   # Live indications
   live:
