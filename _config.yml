@@ -76,7 +76,7 @@ conference:
       - name: Location
         relative_url: /location/
       - name: Voting
-        absolute_url: /voting/
+        absolute_url: "https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVGz6uZPySWjdAtfXVefDZRGZUNkxCQ0JaVVlPSVA5RlFLR0lBQzFFVUU3RS4u"
       - name: Funders
         relative_url: /funders/
       - name: Organisers
