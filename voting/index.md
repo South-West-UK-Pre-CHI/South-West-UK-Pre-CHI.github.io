@@ -1,5 +1,0 @@
----
-layout: voting
----
-
-# Organisers
