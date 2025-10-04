@@ -1,7 +1,7 @@
-title: Pre-CHI 2025
+title: Pre-CHI 2026
 preposition: ""
 description: >-
-  South West UK Pre-CHI 2025 provides an opportunity for researchers from the South West England and De Cymru Human-Computer Interaction Community (SWEDC-HCI) to come together to practice running their accepted CHI papers and work-in-progress research talks
+  South West UK Pre-CHI 2026 provides an opportunity for researchers from the South West England and De Cymru Human-Computer Interaction Community (SWEDC-HCI) to come together to practice running their accepted CHI papers and work-in-progress research talks
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://South-West-UK-Pre-CHI.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 favicon: "/assets/images/favicon.ico"
@@ -75,8 +75,6 @@ conference:
         relative_url: /speakers/
       - name: Location
         relative_url: /location/
-      - name: Voting
-        absolute_url: "https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVGz6uZPySWjdAtfXVefDZRGZUNkxCQ0JaVVlPSVA5RlFLR0lBQzFFVUU3RS4u"
       - name: Funders
         relative_url: /funders/
       - name: Organisers
@@ -85,8 +83,10 @@ conference:
         relative_url: /opportunities/
       - name: Previous Editions
         menu:
-          - name: 2025 (current)
+          - name: 2026 (current)
             disabled: true
+          - name: 2025 (current)
+            absolute_url: https://south-west-uk-pre-chi.github.io/2025
           - name: 2024
             absolute_url: https://sites.google.com/view/southwestprechi/2024/paper-presentation-abstracts
 
@@ -104,7 +104,7 @@ conference:
       img: "logo.png" # inside /assets/images/
     links:
       - name: Voting
-        absolute_url: "https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVGz6uZPySWjdAtfXVefDZRGZUNkxCQ0JaVVlPSVA5RlFLR0lBQzFFVUU3RS4u"
+        disabled: true
       - name: Programme
         relative_url: /programme/
       - name: How to get there
@@ -114,11 +114,9 @@ conference:
 
   # Information boxes
   info_bars:
-    - title: Voting now open!
+    - title: Pre-CHI Planning has started for 2026!
       color: secondary
       main_only: false
-      text: |
-        Please vote via the Voting tab above.
 
   # Live indications
   live:
