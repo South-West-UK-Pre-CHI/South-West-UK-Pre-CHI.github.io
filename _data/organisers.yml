@@ -1,5 +1,5 @@
-- name: Grace Stangroome
-  photo: /assets/images/organisers/stangroome.png
+- name: Organiser 1
+  photo:
   affiliation: University of Bristol
-  role: General Chair, Accessibility Chair
-  website: https://biglab.co.uk/member/46
+  role: General Chair
+  website:
