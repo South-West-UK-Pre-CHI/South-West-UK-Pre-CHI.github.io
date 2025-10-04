@@ -136,20 +136,8 @@ conference:
   talks:
     # Talk categories
     main_categories:
-      - name: Emotions and Play in Interaction Design
+      - name: Talk Category 1
         color: secondary
-      - name: Technologies of Care, Self-Management and Lived Experience
-        color: success
-      - name: Smarter Together
-        color: info
-      - name: Rethinking Inclusion in Design
-        color: warning
-      - name: Workshops/Demos
-        color: primary
-      - name: Doctoral Consortium
-        color: danger
-      - name: Other (coffee etc.)
-        color: dark
     # Hide icons on talk overview page
     hide_icons: false
 
