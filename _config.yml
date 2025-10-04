@@ -85,7 +85,7 @@ conference:
         menu:
           - name: 2026 (current)
             disabled: true
-          - name: 2025 (current)
+          - name: 2025
             absolute_url: https://south-west-uk-pre-chi.github.io/2025
           - name: 2024
             absolute_url: https://sites.google.com/view/southwestprechi/2024/paper-presentation-abstracts
