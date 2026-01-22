@@ -1,5 +1,29 @@
-- name: Organiser 1
+- name: Vishal Joshi
   photo:
   affiliation: University of Bristol
   role: General Chair
+  website:
+
+- name: Ellen Weir
+  photo:
+  affiliation: University of Bristol
+  role: Vice-General Chair
+  website:
+
+- name: Aisling O'Kane
+  photo:
+  affiliation: University of Bristol
+  role: Local Chair
+  website:
+
+- name: Cameron Steer
+  photo:
+  affiliation: University of Bristol
+  role: Local Chair
+  website:
+
+- name: Weiran Zhou
+  photo:
+  affiliation: University of Bristol
+  role: Local Chair
   website:
