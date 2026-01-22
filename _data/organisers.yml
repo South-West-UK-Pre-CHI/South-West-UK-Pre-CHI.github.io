@@ -13,7 +13,7 @@
 - name: Aisling O'Kane
   photo:
   affiliation: University of Bristol
-  role: Local Chair
+  role: Local Chair, Catering Chair
   website:
 
 - name: Cameron Steer
@@ -25,5 +25,77 @@
 - name: Weiran Zhou
   photo:
   affiliation: University of Bristol
-  role: Local Chair
+  role: Accessibility Chair
+  website:
+
+- name: Alex Tcherdakoff
+  photo:
+  affiliation: University of Bristol
+  role: Accessibility Chair
+  website:
+
+- name: Gloria Jia
+  photo:
+  affiliation: University of Bristol
+  role: Secretary
+  website:
+
+- name: Anne Roudaut
+  photo:
+  affiliation: University of Bristol
+  role: Finance Chair
+  website:
+
+- name: Jacob Thomas
+  photo:
+  affiliation: University of Bristol
+  role: Publicity Chair
+  website:
+
+- name: Jack Burnett
+  photo:
+  affiliation: University of Bristol
+  role: Publicity Chair
+  website:
+
+- name: Tegan Roberts-Morgan
+  photo:
+  affiliation: University of Bristol
+  role: Programme Chair
+  website:
+
+- name: Amy Ingold
+  photo:
+  affiliation: University of Bristol
+  role: Exhibit Chair
+  website:
+
+- name: Rachel Keys
+  photo:
+  affiliation: University of Bristol
+  role: Programme Chair
+  website:
+
+- name: Fernando Maestre
+  photo:
+  affiliation: University of Bristol
+  role: Doctoral Consortium Chair
+  website:
+
+- name: Rory Clark
+  photo:
+  affiliation: University of Bristol
+  role: Programme Chair
+  website:
+
+- name: Zhuzhi Fan
+  photo:
+  affiliation: University of Bristol
+  role: Volunteer Chair
+  website:
+
+- name: Susan Li
+  photo:
+  affiliation: University of Bristol
+  role: Volunteer Chair
   website:
