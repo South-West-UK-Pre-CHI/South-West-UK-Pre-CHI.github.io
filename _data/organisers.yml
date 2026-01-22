@@ -11,13 +11,13 @@
   website: https://biglab.co.uk/member/ellen-weir/
 
 - name: Aisling O'Kane
-  photo:
+  photo: /assets/images/organisers/okane.jpg
   affiliation: University of Bristol
   role: Local Chair, Catering Chair
   website: https://www.bristol.ac.uk/people/person/Aisling-O'Kane-7cfdc42c-46bc-4c6f-98c4-b73408c04bff/
 
 - name: Cameron Steer
-  photo:
+  photo: /assets/images/organisers/steer.jpg
   affiliation: University of the West of England
   role: Local Chair
   website: https://cdsteer.github.io/
@@ -29,7 +29,7 @@
   website: https://biglab.co.uk/member/weiran-zhou/
 
 - name: Alex Tcherdakoff
-  photo:
+  photo: /assets/images/organisers/tcherdakoff.jpg
   affiliation: University of Bristol
   role: Accessibility Chair
   website: https://biglab.co.uk/member/alex-tcherdakoff/
@@ -41,7 +41,7 @@
   website: https://anneroudaut.fr/
 
 - name: Jacob Thomas
-  photo:
+  photo: /assets/images/organisers/thomas.jpg
   affiliation: University of Bristol
   role: Publicity Chair
   website: https://biglab.co.uk/member/jacob-thomas/
@@ -53,7 +53,7 @@
   website: https://jackjburnett.github.io/
 
 - name: Tegan Roberts-Morgan
-  photo:
+  photo: /assets/images/organisers/roberts-morgan.jpg
   affiliation: University of Bristol
   role: Programme Chair
   website: https://biglab.co.uk/member/tegan-roberts-morgan/
@@ -77,25 +77,25 @@
   website: https://www.swansea.ac.uk/staff/j.f.maestreavila/
 
 - name: Rory Clark
-  photo:
+  photo: /assets/images/organisers/clark.jpg
   affiliation: University of Bristol
   role: Programme Chair
   website: https://biglab.co.uk/member/rory-clark/
 
 - name: Zhuzhi Fan
-  photo:
+  photo: /assets/images/organisers/fan.jpg
   affiliation: University of Bristol
   role: Volunteer Chair
   website: https://biglab.co.uk/member/zhuzhi-fan/
 
 - name: Susan Li
-  photo:
+  photo: /assets/images/organisers/li.jpg
   affiliation: University of Bristol
   role: Volunteer Chair
   website: https://biglab.co.uk/member/min-susan-li/
 
 - name: Gloria Jia
-  photo:
+  photo: /assets/images/organisers/jia.jpg
   affiliation: University of Bristol
   role: Secretary
   website: https://biglab.co.uk/member/gloria-jia/
