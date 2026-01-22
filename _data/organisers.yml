@@ -35,7 +35,7 @@
   website: https://biglab.co.uk/member/alex-tcherdakoff/
 
 - name: Anne Roudaut
-  photo:
+  photo: /assets/images/organisers/roudaut.png
   affiliation: University of Bristol
   role: Finance Chair
   website: https://anneroudaut.fr/
@@ -47,7 +47,7 @@
   website: https://biglab.co.uk/member/jacob-thomas/
 
 - name: Jack Burnett
-  photo:
+  photo: /assets/images/organisers/burnett.jpg
   affiliation: University of Bristol
   role: Publicity Chair
   website: https://jackjburnett.github.io/
@@ -59,19 +59,19 @@
   website: https://biglab.co.uk/member/tegan-roberts-morgan/
 
 - name: Amy Ingold
-  photo:
+  photo: /assets/images/organisers/ingold.jpg
   affiliation: University of Bristol
   role: Exhibit Chair
   website: https://robopsychology.co.uk/
 
 - name: Rachel Keys
-  photo:
+  photo: /assets/images/organisers/keys.jpg
   affiliation: University of Bristol
   role: Programme Chair
   website: https://biglab.co.uk/member/rachel-keys/
 
 - name: Fernando Maestre Avila
-  photo:
+  photo: /assets/images/organisers/avila.jpg
   affiliation: Swansea University
   role: Doctoral Consortium Chair
   website: https://www.swansea.ac.uk/staff/j.f.maestreavila/
