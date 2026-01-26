@@ -103,14 +103,14 @@ conference:
     logo:
       img: "logo.png" # inside /assets/images/
     links:
-      - name: Voting
-        disabled: true
+      - name: Register
+        absolute_url: https://forms.office.com/e/V2WPyYbBQM
       - name: Programme
         relative_url: /programme/
       - name: How to get there
         relative_url: /location/
-      - name: Opportunities
-        relative_url: /opportunities/
+      - name: Voting
+        disabled: true
 
   # Information boxes
   info_bars:
