@@ -116,7 +116,7 @@ conference:
   info_bars:
     - title: Pre-CHI Planning has started for 2026!
       color: secondary
-      main_only: false
+      main_only: true
 
   # Live indications
   live:
