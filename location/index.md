@@ -2,18 +2,17 @@
 layout: location
 ---
 
-# Wills Memorial Building
+# Bill Brown Design Suite, Queen's Building
 
-Queens Rd, Bristol. BS8 1RJ
+Queens Rd, Bristol. BS8 1TR
 
 what3words:
 
-- main entrance: [cheeks.gallons.trunk](https://what3words.com/cheeks.gallons.trunk)
-- accessible entrance: [fallen.still.mild](https://what3words.com/fallen.still.mild)
+- entrance: [transfers.went.blog](https://what3words.com/transfers.went.blog)
 
-Access information from AccessAble: [Wills Memorial Building](https://www.accessable.co.uk/university-of-bristol/access-guides/wills-memorial-building)
+Access information from AccessAble: [Bill Brown Suite](https://www.accessable.co.uk/university-of-bristol/access-guides/queen-s-building#C99965F7-2D3F-AB41-A6BA-8E893C01FFE8)
 
-## Getting to Wills Memorial Building (WMB)
+## Getting to Bill Brown Design Suite
 
 {% include partials/transport_tabs.html %}
 
@@ -28,8 +27,6 @@ The Conference is held across multiple floors in the building. A map of the buil
 [L102]({{site.baseurl}}/rooms/l102) will be a Prayer Room.
 
 [L110]({{site.baseurl}}/rooms/l110) will be a Quiet Room
-
-*During the DC you can use The Great Hall as a prayer and quiet room as all other delegates will be in the smaller rooms.*
 
 A document containing the layout of the building, and pictures of the rooms, can be found [here]({{site.baseurl}}/assets/pdfs/WMB.pdf).
 
