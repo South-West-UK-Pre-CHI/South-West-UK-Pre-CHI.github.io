@@ -118,6 +118,10 @@ conference:
       subtitle: We will hold the event on 27th March 2026.
       color: secondary
       main_only: true
+    - title: Programme and Speakers will be updated as planning progresses.
+      subtitle: Check back for more details.
+      color: primary
+      pages_only: true
 
   # Live indications
   live:
