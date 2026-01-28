@@ -115,6 +115,7 @@ conference:
   # Information boxes
   info_bars:
     - title: Pre-CHI Planning has started for 2026!
+      subtitle: We will hold the event on 27th March 2026.
       color: secondary
       main_only: true
 
