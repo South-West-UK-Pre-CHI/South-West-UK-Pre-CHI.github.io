@@ -6,9 +6,7 @@ layout: location
 
 Queens Rd, Bristol. BS8 1TR
 
-what3words:
-
-- entrance: [transfers.went.blog](https://what3words.com/transfers.went.blog)
+what3words: [transfers.went.blog](https://what3words.com/transfers.went.blog)
 
 Access information from AccessAble: [Bill Brown Suite](https://www.accessable.co.uk/university-of-bristol/access-guides/queen-s-building#C99965F7-2D3F-AB41-A6BA-8E893C01FFE8)
 
