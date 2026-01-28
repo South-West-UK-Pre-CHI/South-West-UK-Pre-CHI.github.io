@@ -22,13 +22,6 @@ For more travel tips, please read the following document: [Travel and Things to 
 
 Directional signs will be posted inside and outside the building for each room, bathroom, and lift, with doors clearly marked;
 the prayer and quiet rooms will also be separately and clearly marked.
-The Conference is held across multiple floors in the building. A map of the building is on [MazeMap](https://link.mazemap.com/TwCods4x).
-
-[L102]({{site.baseurl}}/rooms/l102) will be a Prayer Room.
-
-[L110]({{site.baseurl}}/rooms/l110) will be a Quiet Room
-
-A document containing the layout of the building, and pictures of the rooms, can be found [here]({{site.baseurl}}/assets/pdfs/WMB.pdf).
 
 <details>
   <summary><strong>Navigation Text-based Walkthrough</strong></summary>
