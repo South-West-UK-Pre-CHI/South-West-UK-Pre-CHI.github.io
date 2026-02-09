@@ -111,6 +111,9 @@ conference:
         relative_url: /location/
       - name: Voting
         disabled: true
+      - name: Pirate the talks
+        absolute_url: https://south-west-uk-pre-chi.github.io/1726/
+
 
   # Information boxes
   info_bars:
