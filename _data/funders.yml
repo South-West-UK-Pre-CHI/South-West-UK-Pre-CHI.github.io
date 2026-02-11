@@ -13,3 +13,8 @@
   website: https://biglab.co.uk/
   affiliation: A research group within University of Bristol
   thank_you_message: "Thank you to Bristol Interaction Group for funding the conference's dinner."
+
+- name: Cardiff University
+  logo: /assets/images/funders/CU.jpg
+  website: https://www.cardiff.ac.uk/
+  thank_you_message: "Many thanks to Cardiff University for funding travel to the conference."
