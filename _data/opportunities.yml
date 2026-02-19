@@ -1,6 +1,35 @@
-- role: Opportunities To Come
-  image:
-  summary: Opportunities will be updated closer to the event.
+- role: Device Prototyping Summer School
+  image: /assets/images/opportunities/summer-school.png
+  summary: Save the dates now so you can join us from the 14th to the 17th of July at Lancaster University for the third annual Device Prototyping Summer School. This is a great opportunity to improve your digital device design skills with a view to scaling up beyond a prototype. Attendees will benefit from access to state-of-the-art university labs for hands-on learning as well as instruction from world-leading experts in electronic device production.
+  event-details:
+    - Subsidised places are available with accommodation, meals, and all course content included for just £100. Plus, our prize competition is returning with awards to help develop the most compelling and impactful prototypes into products. Learn more on our website.
+    - The application period will open soon in April. Register for free as a member of the pro² network+ and follow us on LinkedIn, BlueSky, and Instagram for updates.
+  website: https://prosquared.org/join/
+  linkedin: https://www.linkedin.com/company/prosquaredplus
+  bluesky: https://bsky.app/profile/prosquared.org
+  instagram: https://www.instagram.com/prosquared.plus/
+
+- role: Pro² is Hiring!
+  image: /assets/images/opportunities/pro2.png
+  summary: We're seeking an experienced Development Specialist who's passionate about open source - if this is you, apply for this exciting opportunity by the 11th of March 2026.
   responsibilities:
-    - Work as part of an interdisciplinary team
-  email: example@email.com
+    - Lead the front-end development, setting standards for architecture, performance, accessibility, and developer experience.
+    - Design and implement modern, reusable components and patterns, helping evolve the software as the project and community grow.
+    - Build and maintain a comprehensive working knowledge of the full tech stack, including Python and Django, to confidently debug, extend, and improve the system end to end.
+    - Use open-source practices and tools (release notes, READMEs, issue tracking, discussions) to make the project approachable for new and existing contributors.
+    - Proactively engage with developer communities via forums, social channels, live streams, and community events, turning feedback into improvements and driving ongoing contributor and user engagement
+  website: https://www.bristol.ac.uk/jobs/find/details/?nPostingId=200995&nPostingTargetId=385637&id=Q50FK026203F3VBQBV7V77V83&LG=UK&languageSelect=UK&mask=newuobext
+
+- role: Pro² Funding Available
+  image: /assets/images/opportunities/pro2.png
+  summary: The pro² Residency Scheme call remains open on a rolling basis to support international and industrial residencies that align with our mission to make it easier for people to make digital devices in low volumes. Residencies seek to encourage long-lasting partnerships across academia and industry.
+  website: https://prosquared.org/the-pro2-residency-scheme/
+
+- role: Pro² CHI Workshop
+  image: /assets/images/opportunities/pro2.png
+  summary: The pro² team will be attending this year's CHI and hosting a workshop entitled 'Are We Doing Enough? Sharing Design and Manufacturing Expertise Across Open Source Hardware Communities'. While the application window for the workshop has now closed, we would still love to connect with you at CHI if you're also attending.
+
+- role: Open Hardware Summit
+  image: /assets/images/opportunities/ohs.jpg
+  summary: Pro² is proud to once again be sponsoring the Open Hardware Summit. Please come connect with us at our demo table!
+  website: https://2026.oshwa.org/
