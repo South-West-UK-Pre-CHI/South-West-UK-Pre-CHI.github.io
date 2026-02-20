@@ -70,6 +70,11 @@ ul.btn-group {
 
 // General
 
+//   Social icons
+.social-icons a {
+    text-decoration: none;
+}
+
 //   Extend logo when collapsed navbar is shown
 .navbar-collapse.show + .navbar-logo {
   width: 100%;
