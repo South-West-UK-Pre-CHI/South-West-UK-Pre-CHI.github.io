@@ -3,15 +3,15 @@
   summary: Save the dates now so you can join us from the 14th to the 17th of July at Lancaster University for the third annual Device Prototyping Summer School. This is a great opportunity to improve your digital device design skills with a view to scaling up beyond a prototype. Attendees will benefit from access to state-of-the-art university labs for hands-on learning as well as instruction from world-leading experts in electronic device production.
   event-details:
     - Subsidised places are available with accommodation, meals, and all course content included for just £100. Plus, our prize competition is returning with awards to help develop the most compelling and impactful prototypes into products. Learn more on our website.
-    - The application period will open soon in April. Register for free as a member of the pro² network+ and follow us on LinkedIn, BlueSky, and Instagram for updates.
-  website: https://prosquared.org/join/
-  website-text: Join pro² Network+
+    - The application period will open soon in April. Register for free as a member of the pro² network+ on our website, www.prosquared.org, and follow us on LinkedIn, BlueSky, and Instagram for updates.
+  website: https://prosquared.org/event/device-prototyping-summer-school-2026/
+  website-text: Learn More
   linkedin: https://www.linkedin.com/company/prosquaredplus
   bluesky: https://bsky.app/profile/prosquared.org
   instagram: https://www.instagram.com/prosquared.plus/
 
 - role: Pro² is Hiring!
-  image: /assets/images/opportunities/pro2.png
+  image: /assets/images/opportunities/pro2-hiring.png
   summary: We're seeking an experienced Development Specialist who's passionate about open source - if this is you, apply for this exciting opportunity by the 11th of March 2026.
   responsibilities:
     - Lead the front-end development, setting standards for architecture, performance, accessibility, and developer experience.
@@ -22,12 +22,12 @@
   website: https://www.bristol.ac.uk/jobs/find/details/?nPostingId=200995&nPostingTargetId=385637&id=Q50FK026203F3VBQBV7V77V83&LG=UK&languageSelect=UK&mask=newuobext
 
 - role: Pro² Funding Available
-  image: /assets/images/opportunities/pro2.png
+  image: /assets/images/opportunities/pro2-funding.png
   summary: The pro² Residency Scheme call remains open on a rolling basis to support international and industrial residencies that align with our mission to make it easier for people to make digital devices in low volumes. Residencies seek to encourage long-lasting partnerships across academia and industry.
   website: https://prosquared.org/the-pro2-residency-scheme/
 
 - role: Pro² CHI Workshop
-  image: /assets/images/opportunities/pro2.png
+  image: /assets/images/opportunities/pro2-chi.png
   summary: The pro² team will be attending this year's CHI and hosting a workshop entitled 'Are We Doing Enough? Sharing Design and Manufacturing Expertise Across Open Source Hardware Communities'. While the application window for the workshop has now closed, we would still love to connect with you at CHI if you're also attending.
   website: https://are-we-doing-enough-workshop.github.io/
   website-text: CHI Workshop Link
