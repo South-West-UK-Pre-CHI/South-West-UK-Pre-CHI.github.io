@@ -114,7 +114,6 @@ conference:
       - name: Pirate the talks
         absolute_url: https://south-west-uk-pre-chi.github.io/1726/
 
-
   # Information boxes
   info_bars:
     - title: Pre-CHI Planning has started for 2026!
