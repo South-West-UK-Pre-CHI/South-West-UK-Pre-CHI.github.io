@@ -33,34 +33,32 @@
             {% endif %}
 
             <!-- Contact Information -->
-            <div class="contact-info d-flex align-items-center flex-wrap gap-3 mt-3">
-                {% if opportunity.website %}
-                <a href="{{ opportunity.website }}" class="btn btn-primary" target="_blank">{% if opportunity.website-text %}{{ opportunity.website-text }}{% else %}Apply Now{% endif %}</a>
+            {% if opportunity.website %}
+            <a href="{{ opportunity.website }}" class="btn btn-primary" target="_blank">{% if opportunity.website-text %}{{ opportunity.website-text }}{% else %}Apply Now{% endif %}</a>
+            {% endif %}
+            {% if opportunity.email %}
+            <div><strong>Contact:</strong> <a href="mailto:{{ opportunity.email }}">{{ opportunity.email }}</a></div>
+            {% endif %}
+            {% if opportunity.linkedin or opportunity.instagram or opportunity.bluesky %}
+            <div class="social-icons d-flex align-items-center">
+                {% if opportunity.linkedin %}
+                <a href="{{ opportunity.linkedin }}" class="me-2" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-square-linkedin"></i>
+                </a>
                 {% endif %}
-                {% if opportunity.email %}
-                <div><strong>Contact:</strong> <a href="mailto:{{ opportunity.email }}">{{ opportunity.email }}</a></div>
+                {% if opportunity.instagram %}
+                <a href="{{ opportunity.instagram }}" class="me-2" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
                 {% endif %}
-                {% if opportunity.linkedin or opportunity.instagram or opportunity.bluesky %}
-                <div class="social-icons d-flex align-items-center">
-                    {% if opportunity.linkedin %}
-                    <a href="{{ opportunity.linkedin }}" class="me-2" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-square-linkedin"></i>
-                    </a>
-                    {% endif %}
-                    {% if opportunity.instagram %}
-                    <a href="{{ opportunity.instagram }}" class="me-2" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-square-instagram"></i>
-                    </a>
-                    {% endif %}
-                    {% if opportunity.bluesky %}
-                    <a href="{{ opportunity.bluesky }}" class="me-2" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-square-bluesky"></i>
-                    </a>
-                    {% endif %}
-                </div>
+                {% if opportunity.bluesky %}
+                <a href="{{ opportunity.bluesky }}" class="me-2" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-square-bluesky"></i>
+                </a>
                 {% endif %}
             </div>
-        </div>
+            {% endif %}
+    </div>
 
     </div>
     <hr> <!-- Adds a separator between opportunities -->
