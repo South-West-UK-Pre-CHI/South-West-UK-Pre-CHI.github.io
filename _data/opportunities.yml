@@ -5,6 +5,7 @@
     - Subsidised places are available with accommodation, meals, and all course content included for just £100. Plus, our prize competition is returning with awards to help develop the most compelling and impactful prototypes into products. Learn more on our website.
     - The application period will open soon in April. Register for free as a member of the pro² network+ and follow us on LinkedIn, BlueSky, and Instagram for updates.
   website: https://prosquared.org/join/
+  website-text: Join pro² Network+
   linkedin: https://www.linkedin.com/company/prosquaredplus
   bluesky: https://bsky.app/profile/prosquared.org
   instagram: https://www.instagram.com/prosquared.plus/
@@ -28,8 +29,11 @@
 - role: Pro² CHI Workshop
   image: /assets/images/opportunities/pro2.png
   summary: The pro² team will be attending this year's CHI and hosting a workshop entitled 'Are We Doing Enough? Sharing Design and Manufacturing Expertise Across Open Source Hardware Communities'. While the application window for the workshop has now closed, we would still love to connect with you at CHI if you're also attending.
+  website: https://are-we-doing-enough-workshop.github.io/
+  website-text: CHI Workshop Link
 
 - role: Open Hardware Summit
   image: /assets/images/opportunities/ohs.jpg
   summary: Pro² is proud to once again be sponsoring the Open Hardware Summit. Please come connect with us at our demo table!
   website: https://2026.oshwa.org/
+  website-text: Attend the Open Hardware Summit

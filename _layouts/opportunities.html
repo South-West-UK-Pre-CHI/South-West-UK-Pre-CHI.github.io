@@ -34,7 +34,7 @@
 
             <!-- Contact Information -->
             {% if opportunity.website %}
-            <a href="{{ opportunity.website }}" class="btn btn-primary mt-2" target="_blank">Apply Now</a>
+            <a href="{{ opportunity.website }}" class="btn btn-primary mt-2" target="_blank">{% if opportunity.website-text %}{{ opportunity.website-text }}{% else %}Apply Now{% endif %}</a>
             {% endif %}
             {% if opportunity.email %}
             <p class="mt-2"><strong>Contact:</strong> <a href="mailto:{{ opportunity.email }}">{{ opportunity.email }}</a></p>
