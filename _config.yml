@@ -1,7 +1,7 @@
 title: Pre-CHI 2026
 preposition: ""
 description: >-
-  South West UK Pre-CHI 2026 provides an opportunity for researchers from the South West England and De Cymru Human-Computer Interaction Community (SWEDC-HCI) to come together to practice running their accepted CHI papers and work-in-progress research talks
+  South West UK Pre-CHI 2026 provides an opportunity for researchers from the South West England and De Cymru Human-Computer Interaction Community (SWEDC-HCI) to come together to practice running their accepted CHI papers and work-in-progress research talks. The event will be held on 27th March 2026 in the Bill Brown Design Suite at the University of Bristol.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://South-West-UK-Pre-CHI.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 favicon: "/assets/images/favicon.ico"
@@ -116,8 +116,7 @@ conference:
 
   # Information boxes
   info_bars:
-    - title: Pre-CHI Planning has started for 2026!
-      subtitle: We will hold the event on 27th March 2026.
+    - title: Pre-CHI will be held on 27th March 2026.
       color: secondary
       main_only: true
     - title: Programme and Speakers will be updated as planning progresses.
