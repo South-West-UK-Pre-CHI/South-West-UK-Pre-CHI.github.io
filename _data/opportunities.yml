@@ -10,16 +10,6 @@
   bluesky: https://bsky.app/profile/prosquared.org
   instagram: https://www.instagram.com/prosquared.plus/
 
-- role: Postdoctoral research opportunities at the University of Bristol
-  image: /assets/images/opportunities/inclusiveXplay.png
-  summary: We are seeking to appoint two outstanding postdoctoral researchers to join the ERC project inclusiveXplay, which investigates how cross-sensory interaction can support the early development of blind/visually impaired and sighted preschool children. The two roles form complementary stages of a research pipeline that combines studies of cross-sensory cognition, inclusive co-design research, and the engineering of novel cross-sensory technologies to develop inclusive social play technologies.
-  event-details:
-    - The positions will be based in the Diverse-Ability Interaction Lab (Dive Lab) within the Bristol Interaction Group (BIG) at the University of Bristol, one of the UK’s leading groups for HCI research. BIG brings together researchers working across interaction design, accessible computing, multisensory interaction, AI, fabrication, and emerging interactive materials, fostering a highly collaborative and interdisciplinary research environment. The group has a strong track record of research excellence and international impact, with work regularly published at leading venues such as CHI, IDC, UIST, CSCW, DIS, and ASSETS.
-    - The successful candidates will join a vibrant and supportive team of HCI researchers, designers, engineers, and experimental psychologists, and will be encouraged and supported to develop high-impact research outputs and independent research profiles.
-    - See specific roles below for more details
-  website: https://dive.ousmet.com
-  website-text: Diverse-ability Interaction Lab
-
 - role: Pro² is Hiring!
   image: /assets/images/opportunities/pro2-hiring.png
   summary: We're seeking an experienced Development Specialist who's passionate about open source - if this is you, apply for this exciting opportunity by the 11th of March 2026.
@@ -30,6 +20,16 @@
     - Use open-source practices and tools (release notes, READMEs, issue tracking, discussions) to make the project approachable for new and existing contributors.
     - Proactively engage with developer communities via forums, social channels, live streams, and community events, turning feedback into improvements and driving ongoing contributor and user engagement
   website: https://www.bristol.ac.uk/jobs/find/details/?nPostingId=200995&nPostingTargetId=385637&id=Q50FK026203F3VBQBV7V77V83&LG=UK&languageSelect=UK&mask=newuobext
+
+- role: Postdoctoral research opportunities at the University of Bristol
+  image: /assets/images/opportunities/inclusiveXplay.png
+  summary: We are seeking to appoint two outstanding postdoctoral researchers to join the ERC project inclusiveXplay, which investigates how cross-sensory interaction can support the early development of blind/visually impaired and sighted preschool children. The two roles form complementary stages of a research pipeline that combines studies of cross-sensory cognition, inclusive co-design research, and the engineering of novel cross-sensory technologies to develop inclusive social play technologies.
+  event-details:
+    - The positions will be based in the Diverse-Ability Interaction Lab (Dive Lab) within the Bristol Interaction Group (BIG) at the University of Bristol, one of the UK’s leading groups for HCI research. BIG brings together researchers working across interaction design, accessible computing, multisensory interaction, AI, fabrication, and emerging interactive materials, fostering a highly collaborative and interdisciplinary research environment. The group has a strong track record of research excellence and international impact, with work regularly published at leading venues such as CHI, IDC, UIST, CSCW, DIS, and ASSETS.
+    - The successful candidates will join a vibrant and supportive team of HCI researchers, designers, engineers, and experimental psychologists, and will be encouraged and supported to develop high-impact research outputs and independent research profiles.
+    - See specific roles below for more details
+  website: https://dive.ousmet.com
+  website-text: Diverse-ability Interaction Lab
 
 - role: Inclusive Co-Design for cross-sensory social Play (24 Months)
   image: /assets/images/opportunities/inclusiveXplay.png
