@@ -31,6 +31,22 @@
                 {% endfor %}
             </ul>
             {% endif %}
+            {% if opportunity.fit %}
+            <h5 class="mt-3">Apply for this position if you are:</h5>
+            <ul>
+                {% for trait in opportunity.fit %}
+                <li>{{ trait }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% if opportunity.benefits %}
+            <h5 class="mt-3">Successful candidates will benefit from:</h5>
+            <ul>
+                {% for benefit in opportunity.benefits %}
+                <li>{{ benefit }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
 
             <!-- Contact Information -->
             {% if opportunity.website %}

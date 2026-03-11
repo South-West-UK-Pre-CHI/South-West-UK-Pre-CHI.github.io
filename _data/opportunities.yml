@@ -10,6 +10,68 @@
   bluesky: https://bsky.app/profile/prosquared.org
   instagram: https://www.instagram.com/prosquared.plus/
 
+- role: Postdoctoral research opportunities at the University of Bristol
+  image: /assets/images/opportunities/inclusiveXplay.png
+  summary: We are seeking to appoint two outstanding postdoctoral researchers to join the ERC project inclusiveXplay, which investigates how cross-sensory interaction can support the early development of blind/visually impaired and sighted preschool children. The two roles form complementary stages of a research pipeline that combines studies of cross-sensory cognition, inclusive co-design research, and the engineering of novel cross-sensory technologies to develop inclusive social play technologies.
+  event-details:
+    - The positions will be based in the Diverse-Ability Interaction Lab (Dive Lab) within the Bristol Interaction Group (BIG) at the University of Bristol, one of the UK’s leading groups for HCI research. BIG brings together researchers working across interaction design, accessible computing, multisensory interaction, AI, fabrication, and emerging interactive materials, fostering a highly collaborative and interdisciplinary research environment. The group has a strong track record of research excellence and international impact, with work regularly published at leading venues such as CHI, IDC, UIST, CSCW, DIS, and ASSETS.
+    - The successful candidates will join a vibrant and supportive team of HCI researchers, designers, engineers, and experimental psychologists, and will be encouraged and supported to develop high-impact research outputs and independent research profiles.
+    - See specific roles below
+  website: https://dive.ousmet.com
+  website-text: Diverse-ability Interaction Lab
+
+- role: Inclusive Co-Design for cross-sensory social Play (24 Months)
+  image: /assets/images/opportunities/summer-school.png
+  summary: You will lead the design research and co-design aspects of the project, working with preschool-aged children, their parents, and early-years practitioners. You will develop novel inclusive cross-sensory co-design approaches to generate orienting concepts, scenarios, and early prototypes of meaningful social play experiences that support early development for both blind/visually impaired and sighted children.
+  responsibilities:
+    -Leading design research to establish requirements for cross-sensory social play technologies.
+    - Collaborating with project partners and engaging with families, educators, practitioners, and community stakeholders.
+    - Conducting contextual inquiries and iterative co-design studies with children, families, and practitioners.
+    - Collecting and analysing data to generate design insights, concepts, and scenarios for inclusive social play.
+    - Translating findings into early prototypes and design directions that inform other inclusiveXplay project activities.
+    - Preparing project reports, leading research outputs, and submitting work to top HCI venues.
+    - Presenting research at international conferences and workshops.
+    - Contributing to the research culture and collaborative environment of the lab, and undertaking other duties appropriate to the role.
+  fit:
+    - passionate about inclusive design and accessibility, particularly in contexts involving children and diverse abilities
+    - experienced in co-design methods, especially with children and disabled communities
+    - motivated to conduct rigorous HCI research and publish in leading venues
+    - curious about cross-sensory interaction and early childhood development
+    - collaborative and excited to work in an interdisciplinary research team
+  benefits:
+    - the opportunity to work on an ERC-funded research project at the frontier of HCI research
+    - a supportive and collaborative research environment within the Dive Lab and the Bristol Interaction Group (BIG)
+    - access to state-of-the-art prototyping and fabrication facilities and strong interdisciplinary collaborations
+    - support for developing high-impact research outputs, international visibility, and independent research profiles
+  website: https://dive.ousmet.com
+  email: o.metatla@bristol.ac.uk
+
+- role: Cross-Sensory Fabrication & Playful Interaction (24 Months)
+  image: /assets/images/opportunities/summer-school.png
+  summary: You will lead the development and cross-sensory fabrication aspects of the project, translating insights from cross-sensory cognition and co-design into novel technologies that support inclusive play and early development. This role focuses on designing, fabricating, and evaluating cross-sensory interactive systems that combine multiple sensory modalities to create new forms of inclusive social play for blind/visually impaired and sighted preschool children.
+  responsibilities:
+    - Designing and developing cross-sensory interactive technology platforms for inclusive play.
+    - Prototyping interactive systems using digital fabrication, physical computing, and tangible interaction techniques.
+    - Creating cross-sensory experiences combining modalities such as touch, sound, light, scent, taste, and other wide range of sensory feedback.
+    - Exploring novel interfaces using interactive materials and shape-changing artefacts.
+    - Iteratively refining prototypes and conducting user studies with children and families.
+    - Preparing project reports, leading research outputs, and submitting work to top HCI venues.
+    - Presenting research at international conferences and workshops.
+    - Contributing to the research culture and collaborative environment of the lab, and undertaking other duties appropriate to the grade.
+  fit:
+    - passionate about fabricating interactive technologies and exploring new forms of tangible and embodied sensory interactions
+    - proficient in digital fabrication, physical computing, or creative technology prototyping
+    - curious about multisensory, cross-sensory interaction and early development
+    - motivated to translate research insights into working interactive systems
+    - excited to collaborate within an interdisciplinary research team
+  benefits:
+    - the opportunity to work on an ERC-funded research project at the frontier of HCI research
+    - a supportive and collaborative research environment within the Dive Lab and the Bristol Interaction Group (BIG)
+    - access to state-of-the-art prototyping and fabrication facilities and strong interdisciplinary collaborations
+    - support for developing high-impact research outputs, international visibility, and independent research profiles
+  website: https://dive.ousmet.com
+  email: o.metatla@bristol.ac.uk
+
 - role: Pro² is Hiring!
   image: /assets/images/opportunities/pro2-hiring.png
   summary: We're seeking an experienced Development Specialist who's passionate about open source - if this is you, apply for this exciting opportunity by the 11th of March 2026.
