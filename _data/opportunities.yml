@@ -20,6 +20,17 @@
   website: https://dive.ousmet.com
   website-text: Diverse-ability Interaction Lab
 
+- role: Pro² is Hiring!
+  image: /assets/images/opportunities/pro2-hiring.png
+  summary: We're seeking an experienced Development Specialist who's passionate about open source - if this is you, apply for this exciting opportunity by the 11th of March 2026.
+  responsibilities:
+    - Lead the front-end development, setting standards for architecture, performance, accessibility, and developer experience.
+    - Design and implement modern, reusable components and patterns, helping evolve the software as the project and community grow.
+    - Build and maintain a comprehensive working knowledge of the full tech stack, including Python and Django, to confidently debug, extend, and improve the system end to end.
+    - Use open-source practices and tools (release notes, READMEs, issue tracking, discussions) to make the project approachable for new and existing contributors.
+    - Proactively engage with developer communities via forums, social channels, live streams, and community events, turning feedback into improvements and driving ongoing contributor and user engagement
+  website: https://www.bristol.ac.uk/jobs/find/details/?nPostingId=200995&nPostingTargetId=385637&id=Q50FK026203F3VBQBV7V77V83&LG=UK&languageSelect=UK&mask=newuobext
+
 - role: Inclusive Co-Design for cross-sensory social Play (24 Months)
   image: /assets/images/opportunities/summer-school.png
   summary: You will lead the design research and co-design aspects of the project, working with preschool-aged children, their parents, and early-years practitioners. You will develop novel inclusive cross-sensory co-design approaches to generate orienting concepts, scenarios, and early prototypes of meaningful social play experiences that support early development for both blind/visually impaired and sighted children.
@@ -71,17 +82,6 @@
     - support for developing high-impact research outputs, international visibility, and independent research profiles
   website: https://dive.ousmet.com
   email: o.metatla@bristol.ac.uk
-
-- role: Pro² is Hiring!
-  image: /assets/images/opportunities/pro2-hiring.png
-  summary: We're seeking an experienced Development Specialist who's passionate about open source - if this is you, apply for this exciting opportunity by the 11th of March 2026.
-  responsibilities:
-    - Lead the front-end development, setting standards for architecture, performance, accessibility, and developer experience.
-    - Design and implement modern, reusable components and patterns, helping evolve the software as the project and community grow.
-    - Build and maintain a comprehensive working knowledge of the full tech stack, including Python and Django, to confidently debug, extend, and improve the system end to end.
-    - Use open-source practices and tools (release notes, READMEs, issue tracking, discussions) to make the project approachable for new and existing contributors.
-    - Proactively engage with developer communities via forums, social channels, live streams, and community events, turning feedback into improvements and driving ongoing contributor and user engagement
-  website: https://www.bristol.ac.uk/jobs/find/details/?nPostingId=200995&nPostingTargetId=385637&id=Q50FK026203F3VBQBV7V77V83&LG=UK&languageSelect=UK&mask=newuobext
 
 - role: Pro² Funding Available
   image: /assets/images/opportunities/pro2-funding.png
