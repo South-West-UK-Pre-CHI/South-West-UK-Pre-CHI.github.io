@@ -2,7 +2,7 @@
 name: "triMorph: Bridging Shape-Change and Cross-Sensory Correspondences for Haptic Interaction"
 speakers:
   - Zhuzhi Fan
-  - Min S. Li
+  - Min Susan Li
   - Jialin Deng
   - Amy Ingold
   - Oussama Metatla

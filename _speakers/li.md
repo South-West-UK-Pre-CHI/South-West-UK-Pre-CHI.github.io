@@ -1,5 +1,5 @@
 ---
-name: Min S. Li
+name: Min Susan Li
 first_name: Min Susan
 last_name: Li
 links:

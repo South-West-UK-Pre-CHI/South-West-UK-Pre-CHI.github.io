@@ -3,8 +3,8 @@ name: Priscilla Y. Lo
 first_name: Priscilla Y.
 last_name: Lo
 links:
-  - name: Website
-    absolute_url: https://dompotts.com/
   - name: Google Scholar
     absolute_url: https://scholar.google.ca/citations?user=PGQttfMAAAAJ&hl=en
+  - name: BIG Profile
+    absolute_url: https://biglab.co.uk/member/priscilla-lo/
 ---
