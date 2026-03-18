@@ -1,14 +1,12 @@
 ---
-name: "Touching Emotions, Smelling Shapes: Exploring Tactile, Olfactory and Emotional Cross-sensory Correspondences in Preschool Aged Children"
+name: "Explainable Moderation in Multiplayer Games: Player Responses to Explanations of an Automated Temporary Ban"
 speakers:
-  - Tegan Joy Roberts-Morgan
-  - Min Susan Li
-  - Priscilla Y. Lo
-  - Zhuzhi Fan
-  - Dan Bennett
-  - Oussama Metatla
+  - Timothy Holland
+  - Lucy A. Sparrow
+  - Wally Smith
+  - Sarah Webber
 categories:
   - Human Perception and Experiences
 ---
 
-The use of a wide range of sensory modalities is increasingly central to technologies for learning, communication, and affective regulation. During the preschool years, sensory integration develops rapidly, shaping how children perceive and make sense of their environments. A key component of this process is cross-sensory correspondence: the systematic ways in which perceptions in different sensory modalities influence one another. Despite its relevance, little is known about cross-sensory correspondences in preschool-aged children (2-4 years). We present a study with 26 preschoolers examining smell-touch-emotion correspondences through playful tasks. We found significant correspondences both between sensory modalities and between sensory modalities and affective judgements. Further analysis revealed association strategies underpinning these mappings. We contribute empirical insights into cross-sensory correspondences in early childhood, design guidelines that align with how preschoolers relate sensory input, and a replicable method for probing cross-sensory cognition in this age group.
+The opaqueness of moderation systems can leave offenders of toxic behaviour disaffected and without recourse for change. We examined whether explainability, the means by which an automated system explains its decisions, can improve player responses to automated moderation decisions within the context of multiplayer games. Through a mixed methods experiment we evaluated players' perceptions of six explanations of an automated temporary ban decision. Despite finding only minor benefits to explainable AI methods over the best current explanation used in practice, we found that justification, i.e. providing evidence within an explanation, is fundamental for improving players' perceived fairness and emotional response to moderation. We contextualise these results through a reflexive thematic analysis in which we identify four themes that reflect players' competing understandings of both explainability and moderation. We conclude by proposing four design implications for researchers and developers to consider when designing explainability for future community management systems.
