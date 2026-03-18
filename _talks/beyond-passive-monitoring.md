@@ -5,7 +5,6 @@ speakers:
   - Darren P Scott
   - Katarzyna Stawarz
 
-
 categories:
   - Human Perception and Experiences
 ---
