@@ -141,13 +141,14 @@ main.container img {
   width: auto;
 
   // Column widths
+  tr,
   th,
   td {
     // Total available container width is 1110px
 
     // Width of columns with content (default)
     width: 40%;
-    min-width: 300px;
+    min-width: 250px;
 
     // Spacing between columns
     &.col-space {
