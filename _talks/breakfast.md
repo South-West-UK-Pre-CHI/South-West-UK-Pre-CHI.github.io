@@ -1,5 +1,5 @@
 ---
-name: Break
+name: Breakfast
 speakers:
   - South-West UK Pre-CHI
 categories:
