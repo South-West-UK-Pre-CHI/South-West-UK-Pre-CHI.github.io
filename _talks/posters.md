@@ -1,8 +1,8 @@
 ---
-name: Lunch
+name: Posters
 speakers:
   - South-West UK Pre-CHI
 categories:
-  - Workshops/Demos
+  - Demos/Posters
 hide: true
 ---
