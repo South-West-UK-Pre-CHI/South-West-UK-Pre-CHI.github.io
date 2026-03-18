@@ -1,5 +1,5 @@
 ---
-name: Posters
+name: Poster Session
 speakers:
   - South-West UK Pre-CHI
 categories:
