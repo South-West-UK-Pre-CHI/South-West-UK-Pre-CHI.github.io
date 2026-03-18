@@ -1,7 +1,7 @@
 ---
 name: "Uncertainty And Risk At The Point Of Care: Implications Of Patient-Generated ECGs And Algorithmic Interpretations For Clinical Decision Making"
 speakers:
-  - Rachel keys
+  - Rachel Keys
   - Paul Marshall
   - Aisling Ann O’Kane
   - Graham Stuart
