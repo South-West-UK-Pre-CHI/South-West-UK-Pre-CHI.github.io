@@ -1,6 +1,6 @@
 ---
-name: Aisling O’Kane
-first_name: Aisling
+name: Aisling Ann O’Kane
+first_name: Aisling Ann
 last_name: O’Kane
 links:
   - name: BIG Profile

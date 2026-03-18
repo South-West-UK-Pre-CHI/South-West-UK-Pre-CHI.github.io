@@ -3,10 +3,10 @@ name: "Uncertainty And Risk At The Point Of Care: Implications Of Patient-Genera
 speakers:
   - Rachel keys
   - Paul Marshall
-  - Aisling O’Kane
+  - Aisling Ann O’Kane
   - Graham Stuart
 categories:
   - Human Perception and Experiences
 ---
 
-Freehand pointing is a fundamental gesture commonly used for cursorless interactions. Prior work in HCI often elicits the same pointing behaviour – facing the target with an outstretched dominant arm and index finger. However, freehand pointing outside of HCI shows more variability across hand pose, usage, and coordination with gaze. To understand what variability exists and how it affects pointing performance, we collected data (N=23) using a hybrid motion capture system. To elicit a wide variety of pointing behaviours we included different levels of user effort and attention, as well as the widest range of target placements studied. We systematically characterised and described three distinct pointing behaviours, each with three different traits, ranging from accurate stereotypical pointing observed in prior works to more casual hip fire-style pointing. Our analysis demonstrates how different pointing behaviours affect pointing performance and highlights their importance when designing interactive systems for more naturalistic freehand pointing.
+Wearable technologies allow users to generate their own electrocardiogram (ECG) data with heart rhythm interpretations. While patient-generated ECGs have been adopted by cardiologists, their use in decision-making beyond specialist care remains under-explored. In order to improve health outcomes, they must also be actionable for point-of-care clinicians who determine access to further investigations and specialists. We conducted vignette-based interviews with 33 clinicians from primary and emergency care. We found that patient-generated data introduces diagnostic uncertainty, shaped by four factors: legitimacy concerns, challenges in ECG interpretation, the influence of the wider clinical context on trust and diagnostic confidence, and the balancing of patient and professional risk. This duality of risk often overrode earlier considerations, determining how patient-generated data was acted upon. We explore the concepts of diagnostic uncertainty and the duality of risk to situate our findings and explain their clinical implications for integrating PGD at the point of care.
