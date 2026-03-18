@@ -1,5 +1,5 @@
 ---
-name: Coffee
+name: Coffee Break
 speakers:
   - South-West UK Pre-CHI
 categories:
