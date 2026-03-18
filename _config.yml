@@ -126,7 +126,7 @@ conference:
 
   # Live indications
   live:
-    date: 01.01.2020
+    date: 27.03.2026
     timezone: GMT
     stop: 240 # in minutes
     streaming:
