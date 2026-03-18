@@ -14,73 +14,73 @@ days:
       - name: Welcome
         time_start: '09:30'
         time_end: '10:00'
-      - name: Explainable Moderation in Multiplayer Games
+      - name: "Explainable Moderation in Multiplayer Games: Player Responses to Explanations of an Automated Temporary Ban"
         time_start: '10:00'
         time_end: '10:15'
-      - name: Rough Meanings
+      - name: "Rough Meanings: Cross-sensory correspondences linking surface textures with sound symbolism, colours, and emotions"
         time_start: '10:15'
         time_end: '10:30'
-      - name: I Participate, Therefore We Benefit
+      - name: "I Participate, Therefore We Benefit: Ubuntu as a Relational Compass for Ethical Compensation in HCI"
         time_start: '10:30'
         time_end: '10:45'
-      - name: Touching Emotions, Smelling Shapes
+      - name: "Touching Emotions, Smelling Shapes: Exploring Tactile, Olfactory and Emotional Cross-sensory Correspondences in Preschool Aged Children"
         time_start: '10:45'
         time_end: '11:00'
-      - name: Beyond Passive Monitoring
+      - name: "Beyond Passive Monitoring: A Systematic Review of Tangible Interactive Devices that Support Home-Based Physical Activity"
         time_start: '11:00'
         time_end: '11:15'
       - name: Coffee Break
         time_start: '11:15'
         time_end: '11:45'
-      - name: Let's Make a Community [of Practice]
+      - name: "Let's Make a Community [of Practice]: Using Community-Based Participatory Design to Support Interdependence"
         time_start: '11:45'
         time_end: '12:00'
-      - name: Technology Meets Tradition
+      - name: "Technology Meets Tradition: Investigating User Acceptance and Engagement with Robots for Supporting Older Adults in Pakistani Homes "
         time_start: '12:00'
         time_end: '12:15'
-      - name: Uncertainty And Risk At The Point Of Care
+      - name: "Uncertainty And Risk At The Point Of Care: Implications Of Patient-Generated ECGs And Algorithmic Interpretations For Clinical Decision Making"
         time_start: '12:15'
         time_end: '12:30'
-      - name: '"I’ve Become More Myself”'
+      - name: '"I’ve Become More Myself”: Challenges and Benefits of Engaging with ADHD Short-Form Video Content and Communities'
         time_start: '12:30'
         time_end: '12:45'
-      - name: Design Opportunities at the Intersection of Sexual and Reproductive Health, Cystic Fibrosis, and Technology
+      - name: "Design Opportunities at the Intersection of Sexual and Reproductive Health, Cystic Fibrosis, and Technology"
         time_start: '12:45'
         time_end: '13:00'
       - name: Lunch
         time_start: '13:00'
         time_end: '14:00'
-      - name: Understanding Freehand Cursorless Pointing Variability and Its Impact on Selection Performance
+      - name: "Understanding Freehand Cursorless Pointing Variability and Its Impact on Selection Performance"
         time_start: '14:00'
         time_end: '14:15'
-      - name: The RepairBot Framework
+      - name: "The RepairBot Framework: Touch-Aware Conversational Agent for Hands on Clothes Repair"
         time_start: '14:15'
         time_end: '14:30'
-      - name: triMorph
+      - name: "triMorph: Bridging Shape-Change and Cross-Sensory Correspondences for Haptic Interaction"
         time_start: '14:30'
         time_end: '14:45'
-      - name: Dispray
+      - name: "Dispray: The Design of an AR-Augmented Airbrush for Electroluminescent Display Fabrication"
         time_start: '14:45'
         time_end: '15:00'
-      - name: GazeZoom
+      - name: "GazeZoom: Exploration of Gaze-Assisted Multimodal Techniques for Panning and Zooming"
         time_start: '15:00'
         time_end: '15:15'
       - name: Break
         time_start: '15:15'
         time_end: '15:45'
-      - name: Virtual Selves, Real Emotions
+      - name: "Virtual Selves, Real Emotions: The Impact of Photorealistic Avatar Personalization on Emotion in Virtual Reality"
         time_start: '15:45'
         time_end: '16:00'
-      - name: MIRAGE
+      - name: "MIRAGE: Enabling Real-Time Automotive Mediated Reality"
         time_start: '16:00'
         time_end: '16:15'
-      - name: Belt and whistles
+      - name: "Belt and whistles: adding lower body collision awareness for Virtual Reality experiences"
         time_start: '16:15'
         time_end: '16:30'
-      - name: Somatic Drawing Tool
+      - name: "Somatic Drawing Tool: 3D Body Sheet as Material for Articulating Synaesthetic Experiences"
         time_start: '16:30'
         time_end: '16:45'
-      - name: The ORBIT India Dataset
+      - name: "The ORBIT India Dataset: Understanding the Challenges of Collecting a Disability-First AI Dataset in Low-Resource Environments"
         time_start: '16:45'
         time_end: '17:00'
       - name: Closing Ceremony
