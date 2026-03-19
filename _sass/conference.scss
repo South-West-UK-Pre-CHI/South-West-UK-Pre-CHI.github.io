@@ -163,6 +163,31 @@ main.container img {
   }
 }
 
+// Specifically fix header table column widths to match body table
+.sticky-top.syncscroll {
+  .table {
+    table-layout: fixed;
+    width: auto;
+    
+    th, td {
+      // Ensure header columns match body column calculations
+      &.col-title {
+        width: 8%;
+        min-width: 25px;
+      }
+      &.col-space {
+        width: 2%;
+        min-width: 2px;
+      }
+      // Default room columns - calculate remaining space (90% total for room columns)
+      &:not(.col-title):not(.col-space) {
+        width: 45%;
+        min-width: 250px;
+      }
+    }
+  }
+}
+
 // Location
 .nav-pills .nav-link.active {
   background-color: theme-color-level("primary", $alert-bg-level);
