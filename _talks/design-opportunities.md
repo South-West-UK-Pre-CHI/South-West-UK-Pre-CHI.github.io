@@ -6,7 +6,6 @@ speakers:
   - Jamie Duckers
   - Aisling Ann O'Kane
 
-
 categories:
   - Accessibility and Health
 ---

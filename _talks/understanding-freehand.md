@@ -1,7 +1,7 @@
 ---
 name: "Understanding Freehand Cursorless Pointing Variability and Its Impact on Selection Performance"
 speakers:
-  - James Whiffing 
+  - James Whiffing
   - Tobias Langlotz
   - Christof Lutteroth
   - Adwait Sharma

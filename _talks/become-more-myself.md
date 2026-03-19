@@ -1,5 +1,5 @@
 ---
-name: '“I’ve Become More Myself”: Challenges and Benefits of Engaging with ADHD Short-Form Video Content and Communities'
+name: "“I’ve Become More Myself”: Challenges and Benefits of Engaging with ADHD Short-Form Video Content and Communities"
 speakers:
   - Nathalie Alexandra “Alex” Tcherdakoff
   - Anna L. Cox

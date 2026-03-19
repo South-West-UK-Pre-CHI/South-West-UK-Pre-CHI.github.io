@@ -9,5 +9,4 @@ links:
     absolute_url: https://sit.uct.ac.za/contacts/rachel-oluwatuyi
   - name: Google Scholar
     absolute_url: https://scholar.google.com/citations?user=SfgjSYQAAAAJ&hl=en
-
 ---

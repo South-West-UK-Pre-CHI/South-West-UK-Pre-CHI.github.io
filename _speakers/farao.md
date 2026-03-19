@@ -9,5 +9,4 @@ links:
     absolute_url: https://sit.uct.ac.za/contacts/jaydon-farao
   - name: Google Scholar
     absolute_url: https://scholar.google.com/citations?user=9QltsdcAAAAJ&hl=en
-
 ---

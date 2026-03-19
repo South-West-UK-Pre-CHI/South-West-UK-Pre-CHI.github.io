@@ -7,5 +7,4 @@ links:
     absolute_url: https://sit.uct.ac.za/contacts/melissa-densmore
   - name: Google Scholar
     absolute_url: https://scholar.google.com/citations?user=5Bqgw2gAAAAJ&hl=en
-
 ---
