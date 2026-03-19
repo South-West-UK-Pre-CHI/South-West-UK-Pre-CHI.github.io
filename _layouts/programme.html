@@ -30,8 +30,8 @@
       <div class="tab-pane {%- if forloop.index == 1 %} active{% endif %}" id="{{ day_hash }}" role="tabpanel" aria-labelledby="tab-{{ day_hash }}">
     {%- endif %}
 
-    <div class="sticky-top syncscroll overflow-hidden" name="sync-table">
-      <table class="table mb-0 mx-auto">
+    <div class="syncscroll overflow-y-hidden" name="sync-table">
+      <table class="table mx-auto">
         <thead>
           <tr>
             <th scope="col" class="col-title text-right">#<span class="invisible">I0</span></th>
@@ -54,11 +54,6 @@
             {%- endfor %}
           </tr>
         </thead>
-      </table>
-    </div>
-
-    <div class="syncscroll overflow-y-hidden" name="sync-table">
-      <table class="table mx-auto">
         <tbody>
           {%- include partials/get_day_time.html -%}
 
