@@ -1,0 +1,17 @@
+---
+name: "I Participate, Therefore We Benefit: Ubuntu as a Relational Compass for Ethical Compensation in HCI"
+speakers:
+  - Jaydon Farao
+  - Sierra van Riel
+  - Sarina Till
+  - Folasade M Adedeji
+  - Rachel Oluwatuyi
+  - Ndinelao NM Iitumba
+  - Sabiha Mosamat Shaikh
+  - Sampson Adotey
+  - Melissa Densmore
+categories:
+  - Human Perception and Experiences
+---
+
+Compensation in HCI research is often the primary ethical interface between HCI researchers and low-income communities. Yet, prevailing models of compensation can perpetuate neocolonial extraction and frame participation as transactional labor. This practice risks creating dependency and obscuring power imbalances, ultimately compromising both research integrity and participant dignity. Drawing on the experiences of researchers working in Africa and the southern African philosophy of Ubuntu, this paper employs a decolonial lens to critique the research economy of participation and compensation. We propose a framework for relational compensation, which re-imagines compensation not as payment for data but as a form of restorative justice and relational accountability. Through analytic vignettes, we examine tensions around community-researcher interdependency, gendered care burdens, and community solidarity. We conclude with principles for relational research economies that prioritize communal benefit, long-term data sovereignty, and co-designed terms of engagement, offering HCI a path toward reciprocal praxis.
