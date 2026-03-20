@@ -89,8 +89,8 @@ days:
   - name: F.101 a
     talks:
       - name: Demos
-        time_start: '10:30'
-        time_end: '13:00'
+        time_start: '11:00'
+        time_end: '14:00'
       - name: Poster Session
         time_start: '14:00'
         time_end: '17:00'
