@@ -11,7 +11,6 @@ speakers:
   - Jack Jarvis
 categories:
   - Demos/Posters
-hide: true
 ---
 
 Flow-Tivated - [Nathalie Alexandra Tcherdakoff]({{ site.baseurl }}/speakers/tcherdakoff)
