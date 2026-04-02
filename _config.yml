@@ -85,8 +85,10 @@ conference:
         relative_url: /opportunities/
       - name: Previous Editions
         menu:
-          - name: 2026 (current)
+          - name: 2027 (current)
             disabled: true
+          - name: 2026
+            absolute_url: https://south-west-uk-pre-chi.github.io/2026
           - name: 2025
             absolute_url: https://south-west-uk-pre-chi.github.io/2025
           - name: 2024
