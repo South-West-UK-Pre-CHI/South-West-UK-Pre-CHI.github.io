@@ -1,25 +1,40 @@
+name: Test Website Generation
+
 on:
   pull_request:
-    types: [opened, synchronize, reopened]
-
-name: Test Website Generation
+    branches:
+      - main
 
 jobs:
   build:
-    name: Test Website Generation
+    name: Generate Website
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           lfs: true
 
-      - name: Setup Ruby, Bundler and Jekyll
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install Node.js dependencies
+        run: npm ci
+
+      - name: Build JavaScript and CSS bundles
+        run: npm run build
+
+      - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.2.1"
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          ruby-version: "3.3"
+          bundler-cache: true
 
-      - name: Build website
+      - name: Build with Jekyll
         run: |
           bundle exec jekyll build -d _site/
+        env:
+          JEKYLL_ENV: production

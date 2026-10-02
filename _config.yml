@@ -1,17 +1,14 @@
-title: Pre-CHI 2027
+title: South West UK Pre-CHI
 preposition: ""
 description: >-
-  South West UK Pre-CHI provides an opportunity for researchers from the South West England and De Cymru Human-Computer Interaction Community (SWEDC-HCI) to come together to practice running their accepted CHI papers and work-in-progress research talks. The event will be held on 27th March 2026 in the Bill Brown Design Suite at the University of Bristol.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://South-West-UK-Pre-CHI.github.io" # the base hostname & protocol for your site, e.g. https://example.com
+  South West UK Pre-CHI provides an opportunity for researchers from the South West England and De Cymru Human-Computer Interaction Community (SWEDC-HCI) to come together to practice running their accepted CHI papers and work-in-progress research talks.
+url: "https://South-West-UK-Pre-CHI.github.io"
 favicon: "/assets/images/favicon.ico"
 
-# Build settings
 markdown: kramdown
 sass:
   style: compressed
 
-# Additional exclude from processing
 exclude:
   - vendor
   - .github/
@@ -20,7 +17,6 @@ exclude:
   - REDISTRIBUTED.md
   - purgecss.config.js
 
-# Collections and their defaults
 collections:
   talks:
     output: true
@@ -50,39 +46,22 @@ defaults:
       layout: room
 
 conference:
-  # Language
   lang: en
-
-  # Timezone
   tz: "+00:00"
-
-  # Show theme errors:
-  show_errors: True
-
-  # Navigation bar
+  show_errors: true
   navigation:
-    logo:
-      name: SWEDC-HCI
-      # img: ''
-      url: "https://gw4.ac.uk/community/south-west-england-and-de-cymru-human-computer-interaction-community-swedc-hci/"
     breakpoint: md
     links:
       - name: Programme
         relative_url: /programme/
-      - name: Talks
-        relative_url: /talks/
-      - name: Speakers
-        relative_url: /speakers/
-      - name: Awards
-        relative_url: /awards/
-      - name: Location
-        relative_url: /location/
-      - name: Funders
-        relative_url: /funders/
+      #- name: Talks
+      #  relative_url: /talks/
+      #- name: Speakers
+      #  relative_url: /speakers/
+      #- name: Location
+      #  relative_url: /location/
       - name: Organisers
         relative_url: /organisers/
-      - name: Opportunities
-        relative_url: /opportunities/
       - name: Previous Editions
         menu:
           - name: 2027 (current)
@@ -93,100 +72,14 @@ conference:
             absolute_url: https://south-west-uk-pre-chi.github.io/2025
           - name: 2024
             absolute_url: https://sites.google.com/view/southwestprechi/2024/paper-presentation-abstracts
-
-  # Link Preview for Sharing
-  link_preview:
-    # also adapt "preposition" property at top for more meaningful descriptions
-    disable: false
-    img:
-      twitter: "twitter_preview.png" # inside /assets/images/
-      open_graph: "facebook_preview.png" # inside /assets/images/
-
-  # Main landing page
-  main:
-    logo:
-      img: "logo.png" # inside /assets/images/
-    links:
-      - name: Programme
-        relative_url: /programme/
-      - name: How to get there
-        relative_url: /location/
-      - name: Awards
-        absolute_url: /awards/
-      - name: Pirate the talks
-        absolute_url: https://south-west-uk-pre-chi.github.io/1726/
-
-  # Information boxes
-  info_bars:
-    - title: Thank you all for attending Pre-CHI 2026, we hope to see you again next year.
-      color: secondary
-      main_only: true
-
-  # Live indications
-  live:
-    date: 27.03.2026
-    timezone: GMT
-    stop: 240 # in minutes
-    streaming:
-      enable: true
-      pause: 60 # in minutes
-      prepend: 5 # in minutes
-      extend: 5 # in minutes
-    demo:
-      enable: false
-      duration: 300 # in seconds
-      pause: 10 # in seconds
-
-  talks:
-    # Talk categories
-    main_categories:
-      - name: Human Perception and Experiences
+  meta:
+    link_preview:
+      disable: true
+  info:
+    bars:
+      - title: Planning for Pre-CHI 2027 is underway.
         color: secondary
-      - name: Accessibility and Health
-        color: success
-      - name: Fabrication
-        color: info
-      - name: Virtual Reality and AI
-        color: warning
-      - name: Demos/Posters
-        color: primary
-      - name: Other (coffee etc.)
-        color: dark
-    # Hide icons on talk overview page
-    hide_icons: false
-
-  speakers:
-    # Show first and last name
-    show_firstname: true
-
-  location:
-    # Disable links to locations
-    hide: false
-    # URL of location / room overview page
-    url: "/location"
-    # Main page title shown on location/room navigation bar
-    navbar_title: "Location"
-    # Show map on location main page.  Set `map: false` if you don't want to
-    # display it.
-    map:
-      # Initial map center point
-      home_coord: 51.45692046352009, -2.6030739289617086
-      # Alternative map providers can be found on https://leaflet-extras.github.io/leaflet-providers/preview/
-      # The following do match the Bootstrap design not too badly:
-      #   - Thunderforest.Neighbourhood
-      #   - Esri.WorldTopoMap
-      map_provider: "OpenStreetMap.Mapnik"
-      default_zoom: 17
-
-  program:
-    # URL of programme page
-    url: "/programme"
-
-    # Time steps in programme table
-    time_steps: 15 # in minutes
-
-    # Show intermediary time steps (next to full hours)
-    show_alltimes: true
-
-plugins:
-  - jekyll-sitemap
+        main_only: true
+  talks:
+    tracks:
+      - name: Main Track

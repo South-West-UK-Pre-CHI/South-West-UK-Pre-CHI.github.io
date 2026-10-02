@@ -1,0 +1,163 @@
+{%- assign link_valid = false -%}
+{%- if link.live -%}
+  {%- if include.type == "live" -%}
+    {%- assign link_valid = true -%}
+  {%- endif -%}
+{%- elsif link.icon or link.file or link.video -%}
+  {%- if include.type == "icon" -%}
+    {%- assign link_valid = true -%}
+  {%- endif -%}
+{%- else -%}
+  {%- if include.type != "live" and include.type != "icon" -%}
+    {%- assign link_valid = true -%}
+  {%- endif -%}
+{%- endif -%}
+
+
+{%- assign link_href = nil -%}
+{%- assign link_disabled = link.disabled | default: false -%}
+{%- assign link_icon = link.icon | default: nil -%}
+{%- assign link_iframe = link.iframe | default: false -%}
+
+{%- assign modal_title = nil -%}
+{%- assign modal_subtitle = nil -%}
+
+{%- if link.absolute_url -%}
+  {%- assign link_href = link.absolute_url -%}
+
+{%- elsif link.relative_url -%}
+  {%- assign link_href = link.relative_url | prepend: site.baseurl -%}
+
+{%- elsif link.file -%}
+  {%- assign link_icon = link.icon | default: "file-earmark-text" -%}
+
+  {%- if talk -%}
+    {%- assign link_href = link.file | prepend: '/documents/slides/' | prepend: site.baseurl -%}
+
+  {%- elsif speaker -%}
+    {%- assign link_href = link.file | prepend: '/documents/bio/' | prepend: site.baseurl -%}
+
+  {%- else -%}
+    {%- assign link_href = link.file | prepend: '/documents/' | prepend: site.baseurl -%}
+
+  {%- endif -%}
+
+{%- elsif link.video -%}
+  {%- assign link_href = link.video -%}
+  {%- assign link_icon = link.icon | default: "camera-video-fill" -%}
+  {%- assign link_iframe = link.iframe | default: true -%}
+
+  {%- if talk -%}
+
+    {%- capture modal_title -%}
+      {%- if talk.hide -%}
+        {{ talk.name }}
+      {%- else -%}
+        <a class="text-reset link-underline-{{ include.color | default: "primary" }} link-underline-opacity-0 link-underline-opacity-100-hover" href="{{ talk.url | prepend: site.baseurl }}">
+          {{ talk.name }}
+        </a>
+      {%- endif -%}
+    {%- endcapture -%}
+
+    {%- capture modal_subtitle -%}
+      {%- include list_speakers.html -%}
+    {%- endcapture -%}
+
+  {%- elsif speaker -%}
+
+    {%- capture modal_title -%}
+      {%- if speaker.hide -%}
+        {{ speaker.first_name }} {{ speaker.last_name }}
+      {%- else -%}
+        <a class="text-reset link-underline-{{ include.color | default: "primary" }} link-underline-opacity-0 link-underline-opacity-100-hover" href="{{ speaker.url | prepend: site.baseurl }}">
+          {{ speaker.first_name }} {{ speaker.last_name }}
+        </a>
+      {%- endif -%}
+    {%- endcapture -%}
+
+    {%- assign modal_footer = link.name -%}
+
+  {%- endif -%}
+
+{%- elsif link.live -%}
+{%- else -%}
+  {%- assign link_disabled = true -%}
+
+{%- endif -%}
+
+
+{%- if include.class -%}
+  {%- assign link_class = include.class -%}
+{%- else -%}
+  {%- assign link_class_color = include.color | default: "primary" -%}
+  {%- assign link_class = "text-reset link-underline-" | append: link_class_color | append: " link-underline-opacity-0 link-underline-opacity-100-hover" -%}
+{%- endif -%}
+
+
+{%- capture link_tag -%}
+  {%- if link_disabled -%}
+    <a
+      class="disabled {{ link_class }}"
+      href="#"
+      aria-disabled="true"
+    >
+
+  {%- elsif link_iframe -%}
+    <a
+      class="{{ link_class }}"
+      href="#"
+      title="{{ link.name }}"
+      data-bs-toggle="modal"
+      data-bs-target="#link-modal"
+      data-href="{{ link_href }}"
+      {% if modal_title %}
+        data-format='html'
+        data-title="{{ modal_title | strip_newlines | escape }}"
+        {% if modal_subtitle %}
+          data-subtitle="{{ modal_subtitle | strip_newlines | escape }}"
+        {% endif %}
+      {% elsif link.name %}
+        data-format='text'
+        data-title="{{ link.name }}"
+      {% endif %}
+      {% if modal_footer %}
+        data-format='html'
+        data-footer="{{ modal_footer | strip_newlines | escape }}"
+      {% elsif link.description %}
+        data-format='text'
+        data-footer="{{ link.description }}"
+      {% endif %}
+    >
+
+  {%- elsif link.live -%}
+    {%- if site.conference.live and site.conference.live.streaming.enable -%}
+      {% include get_link_tag_streaming.html class=link_class %}
+    {%- else-%}
+      <a
+        class="{{ link_class }}"
+        href="{{ link_href }}"
+        title="{{ link.name }}"
+      >
+    {%- endif -%}
+
+  {%- else -%}
+    <a
+      class="{{ link_class }}{% if include.is_active %} active{% endif %}"
+      href="{{ link_href }}"
+      title="{{ link.name }}"
+      {%- if include.is_active %}
+      aria-current="page"
+      {%- endif %}
+    >
+
+  {%- endif -%}
+{%- endcapture -%}
+
+{%- capture link_list_item -%}
+  <li class="mb-1">
+    {{ link_tag | replace: ' class="', ' class="icon-link '}}
+      <i class="bi bi-{{ link_icon | default: 'link-45deg' }}" aria-hidden="true"></i>
+      {{- link.name }}
+    </a>
+  </li>
+{%- endcapture -%}

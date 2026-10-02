@@ -1,0 +1,47 @@
+<div class="modal fade" id="stream-modal" tabindex="-1" aria-labelledby="stream-modal-title" aria-describedby="stream-modal-desc" aria-hidden="true" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="stream-modal-title">
+          {{ site.data.lang[site.conference.lang].live.stream | default: "Live Stream" }}
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="{{ site.data.lang[site.conference.lang].close | default: 'Close' }}"></button>
+      </div>
+
+      <div class="modal-body ratio ratio-16x9">
+        <iframe src="" allowfullscreen title="{{ site.data.lang[site.conference.lang].live.stream | default: 'Live Stream' }}"></iframe>
+        <div id="stream-placeholder" class="d-none justify-content-center align-items-center" role="status" aria-live="polite" aria-atomic="true">
+          <div id="stream-modal-desc"></div>
+        </div>
+      </div>
+
+      <div class="modal-footer flex-column justify-content-start d-none" id="stream-info" data-time="">
+        <div class="align-self-start live-time my-0 small" id="stream-info-time" data-time=""></div>
+        <div class="align-self-start ps-2 border-start border-4" id="stream-info-color">
+          <p class="mb-0">
+            <a class="text-reset link-underline-opacity-0 link-underline-opacity-100-hover" href="#" id="stream-info-talk"></a>
+          </p>
+          <p class="mb-0 fw-light" id="stream-info-speakers"></p>
+        </div>
+        <div class="align-self-center m-0 mt-1 d-none" id="stream-info-links"></div>
+      </div>
+
+      <div class="modal-footer justify-content-around">
+        {%- for room in site.rooms -%}
+          <a id="stream-button{{ forloop.index }}" href="#" class="btn btn-outline-primary d-none d-sm-inline{% unless room.live %} disabled{% endunless %}" role="button" data-room="{{ room.name }}">
+            {{ room.name }}
+          </a>
+        {%- endfor %}
+        <div class="w-100 d-block d-sm-none">
+          <select class="form-select" id="stream-select" aria-label="{{ site.data.lang[site.conference.lang].location.rooms | default: 'Rooms' }}">
+            {%- for room in site.rooms -%}
+              <option value="{{ forloop.index }}"{% unless room.live %} disabled{% endunless %}>{{ room.name }}</option>
+            {%- endfor %}
+          </select>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

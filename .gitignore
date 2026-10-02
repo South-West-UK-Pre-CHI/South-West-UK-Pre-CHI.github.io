@@ -8,9 +8,18 @@ _site/
 .bundle/
 vendor/bundle/
 
+### Node.js ###
+node_modules/
+
 ### Python ###
 __pycache__/
-venv/
+.venv/
 
 ### MacOS ###
 .DS_Store
+
+### Build Output ###
+assets/js/*.bundle.js
+assets/css/*.bundle.css
+assets/webfonts/bootstrap-icons.*
+_sass/**/*

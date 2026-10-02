@@ -1,7 +1,21 @@
 ---
 layout: home
+title: South West UK Pre-CHI
+header:
+  img: logo.png
 ---
 
-The idea of the South West UK Pre-CHI Event is to provide an opportunity for researchers from the South West England and De Cymru Human-Computer Interaction Community (SWEDC-HCI) to come together to practice running their accepted CHI papers and work-in-progress research talks. We also aim to create a space for new research connections and the ability to discuss this research in a smaller circle. Due to it being a free event, it will provide an excellent opportunity for all researchers, regardless of experience, to get a taste of the quality of work presented at CHI, and network with peers. Therefore, everyone from students, professors and industry folks in the region interested in HCI will be welcome to attend.
+We aim to create a space for new research connections and the ability to discuss research in a smaller circle. Due to this being a free event, it will provide an excellent opportunity for all researchers, regardless of experience, to get a taste of the quality of work presented at CHI, and network with peers. Therefore, everyone from students, professors and industry folks in the region interested in HCI will be welcome to attend.
 
-_Syniad Digwyddiad Cyn-CHI De-orllewin y DU yw rhoi cyfle i ymchwilwyr o Gymuned Rhyngweithio rhwng Pobl a Chyfrifiaduron De-orllewin Lloegr a De Cymru (SWEDC-HCI) ddod at ei gilydd i ymarfer cyflwyno eu papurau CHI derbyniedig a’r ymchwil sydd ar y gweill ganddyn nhw. Rydyn ni hefyd yn bwriadu creu lle ar gyfer cysylltiadau ymchwil newydd a’r gallu i drafod yr ymchwil hon gyda llai o bobl. Oherwydd bod y digwyddiad yn rhad ac am ddim, bydd yn rhoi cyfle gwych i’r holl ymchwilwyr, waeth beth fo'u profiad, gael blas ar ansawdd y gwaith sy’n cael ei gyflwyno yn CHI a rhwydweithio ag ymchwilwyr eraill. Felly, bydd croeso i bawb, dim ots a ydych chi’n fyfyriwr, yn athro neu’n unigolyn o fyd diwydiant yn y rhanbarth sydd â diddordeb mewn Rhyngweithio rhwng Pobl a Chyfrifiaduron._
+--- 
+
+We thank our funders, the [Bristol Interaction Group](https://biglab.co.uk/) and the [University of Bristol](https://www.bristol.ac.uk), for their support.
+
+<div class="d-flex flex-wrap align-items-center gap-4 my-4">
+  <a href="https://biglab.co.uk/" aria-label="Bristol Interaction Group">
+    <img src="{{ '/assets/images/funders/BIG.png' | relative_url }}" class="funder-logo" alt="Bristol Interaction Group" />
+  </a>
+  <a href="https://www.bristol.ac.uk" aria-label="University of Bristol">
+    <img src="{{ '/assets/images/funders/UoB.png' | relative_url }}" class="funder-logo" alt="University of Bristol" />
+  </a>
+</div>

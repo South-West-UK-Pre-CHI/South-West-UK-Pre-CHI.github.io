@@ -1,5 +1,5 @@
 ---
-layout: organisers
+layout: page
+title: Organisers
 ---
 
-# Organisers

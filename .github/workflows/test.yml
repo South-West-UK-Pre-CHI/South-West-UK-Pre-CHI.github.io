@@ -1,8 +1,8 @@
+name: Test Jekyll Build
+
 on:
   pull_request:
     types: [opened, synchronize, reopened]
-
-name: Test Jekyll Build
 
 jobs:
   build:
@@ -10,27 +10,78 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           lfs: true
 
-      - name: Setup Ruby for use with actions
-        uses: actions/setup-ruby@v1
-
-      - name: Cache
-        uses: actions/cache@v1
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gem-
+          node-version: "20"
+          cache: "npm"
 
-      - name: Install Bundler and Jekyll
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: |
-          gem install bundler
-          bundle install --path vendor/bundle
+      - name: Install Node.js dependencies
+        run: npm ci
 
-      - name: Build website
+      - name: Build JavaScript and CSS bundles
+        run: npm run build
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Create minimal test site
         run: |
+          mkdir -p test_site
+          cd test_site
+          cat > Gemfile << 'EOF'
+          source "https://rubygems.org"
+          gem "jekyll", "~> 4.0"
+          gem "jekyll-theme-conference", path: ".."
+          EOF
+          cat > _config.yml << 'EOF'
+          theme: jekyll-theme-conference
+          collections:
+            talks:
+              output: true
+            speakers:
+              output: true
+            rooms:
+              output: true
+          defaults:
+            - scope:
+                path: ""
+                type: talks
+              values:
+                layout: talk
+            - scope:
+                path: ""
+                type: speakers
+              values:
+                layout: speaker
+            - scope:
+                path: ""
+                type: rooms
+              values:
+                layout: room
+          EOF
+          mkdir -p _data
+          cp ../_data/program.yml _data/ 2>/dev/null || echo "program: []" > _data/program.yml
+          mkdir -p _talks _speakers _rooms
+          echo "---\n---" > _talks/test.md
+          echo "---\n---" > _speakers/test.md
+          echo "---\n---" > _rooms/test.md
+
+      - name: Install test site dependencies
+        run: |
+          cd test_site
+          bundle install
+
+      - name: Build test site
+        run: |
+          cd test_site
           bundle exec jekyll build -d _site/
+        env:
+          JEKYLL_ENV: production

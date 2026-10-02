@@ -1,3 +1,5 @@
+name: Update Schedule and Content
+
 on:
   pull_request:
     paths:
@@ -5,33 +7,29 @@ on:
     branches:
       - main
 
-name: Update Schedule and Content
-
 jobs:
   build:
     name: Update Schedule and Content
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.head.ref }}
+          ref: ${{ github.head_ref }}
           lfs: true
 
       - name: Install Python dependencies
         run: |
-          python3 -m venv venv
-          source venv/bin/activate
+          python3 -m venv .venv
+          source .venv/bin/activate
           pip install pyyaml
 
       - name: Parse schedule and generate files
-        # add argument --lc-time to create_entries.py to select language of weekday representation, e.g.
-        #   sudo locale-gen de_CH.UTF-8
-        #   python _tools/create_entries.py --lc-time de_CH.UTF-8 --frab schedule.json
         run: |
-          source venv/bin/activate
-          python _tools/create_entries.py --frab schedule.json
+          sudo locale-gen de_CH.UTF-8
+          source .venv/bin/activate
+          python _tools/create_schedule.py --lc-time de_CH.UTF-8 schedule.json
 
       - name: Delete source and add generated files
         run: |

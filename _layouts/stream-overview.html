@@ -1,4 +1,4 @@
-{% include partials/header.html %}
+{% include header.html %}
 
   <h1 class="display-5 mb-4 text-break">
     {% if page.title %}
@@ -19,10 +19,10 @@
       {%- endif %}
 
     <div class="col-md mb-4">
-      <h3>{{ room.name }}</h3>
-      <div class="embed-responsive embed-responsive-16by9">
-        {%- include partials/get_room_live_href.html %}
-        <iframe class="embed-responsive-item" src="{{ room_live_href }}" allowfullscreen></iframe>
+      <h3 id="stream-heading-{{ forloop.index }}">{{ room.name }}</h3>
+      <div class="ratio ratio-16x9">
+        {%- include get_room_live_href.html %}
+        <iframe src="{{ room_live_href }}" allowfullscreen title="{{ site.data.lang[site.conference.lang].live.stream | default: 'Live Stream' }}: {{ room.name }}" aria-labelledby="stream-heading-{{ forloop.index }}"></iframe>
       </div>
     </div>
 
@@ -40,4 +40,4 @@
   </div>
   {%- endif %}
 
-{% include partials/footer.html %}
+{% include footer.html %}

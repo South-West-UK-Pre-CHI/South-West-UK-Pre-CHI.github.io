@@ -1,0 +1,18 @@
+
+  </main>
+
+  <footer class="fixed-bottom">
+    {%- include navbar_pwa.html -%}
+  </footer>
+
+  {%- include modal_link.html -%}
+
+  {%- if site.conference.live.streaming.enable -%}
+    {%- include modal_live.html -%}
+  {%- endif -%}
+
+  <script type="module" src="{{ site.baseurl }}/assets/js/conference.bundle.js?t={{ site.time | date: '%s' }}" data-baseurl="{{ site.baseurl }}"></script>
+  <script type="module" src="{{ site.baseurl }}/assets/js/main.js?t={{ site.time | date: '%s' }}"></script>
+
+</body>
+</html>

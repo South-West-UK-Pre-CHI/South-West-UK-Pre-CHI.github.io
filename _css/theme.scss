@@ -1,0 +1,231 @@
+/**
+ * Conference Theme Styles
+ */
+
+// Import Bootstrap functions, variables, and mixins for responsive utilities
+@import "bootstrap/scss/functions";
+@import "bootstrap-variables";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+
+// Program Overview
+.program-table {
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+
+  .program-time {
+    position: sticky;
+    left: 0;
+    z-index: 900;
+
+    width: 4rem;
+    min-width: 4rem;
+    max-width: 4rem;
+  }
+
+  .program-talk {
+    width: 15rem;
+    min-width: 15rem;
+    max-width: 15rem;
+  }
+
+  .program-space {
+    width: 1rem;
+    min-width: 1rem;
+    max-width: 1rem;
+  }
+}
+
+.program-table-container {
+  scroll-snap-type: x mandatory;
+  scroll-padding-left: 4rem;
+
+  tbody .program-talk {
+    scroll-snap-align: start;
+  }
+}
+
+// Speaker Columns
+@mixin generate-col-count-classes($max-cols: 6) {
+
+  // Generate base classes without breakpoint (col-count-1, col-count-2, etc.)
+  @for $idx from 1 through $max-cols {
+    .col-count-#{$idx} {
+      column-count: $idx;
+    }
+  }
+
+  // Generate responsive classes for each breakpoint using Bootstrap's $grid-breakpoints
+  @each $breakpoint in map-keys($grid-breakpoints) {
+    @if $breakpoint !='xs' {
+      @include media-breakpoint-up($breakpoint) {
+        @for $idx from 1 through $max-cols {
+          .col-count-#{$breakpoint}-#{$idx} {
+            column-count: $idx;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Call the mixin to generate all classes
+@include generate-col-count-classes();
+
+.col-count {
+  break-inside: avoid-column;
+}
+
+// Remove bottom margin on last paragraph in alert
+.alert>p:last-of-type {
+  margin-bottom: 0;
+}
+
+// Navbar
+.navbar-title-logo,
+.navbar-logo img {
+  max-height: 2.5rem;
+  max-width: 12rem;
+  width: auto;
+}
+
+.funder-logo {
+  height: 5rem;
+  width: auto;
+  object-fit: contain;
+}
+
+// Dark mode
+.mode-light {
+  display: initial;
+}
+
+.mode-dark {
+  display: none;
+}
+
+[data-bs-theme="dark"] .mode-light {
+  display: none;
+}
+
+[data-bs-theme="dark"] .mode-dark {
+  display: initial;
+}
+
+// PWA
+.d-pwa-block {
+  display: none;
+}
+
+@media (display-mode: standalone), (display-mode: fullscreen) {
+  .d-pwa-none {
+    display: none;
+  }
+
+  .d-pwa-block {
+    display: block;
+  }
+}
+
+[data-pwa="true"] {
+  .d-pwa-none {
+    display: none;
+  }
+
+  .d-pwa-block {
+    display: block;
+  }
+}
+
+// Map
+#map {
+  min-height: 400px;
+}
+
+// Live Button and Icon
+.live-button {
+  // corresponds to text-bg-dark, see
+  // https://github.com/twbs/bootstrap/blob/main/scss/helpers/_color-bg.scss
+  color: color-contrast($dark);
+  background-color: RGBA(var(--bs-dark-rgb), var(--bs-bg-opacity, 1));
+
+  &:hover {
+    color: shade-color(color-contrast($dark), $link-shade-percentage);
+  }
+}
+
+[data-bs-theme="dark"] .live-button {
+  // corresponds to text-bg-light, see
+  // https://github.com/twbs/bootstrap/blob/main/scss/helpers/_color-bg.scss
+  color: color-contrast($light);
+  background-color: RGBA(var(--bs-light-rgb), var(--bs-bg-opacity, 1));
+
+  &:hover {
+    color: shade-color(color-contrast($light), $link-shade-percentage);
+  }
+}
+
+.live-icon {
+  width: 0.75em;
+  height: 0.75em;
+
+  @keyframes live-icon-pulse {
+
+    0%,
+    6% {
+      opacity: 0;
+    }
+
+    8%,
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes live-icon-arc-small {
+
+    0%,
+    8% {
+      opacity: 0;
+    }
+
+    10%,
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes live-icon-arc-large {
+
+    0%,
+    10% {
+      opacity: 0;
+    }
+
+    12%,
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .live-icon-arc-small {
+    animation: live-icon-pulse 8s ease infinite;
+  }
+
+  .live-icon-arc-medium {
+    animation: live-icon-arc-small 8s ease infinite;
+  }
+
+  .live-icon-arc-large {
+    animation: live-icon-arc-large 8s ease infinite;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+
+    .live-icon-arc-small,
+    .live-icon-arc-medium,
+    .live-icon-arc-large {
+      animation: none;
+    }
+  }
+}

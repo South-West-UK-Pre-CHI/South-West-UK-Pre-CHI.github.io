@@ -1,35 +1,43 @@
-{% include partials/header.html %}
+{% include header.html %}
 
-{% assign this_room = page %}
+  {% assign this_room = page %}
 
-<h1 class="display-5 mb-3 text-break">
-  {% if page.title %}
-  {{ page.title }}
-  {% else %}
-  {{ site.data.lang[site.conference.lang].location.directions | default: "Directions" }}
-  {% endif %}
-</h1>
-
-{% assign this_room = page %}
-
-{% unless site.conference.location.hide %}
-{% include partials/navbar_rooms.html %}
-{% endunless %}
-
-<div class="container">
-  <div class="row">
-    <!-- Content Column -->
-    <div class="col-12 col-md-7">
-      {{ content }}
-    </div>
-
-    <!-- Map Column -->
-    {% if site.conference.location.map %}
-    <div class="col-12 col-md-5">
-      <div id="map" class="mt-4 mb-3"></div>
-    </div>
+  <h1 class="display-5 mb-3 text-break">
+    {% if page.title %}
+      {{ page.title }}
+    {% else %}
+      {{ site.data.lang[site.conference.lang].location.name | default: "Location" }}
     {% endif %}
-  </div>
-</div>
+  </h1>
 
-{% include partials/footer.html %}
+  {% unless page.hide %}
+    {% include navbar_rooms.html %}
+  {% endunless %}
+
+  {% if page.postal_address %}
+    <address>
+      {%- if page.postal_address.name %}
+      <strong>{{ page.postal_address.name }}</strong><br />
+      {%- endif %}
+      {%- if page.postal_address.street %}
+      {{ page.postal_address.street }}<br />
+      {%- endif %}
+      {%- if page.postal_address.region %}
+      {{ page.postal_address.region }}
+      {%- endif %}
+      {%- if page.postal_address.postal_code %}
+      {{ page.postal_address.postal_code }}
+      {%- endif %}
+      {%- if page.postal_address.locality %}
+      {{ page.postal_address.locality }}
+      {%- endif %}
+    </address>
+  {% endif %}
+
+  {{ content }}
+
+  {% if page.map %}
+    <div id="map" class="w-100 rounded shadow-sm" aria-label="{{ site.data.lang[site.conference.lang].location.map_label | default: 'Interactive conference location map' }}"></div>
+  {% endif %}
+
+{% include footer.html %}

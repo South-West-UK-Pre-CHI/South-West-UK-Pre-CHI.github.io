@@ -1,5 +1,6 @@
 ---
-layout: opportunities
+layout: page
+title: Opportunities
 ---
 
 # Opportunities

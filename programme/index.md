@@ -1,8 +1,6 @@
 ---
-layout: programme
+layout: program
+title: Programme
+time_steps: 15
+show_alltimes: true
 ---
-
-The [Access and Inclusion Plan](https://docs.google.com/document/d/1EFZFd0djQXFNtJB2qIjqMsXmU95Qylhe/edit?usp=sharing&ouid=102504969469176201445&rtpof=true&sd=true) outlines
-our approach to accessibility and inclusivity at the conference; summaries of key points can be found below.
-
-{% include partials/access_plan_dropdown.html %}
