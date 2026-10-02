@@ -52,16 +52,16 @@ conference:
   navigation:
     breakpoint: md
     links:
-      - name: Programme
-        relative_url: /programme/
+      # - name: Programme
+      #  relative_url: /programme/
       #- name: Talks
       #  relative_url: /talks/
       #- name: Speakers
       #  relative_url: /speakers/
       #- name: Location
       #  relative_url: /location/
-      - name: Organisers
-        relative_url: /organisers/
+      # - name: Organisers
+      #  relative_url: /organisers/
       - name: Previous Editions
         menu:
           - name: 2027 (current)
