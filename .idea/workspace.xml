@@ -4,445 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f55d25b0-f55f-4c0c-901d-3b2086c6478a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/publish.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/publish.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/South-West-UK-Pre-CHI.github.io.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/REDISTRIBUTED.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/access_inclusion_plan.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/awards.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/funders.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/lang.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/lang.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/opportunities.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/organisers.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/program.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/program.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/transport.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/js/conference.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/js/init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/js/lib/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/js/lib/jquery-3.5.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/js/lib/leaflet-easybutton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/js/lib/leaflet-locatecontrol.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/js/lib/leaflet-providers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/js/lib/leaflet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/js/lib/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/js/lib/syncscroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/js/live.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/js/map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/js/modal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/js/program.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/navigation_walkthrough.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/access_plan_dropdown.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/checks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/get_day_hash.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/get_day_time.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/get_enable_map.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/get_link.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/get_link_types.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/get_live_timestamps.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/get_main_category.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/get_page_description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/get_page_title.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/get_room_live_href.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/get_talk_time.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/get_talk_timestamp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/get_time_pronoun.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/info_bar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/list_categories.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/list_page_meta.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/list_speakers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/list_sub_categories.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/modal_link.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/modal_live.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/navbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/navbar_rooms.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/show_live_button.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/show_room.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/show_talk.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/show_talk_duration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/show_talk_time.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/partials/transport_tabs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/awards.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/config.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/data.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/funders.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/location.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/location.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/opportunities.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/organisers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/programme.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/room.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/room.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/speaker-overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/speaker-overview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/speaker.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/speaker.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/stream-overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/stream-overview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/talk-overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/talk-overview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/talk.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/talk.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_rooms/f101a.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_rooms/f101bc.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_alert.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_badge.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_breadcrumb.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_button-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_card.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_carousel.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_close.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_code.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_custom-forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_dropdown.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_functions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_images.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_input-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_jumbotron.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_list-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_media.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_modal.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_nav.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_navbar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_popover.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_print.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_progress.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_reboot.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_root.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_spinners.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_tables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_toasts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_tooltip.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_transitions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_type.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_utilities.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/bootstrap-grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/bootstrap-reboot.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/bootstrap.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_alert.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_background-variant.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_badge.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_border-radius.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_box-shadow.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_breakpoints.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_caret.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_clearfix.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_deprecate.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_float.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_gradients.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_grid-framework.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_hover.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_image.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_list-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_lists.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_nav-divider.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_reset-text.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_resize.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_screen-reader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_size.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_table-row.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_text-hide.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_text-truncate.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_transition.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/mixins/_visibility.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/utilities/_align.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/utilities/_background.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/utilities/_borders.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/utilities/_clearfix.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/utilities/_display.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/utilities/_embed.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/utilities/_flex.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/utilities/_float.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/utilities/_interactions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/utilities/_overflow.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/utilities/_position.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/utilities/_screenreaders.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/utilities/_shadows.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/utilities/_sizing.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/utilities/_spacing.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/utilities/_stretched-link.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/utilities/_text.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/utilities/_visibility.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/bootstrap/vendor/_rfs.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/conference.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/conference.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/_animated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/_bordered-pulled.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/_fixed-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/_larger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/_screen-reader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/_shims.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/_stacked.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/brands.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/fontawesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/regular.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/scss/_animated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/scss/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/scss/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/scss/_larger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/scss/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/scss/_screen-reader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/scss/_shims.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/scss/_stacked.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/scss/brands.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/scss/fontawesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/scss/regular.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/scss/solid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/scss/v4-shims.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/solid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/font-awesome/v4-shims.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/leaflet/leaflet-easybutton.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/leaflet/leaflet-locatecontrol.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/leaflet/leaflet.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/Iitumba.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/abdlkarim.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/adedeji.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/adotey.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/ahmad-m.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/ahmad-s.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/baurley.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/bennett.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/berthouze.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/bi.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/binesmael.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/bird.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/boyd.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/britten.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/cho.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/clark-r.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/clark-t.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/clarke-c.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/colley.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/cox.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/czech.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/deng.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/densmore.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/di-luca.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/duckers.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/fan.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/farao.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/fletcher.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/fraser.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/fuentes.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/goddard.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/gougoulaki.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/grayson.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/guinchi.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/han-m.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/han-w.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/hanschke.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/hanton.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/hernandez.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/hill.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/holland.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/india.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/ingold.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/jahanfard.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/jansen.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/je.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/jiang.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/jicol.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/jones.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/kalkanel.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/karim.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/keys.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/kotian.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/lailert.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/langlotz.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/ledger.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/li.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/lim.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/lin.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/liu.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/lo.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/lutteroth.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/marshall.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/massiceti.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/mathews.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/metatla.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/morris.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/morrison.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/mukherjee.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/nygren.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/o-hara.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/o-kane.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/o-neill.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/oakley.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/ofek.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/oluwatuyi.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/pearson.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/petreca.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/potts.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/pre-chi.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/richardson.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/roberts-morgan.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/robinson.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/roudaut.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/rukzio.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/salagean.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/sasalovici.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/scott.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/sehgal.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/shaikh.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/sharma.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/shiokawa.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/smith.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/sparrow.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/stangroome.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/stawarz.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/stuart.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/tanaka.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/tcherdakoff.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/till.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/van-riel.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/verdezoto.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/watanabe.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/webber.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/weir.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/whiffing.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/wilson.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/wu.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/yu.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/zhang.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_speakers/zhou.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/_talk_link.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/arrivals_registration.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/become-more-myself.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/belt-and-whistles.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/beyond-passive-monitoring.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/break.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/breakfast.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/closing_ceremony.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/coffee.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/demos.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/design-opportunities.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/dispray.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/explainable-moderation.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/gazezoom.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/i-participate.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/lets-make-a-community.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/lunch.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/mirage.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/orbit.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/posters.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/repairbot.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/rough-meanings.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/somatic-drawing-tool.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/technology-meets-tradition.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/touching-emotions.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/trimorph.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/uncertainty-and-risk.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/understanding-freehand.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/virtual-selves.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/welcome.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/wine-reception.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_tools/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_tools/build.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_tools/create_entries.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_tools/import_resources.py" beforeDir="false" afterPath="$PROJECT_DIR$/_tools/import_resources.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_tools/purgecss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/_tools/purgecss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_tools/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_tools/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_tools/schedule.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_tools/schedule.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_tools/test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_tools/test.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_tools/update_assets.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/docx/Access_and_Inclusion_Plan_2026.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/live.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/funders/BIG.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/funders/BIG.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/funders/CU.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/funders/UoB.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/funders/pro2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/opportunities/inclusiveXplay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/opportunities/ohs.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/opportunities/pro2-chi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/opportunities/pro2-funding.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/opportunities/pro2-hiring.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/opportunities/pro2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/opportunities/summer-school.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/organisers/avila.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/organisers/blank.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/organisers/burnett.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/organisers/clark.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/organisers/fan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/organisers/ingold.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/organisers/jia.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/organisers/joshi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/organisers/keys.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/organisers/li.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/organisers/morris.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/organisers/okane.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/organisers/roberts-morgan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/organisers/roudaut.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/organisers/steer.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/organisers/tcherdakoff.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/organisers/thomas.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/organisers/weir.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/rooms/external.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/rooms/f101a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/rooms/f101b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/rooms/f101c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/rooms/loungea.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/rooms/loungeb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/pdfs/Travel.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/pdfs/WMB.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-brands-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-brands-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-brands-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-regular-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-regular-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-regular-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-solid-900.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-solid-900.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-solid-900.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/awards/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/funders/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jekyll-theme-conference.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/jekyll-theme-conference.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/location/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/location/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opportunities/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/opportunities/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/organisers/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/organisers/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programme/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/programme/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/speakers/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/speakers/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/talks/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/talks/index.md" afterDir="false" />
-    </list>
+    <list default="true" id="f55d25b0-f55f-4c0c-901d-3b2086c6478a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -457,23 +19,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.3302611825154242" />
-      <entry key="MS500" value="4.177174311652193" />
-      <entry key="S2" value="11.019771994993244" />
-      <entry key="S5" value="17.630774669813423" />
-      <entry key="S10" value="22.854055304894544" />
-      <entry key="S30" value="30.065522490622865" />
-      <entry key="S60" value="41.47999809437189" />
-      <entry key="M2" value="75.68546746304993" />
-      <entry key="M5" value="177.15996053238925" />
-      <entry key="M10" value="332.41397006981504" />
-      <entry key="M15" value="453.8048007946641" />
-      <entry key="M30" value="661.7544660075458" />
-      <entry key="H1" value="819.89674980412" />
-      <entry key="H2" value="918.4109786584933" />
-      <entry key="H4" value="973.5275346606367" />
-      <entry key="D1" value="1022.7699127019152" />
-      <entry key="W1" value="1031.530559955172" />
+      <entry key="MS100" value="1.913431065399758" />
+      <entry key="MS500" value="5.1230537924059805" />
+      <entry key="S2" value="14.54934777645913" />
+      <entry key="S5" value="23.06409404664878" />
+      <entry key="S10" value="27.767807013388524" />
+      <entry key="S30" value="33.587777117651314" />
+      <entry key="S60" value="43.17818883048747" />
+      <entry key="M2" value="71.2101447330674" />
+      <entry key="M5" value="167.965926768929" />
+      <entry key="M10" value="323.20143565310497" />
+      <entry key="M15" value="447.60500644408" />
+      <entry key="M30" value="665.7855211757249" />
+      <entry key="H1" value="835.1216233373892" />
+      <entry key="H2" value="941.8358868224502" />
+      <entry key="H4" value="1001.9067693878047" />
+      <entry key="D1" value="1055.7834043892121" />
+      <entry key="W1" value="1065.388365371693" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -495,23 +57,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.277446903233939" />
-      <entry key="MS500" value="4.132577787319443" />
-      <entry key="S2" value="10.974001331151772" />
-      <entry key="S5" value="17.56788178782212" />
-      <entry key="S10" value="22.79698825855315" />
-      <entry key="S30" value="30.035174374821043" />
-      <entry key="S60" value="41.46231882091182" />
-      <entry key="M2" value="75.67516492262209" />
-      <entry key="M5" value="177.15454529548848" />
-      <entry key="M10" value="332.41029995046415" />
-      <entry key="M15" value="453.8018497237638" />
-      <entry key="M30" value="661.7525571309661" />
-      <entry key="H1" value="819.8956302844674" />
-      <entry key="H2" value="918.4103674401015" />
-      <entry key="H4" value="973.5272146514448" />
-      <entry key="D1" value="1022.7698572224065" />
-      <entry key="W1" value="1031.5305519750148" />
+      <entry key="MS100" value="1.8679304041018663" />
+      <entry key="MS500" value="5.094380989177336" />
+      <entry key="S2" value="14.526316131040884" />
+      <entry key="S5" value="23.049091432152157" />
+      <entry key="S10" value="27.758691614715836" />
+      <entry key="S30" value="33.582405172344856" />
+      <entry key="S60" value="43.17197351515216" />
+      <entry key="M2" value="71.20408007904396" />
+      <entry key="M5" value="167.96145296395852" />
+      <entry key="M10" value="323.1980548453686" />
+      <entry key="M15" value="447.6021918077551" />
+      <entry key="M30" value="665.7836363239297" />
+      <entry key="H1" value="835.1204982540821" />
+      <entry key="H2" value="941.8352670442408" />
+      <entry key="H4" value="1001.9064434278558" />
+      <entry key="D1" value="1055.7833476635517" />
+      <entry key="W1" value="1065.3883572069703" />
     </decayedShown>
   </component>
   <component name="ProjectLevelVcsManager">

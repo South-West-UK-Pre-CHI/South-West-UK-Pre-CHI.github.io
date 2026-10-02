@@ -19,7 +19,4 @@ __pycache__/
 .DS_Store
 
 ### Build Output ###
-assets/js/*.bundle.js
-assets/css/*.bundle.css
-assets/webfonts/bootstrap-icons.*
 _sass/**/*
