@@ -20,3 +20,5 @@ __pycache__/
 
 ### Build Output ###
 _sass/**/*
+
+.idea/
