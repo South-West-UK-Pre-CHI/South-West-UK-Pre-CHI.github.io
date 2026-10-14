@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f55d25b0-f55f-4c0c-901d-3b2086c6478a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_data/organisers.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/organisers/joshi.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_css/bootstrap-variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_css/bootstrap-variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_css/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_css/theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/conference-only.bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/conference-only.bundle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/conference.bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/conference.bundle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/conference.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/conference.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/leaflet.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/leaflet.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/organisers/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/organisers/index.md" afterDir="false" />
-    </list>
+    <list default="true" id="f55d25b0-f55f-4c0c-901d-3b2086c6478a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,7 +140,7 @@
       <updated>1790955230845</updated>
       <workItem from="1790955233285" duration="471000" />
       <workItem from="1791982585811" duration="24000" />
-      <workItem from="1791982629844" duration="4069000" />
+      <workItem from="1791982629844" duration="4442000" />
     </task>
     <servers />
   </component>
