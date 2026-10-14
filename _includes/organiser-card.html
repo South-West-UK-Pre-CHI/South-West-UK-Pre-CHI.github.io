@@ -1,0 +1,60 @@
+{% assign organiser = include.organiser %}
+
+<div class="col-12 col-sm-10 col-md-6 col-lg-4 d-flex">
+  <article class="card h-100 w-100 overflow-hidden border border-2 border-primary rounded-0 shadow-sm text-center">
+    <div class="card-header text-bg-primary border-0 px-3 py-3">
+      <h2 class="h4 mb-0">{{ organiser.name }}</h2>
+    </div>
+
+    <div class="ratio ratio-1x1 bg-primary-subtle">
+      {% if organiser.image %}
+        <img
+          src="{{ '/assets/images/organisers/' | append: organiser.image | relative_url }}"
+          class="h-100 w-100 object-fit-cover"
+          alt="{{ organiser.name }}"
+        >
+      {% else %}
+        <div class="d-flex align-items-center justify-content-center text-primary" role="img" aria-label="No photograph available for {{ organiser.name }}">
+          <i class="bi bi-person-fill display-1" aria-hidden="true"></i>
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="card-body d-flex flex-column align-items-center px-4 py-4">
+      <p class="h6 mb-3 fw-bold text-primary">{{ organiser.role }}</p>
+
+      {% if organiser.title or organiser.affiliation %}
+        <p class="card-text mb-0 text-body-secondary">
+          {% if organiser.title %}
+            <span class="text-body-emphasis">{{ organiser.title }}</span>
+          {% endif %}
+          {% if organiser.title and organiser.affiliation %}
+            <span aria-hidden="true">,&nbsp;</span>
+          {% endif %}
+          {% if organiser.affiliation %}
+            <span>{{ organiser.affiliation }}</span>
+          {% endif %}
+        </p>
+      {% endif %}
+    </div>
+
+    {% if organiser.website or organiser.linkedin %}
+      <div class="card-footer bg-transparent border-0 px-3 pt-0 pb-4">
+        <div class="d-flex flex-wrap justify-content-center gap-2">
+          {% if organiser.website %}
+            <a class="btn btn-outline-primary btn-sm rounded-0" href="{{ organiser.website }}">
+              <i class="bi bi-globe2" aria-hidden="true"></i>
+              Website
+            </a>
+          {% endif %}
+          {% if organiser.linkedin %}
+            <a class="btn btn-outline-primary btn-sm rounded-0" href="{{ organiser.linkedin }}">
+              <i class="bi bi-linkedin" aria-hidden="true"></i>
+              LinkedIn
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+  </article>
+</div>

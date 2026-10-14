@@ -60,8 +60,8 @@ conference:
       #  relative_url: /speakers/
       #- name: Location
       #  relative_url: /location/
-      # - name: Organisers
-      #  relative_url: /organisers/
+      - name: Organisers
+        relative_url: /organisers/
       - name: Previous Editions
         menu:
           - name: 2027 (current)

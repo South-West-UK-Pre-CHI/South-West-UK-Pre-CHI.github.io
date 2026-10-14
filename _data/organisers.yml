@@ -1,0 +1,79 @@
+- name: Vishal Joshi
+  image: joshi.jpg
+  role: General Chair
+  affiliation: University of Bristol
+  title: PhD Student
+  website: https://biglab.co.uk/member/vishal-joshi/
+  linkedin: https://www.linkedin.com/in/vishal-joshi-4a26151b6/
+
+- name: Nathaniel Thorne
+  image: thorne.jpeg
+  role: Vice Chair
+  affiliation: University of Bristol
+  title: PhD Student
+  website: https://biglab.co.uk/member/nathaniel-thorne/
+  linkedin: https://www.linkedin.com/in/nathaniel-thorne-0b9b63387/
+
+- name: Freya Shaw
+  image: shaw.jpeg
+  role: Secretary
+  affiliation: University of Bristol
+  title: PhD Student
+  website: https://hodrengine.com/
+  linkedin: https://www.linkedin.com/in/freyashaw/
+
+- name: Tim Holland
+  image: holland.jpeg
+  role: Programme Chair
+  affiliation: University of Bristol
+  title: PhD Student
+  website: https://biglab.co.uk/member/tim-holland/
+  linkedin: https://www.linkedin.com/in/timmy-holland/
+
+- name: Zhuzhi Fan
+  image: fan.jpeg
+  role: Demonstrations Chair
+  affiliation: University of Bristol
+  title: PhD Student
+  website: https://biglab.co.uk/member/zhuzhi-fan/
+  linkedin: https://www.linkedin.com/in/zhuzhi-fan-186831175/
+
+- name: Fanzhaoyang Lei
+  image: lei.jpeg
+  role: Demonstrations Chair
+  affiliation: University of Bristol
+  title: PhD Student
+  website: https://research-information.bris.ac.uk/en/persons/fanzhaoyang-lei/
+  linkedin: https://www.linkedin.com/in/fanzhaoyang-lei-468698231/
+
+- name: James O'Sullivan
+  image: osullivan.jpeg
+  role: Social Media Chair
+  affiliation: University of Bristol
+  title: PhD Student
+  website: https://www.bristol.ac.uk/people/person/James-O'Sullivan-53c7396c-f75c-40b2-87e2-8f0f27252b06/
+  linkedin: https://www.linkedin.com/in/james-o-sullivan-5bb12b197/
+
+- name: Anne Roudaut
+  image: roudaut.png
+  role: Finance Chair
+  affiliation: University of Bristol
+  title: Professor of Human Computer Interaction
+  website: https://www.anneroudaut.fr/
+  linkedin: https://www.linkedin.com/in/anne-roudaut-0125b85/
+
+- name: Aisling O'Kane
+  image: okane.jpg
+  role: Local Chair
+  affiliation: University of Bristol
+  title: Associate Professor of Human-Computer Interaction for Health
+  website: https://www.bristol.ac.uk/people/person/Aisling-O'Kane-7cfdc42c-46bc-4c6f-98c4-b73408c04bff/
+  linkedin: https://www.linkedin.com/in/aislingann
+
+- name: Jack Burnett
+  image: burnett.jpeg
+  role: Website Chair
+  affiliation: University of Bristol
+  title: PhD Student
+  website: https://jackjburnett.github.io/
+  linkedin: https://www.linkedin.com/in/jackjburnett

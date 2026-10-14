@@ -1,3 +1,14 @@
 /**
  * Bootstrap Custom Variable
  */
+
+$primary: #f5743e;
+$secondary: #56cfab;
+
+$tertiary: #f6b731;
+$accent: #e985c4;
+
+// Expose the additional brand colours through Bootstrap utility classes.
+$warning: $tertiary;
+$info: $accent;
+
