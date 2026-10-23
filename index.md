@@ -1,6 +1,6 @@
 ---
 layout: home
-title: South West UK Pre-CHI
+title: Pre-CHI 2027
 header:
   img: logo.png
 ---

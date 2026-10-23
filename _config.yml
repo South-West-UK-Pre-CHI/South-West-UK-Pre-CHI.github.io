@@ -73,6 +73,8 @@ conference:
           - name: 2024
             absolute_url: https://sites.google.com/view/southwestprechi/2024/paper-presentation-abstracts
   meta:
+    schema_org:
+      disable: false
     link_preview:
       disable: true
   info:
