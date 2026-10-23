@@ -4,6 +4,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {% if site.favicon %}
+  <link rel="icon" type="image/x-icon" href="{{ site.favicon | relative_url }}" />
+  {% endif %}
 
   <script>
     // Apply dark mode immediately based on system preference to prevent flash
