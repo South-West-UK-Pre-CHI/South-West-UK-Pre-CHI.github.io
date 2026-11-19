@@ -30,11 +30,35 @@
   website: https://biglab.co.uk/member/tim-holland/
   linkedin: https://www.linkedin.com/in/timmy-holland/
 
+- name: Grace Stangroome
+  image: stangroome.jpg
+  role: Accessibility & Virtual Chair
+  affiliation: University of Bristol
+  title: PhD Student
+  website: https://www.biglab.co.uk/member/grace-stangroome/
+  linkedin: https://www.linkedin.com/in/grace-stangroome-399215152/
+
+- name: Sandy Gould
+  image: gould.jpg
+  role: DC Chair
+  affiliation: Cardiff University
+  title: Academic
+  website: https://www.sjjg.uk/
+  linkedin: https://www.linkedin.com/in/sandyjgould?originalSubdomain=uk
+
+- name: Rory Clark
+  image: clark.jpg
+  role: DC Chair
+  affiliation: University of Bristol
+  title: Postdoc
+  website: https://www.biglab.co.uk/member/rory-clark/
+  linkedin: https://www.linkedin.com/in/rorydoeshci/
+
 - name: Zhuzhi Fan
   image: fan.jpeg
   role: Demonstrations Chair
   affiliation: University of Bristol
-  title: PhD Student
+  title: Postdoc
   website: https://biglab.co.uk/member/zhuzhi-fan/
   linkedin: https://www.linkedin.com/in/zhuzhi-fan-186831175/
 
