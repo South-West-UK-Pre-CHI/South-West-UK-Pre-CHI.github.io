@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f55d25b0-f55f-4c0c-901d-3b2086c6478a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/_includes/organiser-card.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/organiser-card.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/organisers/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/organisers/index.md" afterDir="false" />
-    </list>
+    <list default="true" id="f55d25b0-f55f-4c0c-901d-3b2086c6478a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,7 +146,7 @@
       <workItem from="1792753128071" duration="84000" />
       <workItem from="1792753230747" duration="18000" />
       <workItem from="1792753268914" duration="357000" />
-      <workItem from="1795103990351" duration="1566000" />
+      <workItem from="1795103990351" duration="1972000" />
     </task>
     <servers />
   </component>
