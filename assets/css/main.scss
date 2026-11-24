@@ -6,3 +6,7 @@
   max-width: min(16rem, 100%);
   width: auto;
 }
+
+.accessibility-question > summary {
+  cursor: pointer;
+}

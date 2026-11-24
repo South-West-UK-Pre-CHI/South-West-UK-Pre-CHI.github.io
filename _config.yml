@@ -62,6 +62,8 @@ conference:
       #  relative_url: /location/
       - name: Organisers
         relative_url: /organisers/
+      - name: Accessibility
+        relative_url: /accessibility/
       - name: Previous Editions
         menu:
           - name: 2027 (current)
