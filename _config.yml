@@ -6,6 +6,9 @@ url: "https://South-West-UK-Pre-CHI.github.io"
 favicon: "/assets/images/favicon.ico"
 
 markdown: kramdown
+plugins:
+  - jekyll-sitemap
+
 sass:
   style: compressed
 
